@@ -1,6 +1,8 @@
 description: Forges metal dust out of varties of resources.
 name: Metal forge
-type: GenericCrafter
+type: AttributeCrafter
+boostScale: 1.9
+maxBoost: 3.4
 size: 2
 health: 185
 craftTime: 215
