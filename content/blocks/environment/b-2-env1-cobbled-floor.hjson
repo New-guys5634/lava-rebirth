@@ -1,0 +1,13 @@
+type: Floor
+placeablePlayer: true
+category: defense
+requirements:[
+  stone-small/5
+  stone/2
+]
+name: Cobbled floor
+description: Usefull for bridging and increasing factory speed.
+research: main-core
+attributes: {
+	heat: 0.04
+}
