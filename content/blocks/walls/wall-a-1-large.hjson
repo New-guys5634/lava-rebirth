@@ -3,6 +3,7 @@ description: Deffends structures from incoming attacks.
 type: Wall
 health: 1400
 armor: 1
+size: 2
 requirements: [
     nails/20
     1-acopper-dust/100
