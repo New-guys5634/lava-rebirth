@@ -54,7 +54,7 @@ recipes:
 {
   input: {
          items: [
-        -b--1-unusable-scrap/1
+        -b--unusable-scrap/1
         -b--stone-small/2
       ]
    }
