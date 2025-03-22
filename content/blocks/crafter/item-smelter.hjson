@@ -65,6 +65,36 @@ recipes:
   }
   craftTime: 50
 }
+{
+  input: {
+         items: [
+        -b--unusable-scrap2/10
+        -b--stone-small/1
+      ]
+   }
+  output: {
+      items: [
+       -b--1-ascrap-dust
+      ]
+  }
+  craftTime: 250
+}
+{
+  input: {
+         items: [
+        -b--unusable-scrap2/2
+        -b--stone-small/4
+        -b--hot-sand/2
+        -b--flint/1
+      ]
+   }
+  output: {
+      items: [
+       -b--mud/2
+      ]
+  }
+  craftTime: 185
+}
 ]
 craftEffect: {
   type: ParticleEffect

@@ -1,4 +1,4 @@
-description: Intakes copper and copper dust for a stack.
+description: Intakes copper and copper dust for a stack, use tiles to increase the efficienty.
 name: Copper stacker
 type: AttributeCrafter
 boostScale: 1.4
@@ -26,7 +26,7 @@ clay/25
 stone/45
 ]
 category: crafting
-outputItem: nails/1
+outputItem: copper-stack/1
 research: item-smelter 
 researchCost: [
 copper/90
