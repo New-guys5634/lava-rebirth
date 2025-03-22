@@ -1,6 +1,8 @@
 description: forges nails out of scrap and lead
 name: nail forge
-type: GenericCrafter
+type: AttributeCrafter
+boostScale: 1.7
+maxBoost: 3
 size: 2
 health: 435
 craftTime: 190
