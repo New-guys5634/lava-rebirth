@@ -1,6 +1,8 @@
 description: Sieves water and mud at a very slow pave use the tiles to increase the efficienty.
 name: Sieve plate
-type: GenericCrafter
+type: AttributeCrafter
+boostScale: 1.6
+maxBoost: 3
 size: 2
 health: 400
 craftTime: 500
@@ -26,10 +28,7 @@ requirements: [
   glass/5
 ]
 category: crafting
-results: [
-  unusable-scrap/1
-  1-acopper-dust/1
-]
+outputItem: unusable-scrap/1
 research: item-smelter 
 researchCost: [
   lead/80
