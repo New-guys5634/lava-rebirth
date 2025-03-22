@@ -1,0 +1,84 @@
+type: multicraft.MultiCrafter
+name: Stone grinder
+description: Uses pebbles and mud to ware down the pebble reliving multiple items.
+size: 2
+health: 125
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--stone-small/1
+        -b--mud/2
+      ]
+    }
+  output: {
+      items: [
+      -b--flint/1
+      ]
+  }
+  craftTime: 190
+}
+{
+  input: {
+       items: [
+        -b--stone-small/1
+        -b--mud/2
+      ]
+   }
+  output: {
+      items: [
+      -b--1-acopper-dust/4
+      ]
+  }
+  craftTime: 500
+}
+{
+  input: {
+         items: [
+        -b--stone-small/1
+        -b--mud/2
+      ]
+   }
+  output: {
+      items: [
+       -b--1-ascrap-dust/4
+      ]
+  }
+  craftTime: 600
+}
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+category: crafting
+requirements: [
+copper/15
+1-alead-dust/45
+1-ascrap-dust/65
+stone-small/25
+nails/10
+]
+research: item-smelter
+researchCostMultiplier: 0.1

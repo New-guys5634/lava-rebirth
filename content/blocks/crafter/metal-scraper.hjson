@@ -1,0 +1,56 @@
+description: forges metal out of scraps and spore pods
+name: metal forge
+type: GenericCrafter
+size: 2
+health: 185
+craftTime: 215
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 10
+consumes: {
+  items: {
+    items: [
+      raw-scrap/1
+      mud/2
+      hot-sand/2
+      flint/3
+    ]
+  }
+}
+requirements: [
+  scrap/50
+  nails/25
+  lead/25
+  flint/25
+]
+category: crafting
+outputItem: 1-ametal-dust/1
+research: nails-producer
+researchCost: [
+  scrap/140
+  nails/70
+  lead/50
+  flint/50
+  research-plans/1
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 22
+        useRotation: false
+    length: 12
+    lifetime: 90
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 3
+    sizeTo: 0.1
+    colorFrom: FB8F6BFF
+    colorTo: F25455FF
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}

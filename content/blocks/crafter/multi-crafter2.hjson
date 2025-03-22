@@ -1,0 +1,99 @@
+type: multicraft.MultiCrafter
+name: Multiple basic assembly
+description: Uses main materials to create powder materials for other materials.
+size: 2
+health: 125
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        copper/1
+        -b--stone/2
+      ]
+   }
+  output: {
+      items: [
+        -b--1-acopper-dust/4
+      ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+       items: [
+       lead/1
+        -b--stone/2
+      ]
+   }
+  output: {
+      items: [
+        -b--1-alead-dust/4
+      ]
+  }
+  craftTime: 330
+}
+{
+  input: {
+         items: [
+        scrap/1
+        -b--stone/2
+      ]
+   }
+  output: {
+      items: [
+       -b--1-ascrap-dust/2
+      ]
+  }
+  craftTime: 350
+}
+{
+  input: {
+         items: [
+        -b--metal/1
+        -b--stone/2
+      ]
+  }
+  output: {
+      items: [
+       -b--1-ametal-dust/1
+      ]
+  }
+  craftTime: 500
+}
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+category: crafting
+requirements: [
+scrap/70
+copper/100
+lead/40
+nails/45
+stone/45
+metal/45
+]
+research: multi-crafter
+researchCostMultiplier: 0.5

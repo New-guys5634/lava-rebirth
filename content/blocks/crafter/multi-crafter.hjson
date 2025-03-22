@@ -1,0 +1,90 @@
+type: multicraft.MultiCrafter
+name: Multiple crafter
+description: Uses power and multiple other resources for these resources.
+size: 2
+health: 250
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--mud/2
+      ]
+      power: 0.50
+  }
+  output: {
+      items: [
+        -b--clay/1
+      ]
+  }
+  craftTime: 250
+}
+{
+  input: {
+       items: [
+        copper/10
+        lead/10
+        -b--nails/5
+        -b--hot-sand/15 
+      ]
+      power: 0.85
+  }
+  output: {
+      items: [
+        -b--research-plans/1
+      ]
+  }
+  craftTime: 400
+}
+{
+  input: {
+         items: [
+        -b--raw-coal/5
+        -b--stone/2
+      ]
+      power: 0.95
+  }
+  output: {
+      items: [
+       graphite/2
+      ]
+  }
+  craftTime: 300
+}
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+category: crafting
+requirements: [
+scrap/90
+copper/80
+lead/65
+nails/45
+metal/45
+]
+research: metal-scraper
+researchCostMultiplier: 0.5
+
+
