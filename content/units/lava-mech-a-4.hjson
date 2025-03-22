@@ -1,0 +1,47 @@
+     name: Carrier drone
+     description: This is an support and carrier unit, carriers units or blocks to destinations and drops bombs, this unit is still hittable.
+    type: payload
+    lowAltitude: true
+    speed: 2.5
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 300
+    hitSize: 9
+    armor: 1
+    itemCapacity: 20
+    engineOffset: 7
+    faceTarget: false
+payloadCapacity: 128
+pickupUnits: true
+coreUnitDock: true
+hittable: true
+targetable: true 
+circleTarget: true
+weapons: [
+  {
+    name: on-Unit
+    x: 0
+    y: 0
+    shootY: 0
+    shootX: 0
+    mirror: true
+    rotate: true
+    layerOffset: -1
+    reload: 40
+    shootSound: missileLarge
+bullet: {
+type: BombBulletType
+despawnEffect: flakExplosion
+damage: 0
+splashDamage: 25
+splashDamageRadius: 30
+width: 9
+height: 12
+spin: 6
+drawFlare: false
+lifetime: 60
+buildingDamageMultiplier: 1.10
+}
+}
+]

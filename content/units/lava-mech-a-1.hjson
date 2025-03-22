@@ -1,0 +1,45 @@
+name: Melten
+description: Melten fires a rocket that deals high area damage.
+type: mech
+mechLegColor: 1f1f1f
+health: 410
+armor: 1
+hitSize: 7
+speed: .6
+rotateSpeed: 1.8
+accel: 0.70
+itemCapacity: 15
+outlineColor: 1f1f1f
+ weapons: [
+ {
+  type: Weapon
+  name: lava-mech-a-1-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shootSound: missile  
+  bullet: {
+   type: BasicBulletType
+   width: 7
+   height: 6   
+   splashDamage: 40
+   splashDamageRadius: 10
+   speed: 5
+   lifetime: 30
+   trailWidth: 4
+   trailLength: 8
+}
+}
+]
+   

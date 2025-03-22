@@ -1,0 +1,47 @@
+name: Sacrificed
+description: Littarly a walking kamikaze.
+type: mech
+mechLegColor: 1f1f1f
+
+health: 245
+armor: 1
+hitSize: 9
+controller: SuicideAI
+speed: 0.8
+rotateSpeed: 7
+accel: 0.15
+mechSideSway: 0.25
+
+itemCapacity: 10
+outlineColor: 1f1f1f
+
+weapons: [
+ {
+  name: boom
+  reload: 24
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 10
+    speed: 1
+    splashDamageRadius: 50
+    instantDisappear: true
+    splashDamage: 60
+    killShooter: true
+    hittable: false
+    collidesAir: false
+    fragBullets: 6
+    fragCone: 360
+    hitSound: laser
+    fragBullet: {
+     type: LaserBulletType
+     length: 25
+     colors: [fag020 faga02 ffffff]
+     damage: 45
+   }
+ }
+ }
+]
