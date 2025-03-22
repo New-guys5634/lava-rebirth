@@ -1,0 +1,68 @@
+name: Nail factory production 
+description: WIP
+type: UnitFactory
+category: units
+size: 3
+configurable: true
+plans: [
+  {
+    unit: lava-mech-a-1
+    time: 900
+    requirements: [
+    copper/25
+    lead/15
+    nails/15
+    scrap/35
+    flint/45
+    stone-small/50
+    ]
+  }
+{
+    unit: lava-mech-a-2
+    time: 900
+    requirements: [
+    copper/25
+    lead/20
+    nails/15
+    metal/15
+    spore-pod/25
+    flint/45
+    ]
+  }
+{
+    unit: lava-mech-a-3
+    time: 700
+    requirements: [
+    copper/15
+    nails/20
+    metal/25
+    flint/60
+    ]
+  }
+{
+    unit: lava-mech-a-4
+    time: 1009
+    requirements: [
+    copper/45
+    nails/15
+    metal/45
+    flint/25
+    stone/35
+   ]
+ }
+]
+requirements: [
+    copper/100
+    lead/45
+    nails/90
+    scrap/75
+    flint/200
+    stone-small/125
+]
+research: main-core
+researchCost: [
+    copper/200
+    lead/90
+    nails/150
+    scrap/250
+]
