@@ -1,0 +1,17 @@
+name: Nail combined wall large
+description: Deffends structures from incoming attacks.
+type: Wall
+health: 1400
+armor: 1
+requirements: [
+    nails/20
+    1-acopper-dust/100
+]
+category: defense
+research: {
+    parent: wall-a-1
+    requirements: [
+    nails/200
+    1-acopper-dust/200
+    ]
+}

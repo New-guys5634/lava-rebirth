@@ -1,0 +1,17 @@
+name: Nail combined wall
+description: Deffends structures from incoming attacks.
+type: Wall
+health: 350
+armor: 1
+requirements: [
+    nails/5
+    1-acopper-dust/20
+]
+category: defense
+research: {
+    parent: main-core
+    requirements: [
+    nails/50
+    1-acopper-dust/80
+    ]
+}
