@@ -1,0 +1,39 @@
+type: ConsumeGenerator
+name: Stone burner 
+description: Burns flamible resources 
+size: 1
+category: power
+research: {
+  parent: main-core
+}
+squareSprite: true
+requirements: [
+stone/50
+copper/25
+lead/15
+nails/50
+]
+consumes: {
+  itemFlammable: {}
+}
+powerProduction: 0.6
+itemDuration: 300
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
+researchCostMultiplier: 1
