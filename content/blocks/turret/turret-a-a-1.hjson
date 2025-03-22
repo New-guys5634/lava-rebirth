@@ -1,0 +1,54 @@
+name: Slite
+description: Fires a long fuse type like bullet dealing low-medium damage.
+type: ItemTurret
+reload: 70
+shootCone: 20
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+range: 150
+recoil: 3
+size: 2
+health: 400
+AmmoPerShot: 6
+shootSound: shotgun
+outlineColor: 000000FF
+coolant: {
+  type: ConsumeCoolant
+  allowGas: true
+  allowLiquid: true
+  amount: 0.2
+}
+ammoTypes: {
+    flint: {
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 50
+            serrations: 9
+            serrationSpacing: 10
+            serrationLenScl: 18
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: 606070FF
+            toColor: 606070FF
+            length: 110
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+    }
+}
+requirements: [
+copper/25
+lead/15
+nails/40
+flint/25
+stone-small/50
+]
+
+research: {
+parent: main-core 
+}
+category: turret
+researchCostMultiplier: 0.2
