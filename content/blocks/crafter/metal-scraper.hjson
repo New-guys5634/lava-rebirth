@@ -1,8 +1,6 @@
 description: forges metal out of scraps and spore pods
 name: metal forge
-type: AttributeCrafter
-boostScale: 1.4
-maxBoost: 2.5
+type: GenericCrafter
 size: 2
 health: 185
 craftTime: 215
