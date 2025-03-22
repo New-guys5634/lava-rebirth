@@ -1,0 +1,29 @@
+name: Stone and copper mining bay
+description: Drills into the ground and releases stone and copper.
+type: Separator
+health: 120
+size: 2
+craftTime: 60
+hasItems: true
+hasLiquids: false
+consumes: {
+}
+requirements: [
+  nails/15
+  metal/8
+  copper/45
+  flint/40
+]
+category: production
+results: [
+  stone/1
+  copper/1
+]
+research: main-core 
+researchcost: [
+    research-plans/1
+    copper/100
+    metal/80
+    nails/250
+    flint/80
+]

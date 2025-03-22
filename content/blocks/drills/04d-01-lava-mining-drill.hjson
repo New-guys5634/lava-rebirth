@@ -1,0 +1,17 @@
+type: WallCrafter
+name: Heated sand smelter
+description: Mines pecific walls for heated sand.
+size: 2
+category: production
+research: bad-drill
+requirements: [
+  scrap/80
+  nails/15
+]
+drillTime: 180
+output: hot-sand
+attribute: hot-sand
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false

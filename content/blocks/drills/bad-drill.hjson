@@ -1,0 +1,36 @@
+type: BurstDrill
+name: Basic drill
+description: Uses explosions to mine early game ores.
+size: 2
+category: production
+hasLiquids: false
+hardnessDrillMultiplier: 85
+drillTime: 420
+hasPower: false
+tier: 1
+shake: 0.5
+itemCapacity: 20
+researchCostMultiplier: .5
+drillEffect: {
+  type: WaveEffect
+  sizeFrom: 0.1
+  sizeTo: 5.6
+  strokeFrom: 0.8
+  strokeTo: 0.1
+  colorFrom: 8f8d87
+  colorTo: 6b6a66
+  lifetime: 20
+}
+requirements: [
+  copper/30
+  flint/25
+  stone-small/25
+  nails/25
+]
+researchCost: [
+  copper/80
+  flint/50
+  stone-small/50
+  nails/25
+]
+research: main-core
