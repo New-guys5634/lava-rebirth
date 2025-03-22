@@ -1,0 +1,17 @@
+name: scrap junction
+description: moves items thought other conveyors
+type: Junction
+health: 50
+speed: 2
+capacity: 10
+requirements: [
+1-acopper-dust/2
+1-ascrap-dust/5
+] 
+research: scarped-duct
+researchCost: [
+1-acopper-dust/50
+  1-ascrap-dust/50
+]
+category: distribution
+alwaysUnlocked: true

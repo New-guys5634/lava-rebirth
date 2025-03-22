@@ -1,0 +1,16 @@
+name: scrap router
+description: splits items
+type: Router
+health: 50
+speed: 2
+capacity: 10
+requirements: [
+1-alead-dust/4
+1-ascrap-dust/5
+] 
+research: scarped-duct
+researchCost: [
+1-ascrap-dust/50
+1-alead-dust/30
+]
+category: distribution
