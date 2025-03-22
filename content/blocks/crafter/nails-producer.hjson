@@ -1,5 +1,5 @@
-description: forges nails out of scrap and lead
-name: nail forge
+description: Forges nails out of scrap and lead.
+name: Nail forge
 type: GenericCrafter
 size: 2
 health: 435
