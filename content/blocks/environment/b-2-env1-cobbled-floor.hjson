@@ -1,4 +1,4 @@
-type: Floor
+type: floor
 placeablePlayer: true
 category: defense
 requirements:[
@@ -8,7 +8,6 @@ requirements:[
 name: Cobbled floor
 description: Usefull for bridging and increasing factory speed.
 research: main-core
-variants: 0
 attributes: {
 	heat: 0.04
 }

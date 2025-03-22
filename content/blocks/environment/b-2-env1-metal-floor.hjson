@@ -1,4 +1,4 @@
-type: Floor
+type: floor
 placeablePlayer: true
 category: defense
 requirements:[
@@ -7,7 +7,6 @@ requirements:[
 name: Metal floor
 description: Usefull for bridging and increasing factory speed.
 research: b-2-env-cobbled-floor
-variants: 0
 attributes: {
 	heat: 0.09
 }
