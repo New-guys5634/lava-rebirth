@@ -40,6 +40,22 @@ recipes:
   }
   craftTime: 500
 }
+{
+  input: {
+       items: [
+        -b--flint/2
+        -b--mud/2
+        -b--hot-sand/4
+        -b--raw-coal/2
+      ]
+   }
+  output: {
+      items: [
+      coal/1
+      ]
+  }
+  craftTime: 450
+}
 ]
 craftEffect: {
   type: ParticleEffect
@@ -63,12 +79,12 @@ craftEffect: {
 }
 category: crafting
 requirements: [
-copper/45
-metal/15
+copper/50
+metal/25
 scrap/85
-stone/45
-nails/25
-mud/35
+stone/65
+nails/15
+mud/10
 ]
-research: item-smelter
+research: item-smelter2
 researchCostMultiplier: 0.1

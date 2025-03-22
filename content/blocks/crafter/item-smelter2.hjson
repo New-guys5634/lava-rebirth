@@ -51,6 +51,33 @@ recipes:
   }
   craftTime: 600
 }
+{
+  input: {
+       fluids:[
+         slag/0.9
+       ]
+   }
+  output: {
+       fluids:[
+         water/0.6
+       ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--hot-sand/5
+        -b--flint/2
+      ]
+   }
+  output: {
+      items: [
+       -b--1-glass/4
+      ]
+  }
+  craftTime: 450
+}
 ]
 craftEffect: {
   type: ParticleEffect

@@ -51,6 +51,20 @@ recipes:
   }
   craftTime: 150
 }
+{
+  input: {
+         items: [
+        -b--1-unusable-scrap/1
+        -b--stone-small/2
+      ]
+   }
+  output: {
+      items: [
+       -b--unusable-scrap2/1
+      ]
+  }
+  craftTime: 50
+}
 ]
 craftEffect: {
   type: ParticleEffect

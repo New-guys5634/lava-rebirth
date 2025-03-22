@@ -1,0 +1,37 @@
+description: Intakes copper and copper dust for a stack.
+name: Copper stacker
+type: AttributeCrafter
+boostScale: 1.4
+maxBoost: 2.5
+size: 2
+health: 435
+craftTime: 190
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+    copper/3
+    1-acopper-dust/8
+    ]
+  }
+}
+requirements: [
+copper/45
+scrap/35
+lead/45
+clay/25
+stone/45
+]
+category: crafting
+outputItem: nails/1
+research: item-smelter 
+researchCost: [
+copper/90
+scrap/70
+lead/90
+clay/50
+stone/90
+]
