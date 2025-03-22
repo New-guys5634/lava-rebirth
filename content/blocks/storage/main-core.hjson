@@ -1,0 +1,26 @@
+type: CoreBlock
+name: Core: travel
+description: The main core of the base once destroyed the sector is lost.
+requirements: [
+  lead/190
+  scrap/180
+  copper/300
+  nails/120
+  flint/250
+  stone-small/325
+]
+isFirstTier: true
+size: 2
+squareSprite: false
+alwaysUnlocked: true
+unitType: AK-47
+health: 1750
+itemCapacity: 1300
+unitCapModifier: 7
+category: effect
+research: {
+  planet: lava-planet
+  root: true
+  name: zrogro 
+  requiresUnlock: false
+}
