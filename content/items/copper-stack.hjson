@@ -1,0 +1,4 @@
+description: A stack of copper used for walls or anything else.
+name: Copper stack
+color: 606070FF 
+hiddenOnPlanets: [serpulo,erekir]
