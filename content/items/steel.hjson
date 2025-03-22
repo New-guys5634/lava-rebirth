@@ -1,0 +1,6 @@
+description: before the lava event the old drones used steel for powerful bullets
+name: steel
+color: 1C1C25FF
+research: fine-iron
+explosiveness: 0.6
+hiddenOnPlanets: [serpulo,erekir]

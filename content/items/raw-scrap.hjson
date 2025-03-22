@@ -1,0 +1,6 @@
+name: raw metal
+description: remains left from an unknown asteroid 
+color: 555563FF
+hardness: 1
+research: nails
+hiddenOnPlanets: [serpulo,erekir]

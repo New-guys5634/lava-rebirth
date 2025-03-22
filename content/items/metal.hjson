@@ -1,0 +1,5 @@
+description: destroyed bits left from unknown structures 
+name: metal scrap
+color: 272736FF
+research: nails
+hiddenOnPlanets: [serpulo,erekir]

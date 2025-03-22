@@ -1,0 +1,6 @@
+name: nails
+description: nails can be created from dead structures or units
+color: 272736FF
+research: main-core 
+alwaysUnlocked: false
+hiddenOnPlanets: [serpulo,erekir]

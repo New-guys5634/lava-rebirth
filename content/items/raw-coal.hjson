@@ -1,0 +1,6 @@
+name: raw coal
+description: raw coal 
+color: 606070FF
+research: metal
+flammability: 0.7
+hiddenOnPlanets: [serpulo,erekir]

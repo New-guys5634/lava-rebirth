@@ -1,0 +1,6 @@
+name: stone
+description: stone is a strange ore found in the grounds
+color: 4C4C62FF
+research: nails
+flammability: 0.2
+hiddenOnPlanets: [serpulo,erekir]

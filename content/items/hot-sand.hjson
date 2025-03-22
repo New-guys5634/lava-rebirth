@@ -1,0 +1,5 @@
+name: hot sand
+description: sand that was falling into the lava event 
+color: F2A65EFF
+research: metal
+hiddenOnPlanets: [serpulo,erekir]

@@ -1,0 +1,6 @@
+name: glass
+description: glass is an weaker version of metaglass
+color: FFFFFFFF
+charge: 0.2
+research: stone
+hiddenOnPlanets: [serpulo,erekir]
