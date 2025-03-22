@@ -1,4 +1,4 @@
-type: floor
+type: Floor
 placeablePlayer: true
 category: defense
 requirements:[
