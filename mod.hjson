@@ -1,0 +1,15 @@
+name: " b "
+description: 
+''' 
+IN EARLY DEV
+
+a planet called lava zrogro arises and this will pinpoint where all the lore has started and will it end?
+
+The first edition to the 4 planets lore on the crux
+'''
+author: "beee"
+minGameVersion: 146
+version: "1.0"
+displayName: "Caverns Rebirth"
+dependencies: [multi-crafter]
+subtitle: "[[]#F2A65EFF]the rise of the start"
