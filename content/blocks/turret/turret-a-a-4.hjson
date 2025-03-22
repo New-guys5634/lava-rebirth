@@ -13,7 +13,7 @@ range: 150
 recoil: 2
 size: 2
 health: 400
-shootSound: shoot
+shootSound: shotgun
 inaccuracy: 20
 targetGround: true
 targetAir: false
