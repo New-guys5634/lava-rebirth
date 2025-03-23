@@ -1,7 +1,7 @@
 localizedName: The first mission
 description: The first sector on zrogro, recapture and learn all of the basics.
 sector: 0
-captureWave: 5
+captureWave: 10
 planet: lava-planet
 alwaysUnlocked: true
 research: {
