@@ -1,0 +1,5 @@
+name: Scrap copper lead module
+description: Used as a storage module.
+color: 4B5BABFF
+research: nails
+hiddenOnPlanets: [serpulo,erekir]

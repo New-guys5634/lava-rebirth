@@ -1,0 +1,5 @@
+description: Used as bases or later technology.
+name: Clay
+research: clay
+color: 606070FF 
+hiddenOnPlanets: [serpulo,erekir]
