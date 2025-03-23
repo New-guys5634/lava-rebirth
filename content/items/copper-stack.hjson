@@ -1,4 +1,5 @@
 description: A stack of copper used for walls or anything else.
 name: Copper stack
+research: 1-acopper-dust
 color: 606070FF 
 hiddenOnPlanets: [serpulo,erekir]

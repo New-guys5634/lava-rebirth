@@ -1,4 +1,5 @@
 name: Sanded mud
 description: The sanded mud can be used for production reasons.
 color: FFB570FF
+research: 1-acopper-dust
 hiddenOnPlanets: [serpulo,erekir]

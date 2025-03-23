@@ -1,4 +1,4 @@
-description: fine clay was a powerful and usefull substance but after the lava event it's not as usefull
-name: fine clay
+description: Used as bases or later technology.
+name: Clay
 color: 606070FF 
 hiddenOnPlanets: [serpulo,erekir]

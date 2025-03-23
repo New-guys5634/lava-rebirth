@@ -1,4 +1,5 @@
 description: The dust forms of Metal.
 name: Metal dust
+research: nails
 color: 606070FF 
 hiddenOnPlanets: [serpulo,erekir]
