@@ -84,7 +84,7 @@ mesh: [
     octaves: 4.2
     persistence: 0.9
     scale: 0.7
-    mag: 0.2
+    mag: 0.3
     coct: 4
     cper: 1
     cscl: 1.8
@@ -96,11 +96,11 @@ mesh: [
     radius: 1.0088
     color1: E9B675FF
     color2: D5806BFF
-    octaves: 4.2
+    octaves: 4.3
     persistence: 0.9
     scale: 0.7
     mag: 0.3
-    coct: 4
+    coct: 5
     cper: 1
     cscl: 1.8
     cthresh: 1
@@ -111,10 +111,10 @@ mesh: [
     radius: 0.998
     color1: FFCD66FF
     color2: E28654FF
-    octaves: 4.2
+    octaves: 4.4
     persistence: 0.9
     scale: 0.7
-    mag: 0.4
+    mag: 0.5
     coct: 1
     cper: 1
     cscl: 1.8
@@ -128,11 +128,11 @@ mesh: [
     color2: 9B928BFF
     octaves: 4.6
     persistence: 0.9
-    scale: 0.7
+    scale: 0.8
     mag: 0.9
     coct: 4
     cper: 1
-    cscl: 1.8
+    cscl: 1.9
     cthresh: 1
   }
   {
@@ -145,7 +145,7 @@ mesh: [
     persistence: 0.9
     scale: 0.7
     mag: 1.5
-    coct: 4
+    coct: 5
     cper: 1
     cscl: 4
     cthresh: 1
@@ -158,10 +158,10 @@ mesh: [
     color2: 454A5EFF
     octaves: 4.6
     persistence: 0.9
-    scale: 0.7
+    scale: 0.8
     mag: 2.2
     coct: 4
-    cper: 1
+    cper: 2
     cscl: 0.7
     cthresh: 1
   }
@@ -174,7 +174,7 @@ mesh: [
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
-    mag: 3.4
+    mag: 3.6
     coct: 4
     cper: 1
     cscl: 1.8
