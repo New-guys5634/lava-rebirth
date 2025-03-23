@@ -14,7 +14,7 @@ consumes: {
   items: {
     items: [
       scrap/1
-      lead/2
+      1-acopper-dust/4
     ]
   }
 }
