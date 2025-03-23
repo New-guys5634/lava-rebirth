@@ -6,7 +6,7 @@ category: liquid
 squareSprite: false
 research: pipe
 requirements: [
-Scrap/8
+scrap/8
 glass/2
 ]
 researchCostMultiplier: 1
