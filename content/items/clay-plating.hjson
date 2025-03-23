@@ -1,0 +1,5 @@
+description: Used to make the mold.
+name: Clay plating
+research: clay
+color: 606070FF 
+hiddenOnPlanets: [serpulo,erekir]

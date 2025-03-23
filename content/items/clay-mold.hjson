@@ -1,0 +1,5 @@
+description: Used as a mold for further advance technology.
+name: Clay mold
+research: clay-plating
+color: 606070FF 
+hiddenOnPlanets: [serpulo,erekir]
