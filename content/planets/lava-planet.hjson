@@ -154,8 +154,8 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 0.818
-    color1: FFD380FF
-    color2: D3816BFF
+    color1: 73779AFF
+    color2: 454A5EFF
     octaves: 4.6
     persistence: 0.9
     scale: 0.7
