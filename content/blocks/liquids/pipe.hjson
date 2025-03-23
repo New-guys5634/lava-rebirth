@@ -1,0 +1,16 @@
+type: Conduit
+name: Scraped conduit
+description: Transports liquids.
+category: liquid
+research: scrap-pump
+requirements: [
+flint/5
+glass/2
+]
+health: 50
+leaks: true
+junctionReplacement: pipe-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 1.000
+liquidCapacity: 10

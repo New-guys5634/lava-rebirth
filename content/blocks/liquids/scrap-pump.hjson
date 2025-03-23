@@ -1,0 +1,13 @@
+type: Pump
+name: Scraped pump
+description: Pumps liquids.
+size: 1
+category: liquid
+research: main-core
+requirements: [
+scrap/35
+lead/25
+glass/15
+]
+pumpAmount: 0.08
+researchCostMultiplier: 1

@@ -1,0 +1,12 @@
+type: LiquidJunction
+name: Scrap conduit Junction
+description: Allows liquids to go over each other.
+solid: false
+category: liquid
+squareSprite: false
+research: pipe
+requirements: [
+Scrap/8
+glass/2
+]
+researchCostMultiplier: 1
