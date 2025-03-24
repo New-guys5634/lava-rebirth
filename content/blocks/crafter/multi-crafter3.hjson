@@ -1,0 +1,105 @@
+type: multicraft.MultiCrafter
+name: Multi Scrap usage bay
+description: Uses scrap and other materials to create construction items.
+size: 2
+health: 185
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        scrap/3
+        -b--metal/2
+        -b--stone/4
+      ]
+   }
+  output: {
+      items: [
+        -b--scrap-coil/4
+      ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+       items: [
+       lead/2
+       scrap/2
+        copper/1
+        nails/2
+      ]
+   }
+  output: {
+      items: [
+        -b--scrap-copper-lead-module/1
+      ]
+  }
+  craftTime: 365
+}
+{
+  input: {
+         items: [
+        scrap/2
+        copper/4
+        -b--nails/1
+      ]
+   }
+  output: {
+      items: [
+       -b--scraped-molder/1
+      ]
+  }
+  craftTime: 445
+}
+{
+  input: {
+         items: [
+        -b--metal/4
+        -b--sulfur/2
+      ]
+  }
+  output: {
+      items: [
+       -b--steel/1
+      ]
+  }
+  craftTime: 500
+}
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+category: crafting
+requirements: [
+scrap/70
+copper/100
+lead/35
+nails/25
+stone/35
+metal/85
+glass/35
+clay/15
+]
+research: multi-crafter2
+researchCostMultiplier: 0.5

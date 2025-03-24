@@ -1,0 +1,88 @@
+type: multicraft.MultiCrafter
+name: Clay plating module
+description: Uses clay to make various resources from clay.
+size: 2
+health: 125
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--sulfur/2
+        -b--stone-small/8
+        -b--clay/1
+      ]
+    }
+  output: {
+      items: [
+        -b--clay-plating/1
+      ]
+  }
+  craftTime: 150
+}
+{
+  input: {
+       items: [
+        -b--sulfur/2
+       -b--stone/4
+       -b--sulfur/2
+        -b--clay-plating/1
+      ]
+   }
+  output: {
+      items: [
+       -b--clay-mold/1
+      ]
+  }
+  craftTime: 145
+}
+{
+  input: {
+         items: [
+        -b--sulfur/2
+        copper/2
+        -b--clay/2
+      ]
+   }
+  output: {
+      items: [
+       -b--clay-copper/1
+      ]
+  }
+  craftTime: 195
+}
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+category: crafting
+requirements: [
+copper/20
+scrap/15
+clay/20
+nails/15
+metal/15
+]
+research: copper-enchancer
+researchCostMultiplier: 0.1
