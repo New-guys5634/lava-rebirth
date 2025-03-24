@@ -19,9 +19,8 @@ results: [
   stone/1
   copper/1
 ]
-research: main-core 
+research: bad-drill
 researchcost: [
-    research-plans/1
     copper/100
     metal/80
     nails/250
