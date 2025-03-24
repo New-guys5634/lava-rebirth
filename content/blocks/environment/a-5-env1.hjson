@@ -1,2 +1,5 @@
 type: StaticWall
 variants: 0
+attributes: {
+  hot-sand: 0.1
+}
