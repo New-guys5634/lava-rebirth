@@ -4,9 +4,9 @@ description: Mines pecific walls for heated sand.
 size: 2
 category: production
 research: bad-drill
-researchCostMultiplier: .5
+researchCostMultiplier: 0.1
 requirements: [
-  scrap/80
+  scrap/75
   nails/15
 ]
 drillTime: 180
