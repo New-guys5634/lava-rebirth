@@ -9,7 +9,7 @@ category: distribution
 consumes: {
 power: 0.02
 }
-speed: 0.09
+speed: 0.12
 research: scarped-duct
 junctionReplacement: scarped-junction
 bridgeReplacement: Bridge-a-1
