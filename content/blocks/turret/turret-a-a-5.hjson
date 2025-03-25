@@ -1,0 +1,47 @@
+name: Copper ingot turret
+description:" Mainly used in early game only dealing 20 damage at most.
+
+stats: 20dmg/25, air/false ground/true naval/true coolant/false
+ammotypes: copper/20dmg/20, pebbles/10/40"
+type: ItemTurret
+reload: 25
+shootCone: 20
+rotateSpeed: 3
+targetGround: true
+targetAir: false
+range: 215
+recoil: 2
+size: 2
+health: 400
+inaccuracy: 20
+targetGround: true
+targetAir: false
+outlineColor: 000000FF
+ammoTypes: {
+    copper: {
+        damage: 20
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+        reloadMultiplier: 1.2
+    }
+    stone-small: {
+        damage: 10
+        speed: 6
+        height: 6
+        width: 6
+        lifetime: 36
+        reloadMultiplier: 0.5
+}
+}
+requirements: [
+copper/25
+nails/5
+]
+
+research: {
+parent: turret-a-a-1
+}
+category: turret
+researchCostMultiplier: 0.5

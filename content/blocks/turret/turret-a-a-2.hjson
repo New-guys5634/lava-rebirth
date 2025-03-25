@@ -1,5 +1,8 @@
 name: Shunks
-description: Fires a air homing projectile to takedown the flying opponent, only anti air and deals medium damage.
+description:" Fires a air homing projectile to takedown the flying opponent, only anti air and deals medium damage.
+
+stats: 38dmg/15, air/true ground/false naval/false coolant/true
+ammotypes: flint/30dmg nails/38"
 type: ItemTurret
 reload: 15
 shootCone: 20

@@ -1,5 +1,8 @@
 name: Slite
-description: Fires a long fuse type like bullet dealing low-medium damage.
+description:" Fires a long fuse type like bullet dealing low-medium damage.
+
+stats: 50dmg/70, air/true ground/true naval/true coolant/true
+ammotypes: flint/50dmg"
 type: ItemTurret
 reload: 70
 shootCone: 20
