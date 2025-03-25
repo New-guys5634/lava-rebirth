@@ -1,0 +1,109 @@
+type: multicraft.MultiCrafter
+name: Steel foundation
+description: Uses other resources to get others way more efficiently.
+size: 2
+health: 125
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+      -b--1-acopper-dust/5
+      -b--stone/1
+      -b--sulfur/1
+      ]
+    }
+  output: {
+      items: [
+    copper/5
+      ]
+  }
+  craftTime: 700
+}
+{
+  input: {
+       items: [
+        -b--stone-small/2
+        -b--mud/1
+        -b--hot-sand/1
+        -b--1-ascrap-dust/2
+      ]
+   }
+  output: {
+      items: [
+      -b--sulfur/2
+      ]
+  }
+  craftTime: 500
+}
+{
+  input: {
+       items: [
+        -b--flint/5
+        -b--mud/3
+        -b--hot-sand/8
+        -b--raw-coal/5
+        -b--1-alead-dust/2
+      ]
+   }
+  output: {
+      items: [
+      lead/10
+      ]
+  }
+  craftTime: 700
+}
+{
+  input: {
+       items: [
+        -b--flint/5
+        -b--mud/8
+        -b--hot-sand/4
+        -b--sulfur/8
+        -b--1-ascrap-dust/5
+      ]
+   }
+  output: {
+      items: [
+      scrap/10
+      ]
+  }
+  craftTime: 550
+}
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+category: crafting
+requirements: [
+clay-mold/5
+copper-stack/15
+flint/25
+glass/15
+metal/35
+scraped-molder/2
+steel/5
+]
+research: item-smelter2
+researchCostMultiplier: 0.1
