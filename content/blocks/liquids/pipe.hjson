@@ -12,5 +12,5 @@ leaks: true
 junctionReplacement: pipe-junction
 underBullets: true
 researchCostMultiplier: 1
-liquidPressure: 0.6
-liquidCapacity: 2
+liquidPressure: 0.7
+liquidCapacity: 4
