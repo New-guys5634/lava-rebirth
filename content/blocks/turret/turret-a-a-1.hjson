@@ -2,7 +2,7 @@ name: Slite
 description:" Fires a long fuse type like bullet dealing low-medium damage.
 
 stats: 50dmg/70, air/true ground/true naval/true coolant/true
-ammotypes: flint/50dmg"
+ammotypes: flint/50dmg/70, scrap/25dmg/45"
 type: ItemTurret
 reload: 70
 shootCone: 20
@@ -41,6 +41,25 @@ ammoTypes: {
             pierce: true
             smokeEffect: hitBulletBig
     }
+    scrap: {
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 25
+            serrations: 9
+            serrationSpacing: 10
+            serrationLenScl: 18
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: 606070FF
+            toColor: 606070FF
+            length: 110
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+        reloadMultiplier: 1.5
+       }
 }
 requirements: [
 copper/25
