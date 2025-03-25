@@ -1,0 +1,17 @@
+ type: ItemBridge
+  name: Clay stack bridge 
+  description: Used as a transport over walls.
+  health: 40
+  range: 5
+  transportTime: 1
+  hasPower: false
+requirements: [
+clay/5
+copper-stack/1
+] 
+category: distribution
+research: scarped-junction
+researchCost: [
+clay/75
+copper-stack/10
+  ]

@@ -1,0 +1,23 @@
+type: Conveyor
+name: Clay-stack conveyor
+description: The more efficiently conveyor requires power to work.
+requirements: [
+clay/1
+copper-stack/1
+]
+category: distribution
+consumes: {
+power: 0.02
+}
+speed: 0.09
+research: scarped-duct
+junctionReplacement: scarped-junction
+bridgeReplacement: Bridge-a-1
+  health: 35
+research: {
+  parent: scarped-duct
+  requirements: [
+clay/10
+copper-stack/5
+  ]
+}
