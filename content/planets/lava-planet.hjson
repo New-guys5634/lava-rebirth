@@ -13,7 +13,7 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunc3e9d6bhLoadout: false
 allowSectorInvasion: false
-
+icon: planet-zrogro
 accessible: true
 alwaysUnlocked: true
 defaultCore: "main-core"
