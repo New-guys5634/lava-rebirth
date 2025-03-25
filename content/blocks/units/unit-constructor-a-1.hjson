@@ -50,6 +50,17 @@ plans: [
     stone/35
    ]
  }
+{
+    unit: lava-mech-a-5
+    time: 2350
+    requirements: [
+copper/45
+lead/45
+nails/65
+flint/65
+stone-small/125
+   ]
+ }
 ]
 requirements: [
     copper/100
