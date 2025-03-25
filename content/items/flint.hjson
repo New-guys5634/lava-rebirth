@@ -1,5 +1,6 @@
 description: Flint is used as a fire starter and sharpen something.
 name: Flint
 research: nails
+flammability: 0.4
 color: 606070FF 
 hiddenOnPlanets: [serpulo,erekir]
