@@ -1,0 +1,16 @@
+type: PowerNode
+name: Power conductor
+description: Transport power with the max output of 4.
+size: 1
+health: 125
+laserRange: 4
+maxNodes: 4
+research: {
+  parent: stone-burner
+}
+requirements: [
+clay/15
+copper-stack/5
+]
+category: power
+researchCostMultiplier: 0.5
