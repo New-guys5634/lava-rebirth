@@ -1,0 +1,52 @@
+name: Combined fixed mech
+description: Fires fuse type projectile dealing high damage.
+type: mech
+mechLegColor: 1f1f1f
+health: 850
+armor: 1
+hitSize: 7
+speed: .6
+rotateSpeed: 1.8
+accel: 0.70
+itemCapacity: 15
+outlineColor: 1f1f1f
+ weapons: [
+ {
+  type: Weapon
+  name: lava-mech-a-5-gun
+  top: false
+  x: 0
+  y: 0
+  shootY: 2
+  shootX: 7
+  
+  mirror: true
+  rotate: false
+  shootCone: 10
+  inaccuracy: 3
+  reload: 45
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shootSound: shotgun 
+  bullet: {
+            type: shrapnelBulletType
+            lifetime: 35
+            damage: 50
+            serrations: 9
+            serrationSpacing: 10
+            serrationLenScl: 18
+            serrationWidth: 4
+            hitLarge: true
+            fromColor: 606070FF
+            toColor: 606070FF
+            length: 110
+            width: 10
+            hitEffect: blastExplosion
+            shootEffect: blastExplosion
+            pierce: true
+            smokeEffect: hitBulletBig
+}
+}
+]
+   
