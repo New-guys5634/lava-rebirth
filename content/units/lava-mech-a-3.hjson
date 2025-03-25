@@ -39,3 +39,7 @@ weapons: [
 }
 }
 ]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1

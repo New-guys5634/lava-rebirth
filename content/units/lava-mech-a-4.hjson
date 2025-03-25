@@ -45,3 +45,7 @@ buildingDamageMultiplier: 1.10
 }
 }
 ]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1
