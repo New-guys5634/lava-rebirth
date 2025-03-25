@@ -1,24 +1,38 @@
 name: Core protecter mech
 description: The protecter of the main core.
-type: mech
+type: legs
 mechLegColor: 1f1f1f
 health: 210
 armor: 5
 hitSize: 7
 speed: .7
-rotateSpeed: 1.3
+rotateSpeed: 4
 accel: 0.70
+    legMoveSpace: 2
+    legMaxLength: 2
+    legMinLength: 1
+    legLengthScl: 2
+    legForwardScl: 1
+    legPhysicsLayer: true
+    legGroupSize: 2
+    legCount: 4
+    legExtension: 2
+    legContinuousMove: true
+    lockLegBase: false
+    rippleScale: 0.2
+ 	legBaseOffset: 0
+ 	legLength: 5
+    allowLegStep: false
+ 	hovering: false
 commands: [move, mine, repair, rebuild, assist]
 mineItems: []
 mineFloor: true
 mineWalls: true
 mineTier: 1
-mineSpeed: 5.50
-buildSpeed: 0.40
-itemCapacity: 30
+mineSpeed: 6
+buildSpeed: 0.75
+itemCapacity: 5
 outlineColor: 1f1f1f
-canBoost: true
-boostMultiplier: 1.4
 engines: [
   {
     x: 0
