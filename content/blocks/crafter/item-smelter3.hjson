@@ -80,7 +80,6 @@ craftEffect: {
 category: crafting
 requirements: [
 copper/50
-metal/25
 scrap/85
 stone/65
 nails/15
