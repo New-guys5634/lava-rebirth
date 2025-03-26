@@ -4,6 +4,9 @@ type: UnitFactory
 category: units
 size: 3
 configurable: true
+consumes: {
+liquid: water/0.4
+}
 plans: [
   {
     unit: lava-mech-a-1
