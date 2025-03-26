@@ -5,14 +5,13 @@ size: 2
 category: production
 hasLiquids: false
 hardnessDrillMultiplier: 90
-drillTime: 250
-craftTime: 250
+drillTime: 315
 hasPower: false
 tier: 1
 shake: 0.5
 researchCostMultiplier: .5
 hasItems: true
-itemCapacity: 100
+itemCapacity: 5
 consumes: {
   items: {
     items: [
