@@ -1,0 +1,17 @@
+localizedName: The slag river
+description: "On the river learn how to combat the slim spaces and defend against harder enemies and use the prior knowledge to combat the new enemies.
+
+gimmick: due to the outside heat exposure your unit and blocks will have 30% less HP but 10% more damage."
+sector: 15
+captureWave: 10
+planet: lava-planet
+research: {
+  parent: sector-a-1-The-first-mission
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sector-a-1-The-first-mission
+    }
+  ]
+}
+difficulty: 2
