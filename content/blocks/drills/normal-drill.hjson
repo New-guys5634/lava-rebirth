@@ -20,7 +20,7 @@ results: [
   copper/1
 ]
 research: bad-drill
-researchcost: [
+researchCost: [
     copper/100
     stone-small/90
     nails/250
