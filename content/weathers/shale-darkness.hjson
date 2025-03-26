@@ -1,0 +1,21 @@
+type: ParticleWeather
+color: 454A5EFF
+noiseColor: 454A5EFF
+particleRegion: -b--circle 
+sizeMax: 20
+sizeMin: 9
+density: 40000
+status: tarred
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.03
+baseSpeed: 0.9
+sound: rain
+soundVol: 0.90
+force: 0.5
+attrs: {
+  heat: 10
+  water: 0.5
+  spores: 0.9
+  solarMultiplayer : 1.3
+}
