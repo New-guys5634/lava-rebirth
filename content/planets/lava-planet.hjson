@@ -13,14 +13,13 @@ allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunc3e9d6bhLoadout: false
 allowSectorInvasion: false
-icon: planet-zrogro
 accessible: true
 alwaysUnlocked: true
 defaultCore: "main-core"
 sectorSeed: 0
 startSector: 0
 sectorSize: 3
-
+tidalLock: true
 clearSectorOnLose: true
 allowSectorInvasion: false
 allowLaunchToNumbered: false
