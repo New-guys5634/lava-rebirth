@@ -1,6 +1,6 @@
 type: BurstDrill
 name: Basic drill
-description: Uses explosions to mine early game ores.
+description: Uses pebbles and vibrations to mine ores on the ground, can mine all ores but newer ones are more effective.
 size: 2
 category: production
 hasLiquids: false
@@ -9,8 +9,16 @@ drillTime: 250
 hasPower: false
 tier: 1
 shake: 0.5
-itemCapacity: 20
 researchCostMultiplier: .5
+hasItems: true
+itemCapacity: 100
+consumes: {
+  items: {
+    items: [
+    stone-small/1
+    ]
+  }
+}
 drillEffect: {
   type: WaveEffect
   sizeFrom: 0.1
