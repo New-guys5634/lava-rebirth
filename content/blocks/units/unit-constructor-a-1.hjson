@@ -15,8 +15,8 @@ plans: [
     copper/25
     lead/15
     nails/15
-    scrap/35
-    flint/45
+    scrap/30
+    flint/40
     stone-small/50
     ]
   }
@@ -48,7 +48,7 @@ plans: [
     requirements: [
     copper/45
     nails/15
-    metal/45
+    metal/35
     flint/25
     stone/35
    ]
@@ -59,9 +59,18 @@ plans: [
     requirements: [
 copper/45
 lead/45
-nails/65
-flint/65
+nails/45
+flint/45
 stone-small/125
+   ]
+ }
+{
+    unit: lava-mech-a-6
+    time: 2350
+    requirements: [
+scrap/75
+nails/15
+scraped-molder/5
    ]
  }
 ]
