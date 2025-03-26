@@ -55,6 +55,21 @@ recipes:
   }
   craftTime: 300
 }
+{
+  input: {
+         items: [
+        -b--raw-coal/5
+        -b--stone/2
+        -b--hot-sand/4
+      ]
+  }
+  output: {
+      items: [
+       -b--glass/2
+      ]
+  }
+  craftTime: 450
+}
 ]
 craftEffect: {
   type: ParticleEffect
