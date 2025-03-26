@@ -24,5 +24,5 @@ itemCapacity: 10
 researchCostMultiplier: 0.1
 requirements: [
 sulfur/10
-copped/20
+copper/20
 ]
