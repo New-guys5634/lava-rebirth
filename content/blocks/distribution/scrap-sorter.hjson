@@ -1,0 +1,10 @@
+type: Sorter
+name: Scrap sorter
+description: allows certain inputs than others.
+category: distribution
+research: scarped-duct
+requirements: [
+mud/15
+scrap/1
+]
+researchCostMultiplier: 0.5
