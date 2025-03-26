@@ -1,0 +1,28 @@
+type: Drill
+drillTime: 600
+name: Sulfur small drill
+description: Drills ores slowly but it's a 1x1 and doesn't require pebbles.
+size: 1
+category: production
+hasLiquids: true
+liquidCapacity: 15
+drawMineItem: false
+research: {
+  parent: bad-drill
+}
+	consumes: {
+		liquid: {
+			liquid: slag
+			amount: 0.1
+			optional: true
+			booster: true
+		}
+}
+hasPower: false
+tier: 2
+itemCapacity: 10
+researchCostMultiplier: 0.1
+requirements: [
+sulfur/10
+copped/20
+]
