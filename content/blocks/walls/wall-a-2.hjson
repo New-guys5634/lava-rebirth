@@ -1,0 +1,19 @@
+name: Sanded scrap wall
+description: Deffends structures from incoming attacks but very fragile.
+type: Wall
+health: 225
+armor: 1
+requirements: [
+    mud/10
+    1-alead-dust/10
+    lead/2
+]
+category: defense
+research: {
+    parent: wall-a-1
+    requirements: [
+    mud/100
+    1-alead-dust/80
+    lead/20
+    ]
+}
