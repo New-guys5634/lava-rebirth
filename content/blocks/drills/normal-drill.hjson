@@ -10,7 +10,7 @@ consumes: {
 }
 requirements: [
   nails/15
-  metal/8
+  stone-small/35
   copper/45
   flint/40
 ]
@@ -22,7 +22,7 @@ results: [
 research: bad-drill
 researchcost: [
     copper/100
-    metal/80
+    stone-small/90
     nails/250
     flint/80
 ]
