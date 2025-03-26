@@ -31,7 +31,7 @@ mineWalls: true
 mineTier: 1
 mineSpeed: 6
 buildSpeed: 0.75
-itemCapacity: 5
+itemCapacity: 40
 outlineColor: 1f1f1f
 engines: [
   {
@@ -64,9 +64,9 @@ engines: [
    width: 6
    height: 8
    
-   damage: 25
+   damage: 30
    buildingDamageMultiplier: 0.001
-   healPercent: 3
+   healPercent: 5
    collidesTeam: true
    speed: 4
    lifetime: 40
