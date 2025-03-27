@@ -1,0 +1,19 @@
+type: Battery
+name: Power stone storage
+description: A stone power cell used for storing small amounts of powers.
+health: 115
+size: 1
+squareSprite: false
+consumes: {
+  powerBuffered: 360
+}
+requirements: [
+stone/15
+copper/25
+glass/15
+nails/4
+]
+category: power
+research: air-power
+researchCostMultiplier: 0.5
+

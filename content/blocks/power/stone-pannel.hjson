@@ -1,0 +1,17 @@
+  type: SolarGenerator
+  powerProduction: 0.4
+name: Stone panel
+description: Generates power from the solar with the advantage of being so close to the sun.
+size: 1
+health: 100
+category: power
+requirements: [
+glass/20
+nails/5
+copper/15
+stone/15
+]
+research: {
+  parent: air-power
+}
+researchCostMultiplier: 1
