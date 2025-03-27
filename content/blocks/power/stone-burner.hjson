@@ -11,7 +11,7 @@ requirements: [
 stone/50
 copper/25
 lead/15
-nails/50
+nails/25
 ]
 consumes: {
   itemFlammable: {}
@@ -36,4 +36,4 @@ drawer: {
     }
   ]
 } 
-researchCostMultiplier: 1
+researchCostMultiplier: 0.4
