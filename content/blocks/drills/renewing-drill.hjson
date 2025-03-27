@@ -1,0 +1,55 @@
+name: Water siev factory
+description: Intakes water and uses the stone on the ground to get Radom resources.
+type: Separator
+health: 215
+size: 2
+craftTime: 120
+hasItems: true
+hasLiquids: true
+consumes: {
+liquid: water/0.3
+}
+requirements: [
+clay/15
+clay-mold/1
+copper-stack/10
+]
+category: production
+results: [
+1-acopper-dust/2
+1-alead-dust/1
+1-ascrap-dust/2
+clay/0.01
+flint/0.1
+hot-sand/1
+mud/0.7
+raw-scrap/0.4
+raw-coal/0.7
+stone/1
+stone-small/1
+sulfur/0.01
+unusable-scrap/10
+unusable-scrap2/1
+]
+research: bad-drill
+researchcost: [
+clay/30
+clay-mold/3
+copper-stack/30
+research-plans/1
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+} 
