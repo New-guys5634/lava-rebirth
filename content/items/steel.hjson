@@ -1,6 +1,6 @@
-description: before the lava event the old drones used steel for powerful bullets
-name: steel
-color: 1C1C25FF
+description: Used for later technology.
+name: Steel
+color: 1E1D23FF
 research: metal
 explosiveness: 0.6
 hiddenOnPlanets: [serpulo,erekir]

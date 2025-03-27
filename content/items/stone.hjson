@@ -1,6 +1,6 @@
-name: stone
-description: stone is a strange ore found in the grounds
-color: 4C4C62FF
+name: Stone
+description: Stone is some what flamible and used for technology.
+color: 1E1D23FF
 research: stone-small
 flammability: 0.2
 hiddenOnPlanets: [serpulo,erekir]

@@ -1,5 +1,5 @@
 name: Broken down scrap
 description: Unusable but can be turned into mud.
-color: 4C4C62FF
+color: E0B28DFF
 research: unusable-scrap
 hiddenOnPlanets: [serpulo,erekir]

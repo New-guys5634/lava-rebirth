@@ -1,5 +1,5 @@
 description: The dust forms of lead.
 name: Lead dust
 research: 1-acopper-dust
-color: 606070FF 
+color: AB99D3FF 
 hiddenOnPlanets: [serpulo,erekir]

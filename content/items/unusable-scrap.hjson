@@ -1,5 +1,5 @@
 name: Unusable scrap
 description: Unusable and can be made into scrap dust for 10.
-color: 4C4C62FF
+color: E0B28DFF
 research: stone
 hiddenOnPlanets: [serpulo,erekir]

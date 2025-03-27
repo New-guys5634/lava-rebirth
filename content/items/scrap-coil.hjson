@@ -1,6 +1,6 @@
 name: Scrap coil
 description: Used in for pipes and advanced factories.
-color: 4B5BABFF
+color: 9B928BFF
 research: scrap
 flammability: 0.2
 hiddenOnPlanets: [serpulo,erekir]

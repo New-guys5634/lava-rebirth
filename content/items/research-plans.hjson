@@ -1,6 +1,6 @@
-name: research plans
-description: plans for future projects
-color: 4B5BABFF
+name: Research plans
+description: Plans for future projects.
+color: 7190EAFF
 research: hot-sand
 flammability: 0.2
 hiddenOnPlanets: [serpulo,erekir]

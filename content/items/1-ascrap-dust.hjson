@@ -1,5 +1,5 @@
 description: The dust forms of scrap.
 name: Scrap dust
 research: 1-acopper-dust
-color: 606070FF 
+color: E0B28DFF 
 hiddenOnPlanets: [serpulo,erekir]

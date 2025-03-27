@@ -1,6 +1,6 @@
 name: Pebble 
 description: Pebbles are found from the ground and only can be breaked.
-color: 4C4C62FF
+color: 1E1D23FF
 research: 1-acopper-dust
 flammability: 0.2
 hiddenOnPlanets: [serpulo,erekir]

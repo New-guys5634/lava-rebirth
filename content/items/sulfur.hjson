@@ -1,6 +1,6 @@
 name: Sulfur
 description: Sulfur is an flamible material used most of the time to make construction items, rare to find.
-color: 4C4C62FF
+color: FFAF87FF
 research: raw-coal
 flammability: 0.7
 hiddenOnPlanets: [serpulo,erekir]

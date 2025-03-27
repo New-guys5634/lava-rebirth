@@ -1,5 +1,5 @@
 name: hot sand
 description: sand that was falling into the lava event 
-color: F2A65EFF
+color: FFD380FF
 research: mud
 hiddenOnPlanets: [serpulo,erekir]

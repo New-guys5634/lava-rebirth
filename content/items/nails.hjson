@@ -1,6 +1,6 @@
-name: nails
-description: nails can be created from dead structures or units
-color: 272736FF
+name: Nails
+description: Nails can be used for everything.
+color: 615B5BFF
 research: 1-ascrap-dust 
 alwaysUnlocked: false
 hiddenOnPlanets: [serpulo,erekir]
