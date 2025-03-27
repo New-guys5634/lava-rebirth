@@ -1,0 +1,18 @@
+type: PowerNode
+name: Power wires importation 
+description: Transport power but needs to placed against each other for effectively power transportation.
+size: 1
+health: 125
+laserRange: 1
+maxNodes: 2
+research: {
+  parent: stone-burner
+}
+  laserColor1: D99D73FF
+  laserColor2: B8705CFF
+requirements: [
+copper/1
+nails/1
+]
+category: power
+researchCostMultiplier: 0.5
