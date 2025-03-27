@@ -1,0 +1,6 @@
+type: Floor
+variants: 0
+
+isLiquid: true
+speedMultiplier: 0.1
+cacheLayer: tar
