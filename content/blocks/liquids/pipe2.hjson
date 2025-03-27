@@ -1,0 +1,16 @@
+type: Conduit
+name: Clay conduit
+description: Transports liquids.
+category: liquid
+research: pipe
+requirements: [
+clay/1
+glass/2
+]
+health: 50
+leaks: true
+junctionReplacement: pipe-junction
+underBullets: true
+researchCostMultiplier: 1
+liquidPressure: 2
+liquidCapacity: 9
