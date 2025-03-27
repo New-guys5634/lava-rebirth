@@ -7,15 +7,13 @@ type: ItemTurret
 reload: 25
 shootCone: 20
 rotateSpeed: 3
-targetGround: false
-targetAir: true
 range: 215
 recoil: 2
 size: 1
 health: 200
 inaccuracy: 20
-targetGround: true
-targetAir: false
+targetGround: false
+targetAir: true
 outlineColor: 000000FF
 ammoTypes: {
     lead: {
