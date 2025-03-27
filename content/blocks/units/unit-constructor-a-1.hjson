@@ -6,6 +6,7 @@ size: 3
 configurable: true
 consumes: {
 liquid: water/0.4
+power: 0.8
 }
 plans: [
   {
@@ -71,6 +72,16 @@ stone-small/125
 scrap/75
 nails/15
 scraped-molder/5
+   ]
+ }
+{
+    unit: lava-mech-a-7
+    time: 2350
+    requirements: [
+scrap/45
+nails/10
+copper/25
+lead/15
    ]
  }
 ]
