@@ -1,0 +1,40 @@
+     name: Assault drone
+     description: Attacks with the basic weapon, mainly for early uses.
+    type: flying
+    lowAltitude: true
+    speed: 5
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 150
+    hitSize: 9
+    armor: 5
+    itemCapacity: 20
+    engineOffset: 7
+    faceTarget: true
+weapons: [
+  {
+    name: lava-mech-a-7-gun
+    x: 9
+    y: 0
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: true
+    layerOffset: -1
+    reload: 12
+    inaccuracy: 6
+    shootSound: shoot
+    bullet: {
+      speed: 4
+      lifetime: 50
+      damage: 15
+      width: 6
+      height: 10
+}
+}
+]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1
