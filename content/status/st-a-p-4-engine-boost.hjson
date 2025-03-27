@@ -1,0 +1,18 @@
+name: Engine boost lv4
+speedMultiplier: 1.75
+effect : {
+    type : MultiEffect
+    effects : [
+        {
+            particles : 2
+            colorFrom : EDF3A9
+            sizeFrom : 2
+            lifetime : 70
+            colorTo : EDF3A9
+            sizeTo : 0
+            length : 4
+            type : ParticleEffect
+            cone : 280
+}
+]
+}
