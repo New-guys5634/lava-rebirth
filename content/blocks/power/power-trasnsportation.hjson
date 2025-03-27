@@ -1,5 +1,5 @@
 type: PowerNode
-name: Power conductor
+name: Power importation 
 description: Transport power with the max output of 4.
 size: 1
 health: 125
@@ -8,6 +8,8 @@ maxNodes: 4
 research: {
   parent: stone-burner
 }
+  laserColor1: D99D73FF
+  laserColor2: B8705CFF
 requirements: [
 clay/15
 copper-stack/5
