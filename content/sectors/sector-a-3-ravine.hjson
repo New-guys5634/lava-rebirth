@@ -1,0 +1,15 @@
+localizedName: The ravine
+description: "A small ravine learn the uses and new environments be warned new threats are coming."
+sector: 87
+captureWave: 15
+planet: lava-planet
+research: {
+  parent: sector-a-2-slag-river
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sector-a-2-slag-river
+    }
+  ]
+}
+difficulty: 3
