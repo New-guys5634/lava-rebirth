@@ -7,7 +7,6 @@ hasItems: true
 hasLiquids: true
 hasPower: true
 consumes: {
-power: 0.3
   liquid: slag/0.3
   items: {
     items: [
@@ -16,7 +15,6 @@ power: 0.3
   }
 }
 outputLiquid: water/0.1
-outputItem: flint/1
 powerProduction: 1.2
 requirements: [
 scrap/40
