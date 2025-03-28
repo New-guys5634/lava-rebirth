@@ -1,5 +1,5 @@
 type: floor
 variants: 3
-damageTaken: 100
+damageTaken: 5
 status: freezing
-statusDuration: 300
+statusDuration: 900
