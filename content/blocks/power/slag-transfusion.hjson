@@ -1,0 +1,75 @@
+name: Slag transfusion 
+description: Intakes mud, slag and a small amount of power to create more power and a output of flint so often.
+type: ConsumeGenerator
+size: 2
+health: 110
+hasItems: true
+hasLiquids: true
+hasPower: true
+consumes: {
+power: 0.3
+  liquid: slag/0.3
+  items: {
+    items: [
+     mud/1
+    ]
+  }
+}
+outputLiquid: water/0.1
+craftTime: 300
+outputItem: flint/1
+powerProduction: 1.2
+requirements: [
+scrap/40
+nails/35
+copper/40
+glass/15
+flint/25
+stone/15
+]
+category: power
+research: power-trasnsportation
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 12
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 2
+    sizeTo: 0.1
+    colorFrom: e2d8ac
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 1
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
