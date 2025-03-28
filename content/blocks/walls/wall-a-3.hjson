@@ -1,0 +1,17 @@
+name: Clay stack wall
+description: Deffends structures from incoming attacks.
+type: Wall
+health: 1000
+armor: 1
+requirements: [
+    clay/5
+    copper-stack/2
+]
+category: defense
+research: {
+    parent: wall-a-2
+    requirements: [
+    clay/25
+    copper-stack/10
+    ]
+}
