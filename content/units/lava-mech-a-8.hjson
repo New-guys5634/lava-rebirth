@@ -1,0 +1,44 @@
+     name: Destructor
+     description: Heavily armoured and slow, deals massive damage at a max 20 range, can't be controlled.
+    type: flying
+    lowAltitude: true
+    speed: 5
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 500
+    hitSize: 8
+    armor: 4
+    itemCapacity: 30
+    engineOffset: 5
+    faceTarget: true
+weapons: [
+  {
+    name: onUnit
+    x: 6
+    y: 0
+    shootY: 4
+    shootX: 5
+    mirror: true
+    rotate: false
+    layerOffset: -1
+    reload: 2
+    recoil: 2
+    inaccuracy: 6
+    shootSound: torch
+  controllable: false
+    bullet: {
+  type: PointLaserBulletType
+  color: EEA666FF
+  maxRange: 200
+  length: 200
+  width: 12
+  damage: 4
+  buildingDamageMultiplier: 0.5
+}
+}
+]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1
