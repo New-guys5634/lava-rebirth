@@ -5,3 +5,5 @@ drownTime: 250
 isLiquid: true
 speedMultiplier: 0.1
 cacheLayer: slag
+status: melting
+statusDuration: 300
