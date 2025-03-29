@@ -22,13 +22,15 @@ weapons: [
     mirror: false
     rotate: false
     layerOffset: -1
-    reload: 2
+    reload: 1000
     recoil: 0
     shootSound: torch
   chargeSound: lasercharge2
   targetInterval: 3
   targetSwitchInterval: 2
   shoot: {
+  shots: 500
+  shotDelay: 1
   firstShotDelay: 145
   }
     bullet: {
@@ -76,8 +78,8 @@ sizeTo: 0
   cooldownTime: 35 
   shoot: {
   type: ShootSpread
-  shots: 6
-  spread: 4
+  shots: 2
+  spread: 6
   }
   bullet: {
    type: BasicBulletType
