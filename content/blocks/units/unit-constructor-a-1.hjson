@@ -134,6 +134,22 @@ scrap-coil/2
 sulfur/50
    ]
  }
+{
+    unit: lava-mech-b-2
+    time: 7000
+    requirements: [
+flint/90
+nails/65
+copper-stack/25
+metal/50
+clay-plating/20
+clay-mold/5
+   circuits/4
+steel/20
+scrap-coil/5
+sulfur/75
+   ]
+ }
 ]
 requirements: [
     copper/100
