@@ -17,7 +17,6 @@ weapons: [
   {
     type: ContinuousUnit
     name: onUnit
-    controllable: false
     x: 6
     y: 0
     shootY: 4
@@ -41,7 +40,6 @@ weapons: [
 {
     type: ContinuousUnit
     name: onUnit
-    controllable: false
     x: -6
     y: 0
     shootY: 4
