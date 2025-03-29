@@ -16,6 +16,7 @@
 weapons: [
   {
     name: onUnit
+    controllable: false
     x: 0
     y: 0
     shootY: 2
