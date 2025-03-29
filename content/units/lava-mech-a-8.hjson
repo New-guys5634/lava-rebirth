@@ -33,7 +33,7 @@ weapons: [
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.2
+  buildingDamageMultiplier: 0.000001
 }
 }
 {
@@ -67,11 +67,10 @@ weapons: [
   shootY: 0
   shootX: 6
   layerOffset: 1.000
-  mirror: true
+  mirror: false
   rotate: false
-  baseRotation: -40
   alternate: false
-  shootCone: 120
+  shootCone: 20
   shootSound: missile
   inaccuracy: 0
   reload: 25
