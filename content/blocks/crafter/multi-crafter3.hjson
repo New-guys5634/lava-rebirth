@@ -30,7 +30,7 @@ recipes:
        lead/2
        scrap/2
         copper/1
-        nails/2
+        -b--nails/2
       ]
    }
   output: {

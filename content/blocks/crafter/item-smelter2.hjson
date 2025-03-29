@@ -73,7 +73,7 @@ recipes:
    }
   output: {
       items: [
-       -b--1-glass/4
+       -b--glass/4
       ]
   }
   craftTime: 450
