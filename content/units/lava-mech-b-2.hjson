@@ -24,16 +24,14 @@ weapons: [
   top: false
   x: 0
   y: 0
-  shootY: 4
-  shootX: 0
-  
+  shootY: 0
+  shootX: 4 
   mirror: true
   rotate: true
-  rotationLimit: 20
   shootCone: 10
   shootSound: missile
   inaccuracy: 3
-  reload: 5
+  reload: 25
   targetInterval: 5
   targetSwitchInterval: 10
   cooldownTime: 5
@@ -46,8 +44,7 @@ width: 9
 height: 12
 spin: 8
 drawFlare: false
-lifetime: 0
-buildingDamageMultiplier: 1.10
+lifetime: 10
    }
   }
 {
@@ -73,6 +70,7 @@ y: 0
         particles: 1
         lifetime: 20
         length: 0
+        LayerOffset: -0.001
         region: -b--lava-mech-b-2-rotor
         sizeFrom: 15
         sizeTo: 15
