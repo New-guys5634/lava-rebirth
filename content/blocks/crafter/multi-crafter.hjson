@@ -70,6 +70,24 @@ recipes:
   }
   craftTime: 450
 }
+{
+  input: {
+         items: [
+        -b--flint/2
+        -b--stone/1
+        -b--hot-sand/4
+        -b--glass/2
+        -b--metal/1
+      ]
+      power: 1.2
+  }
+  output: {
+      items: [
+       -b--circuits/1
+      ]
+  }
+  craftTime: 900
+}
 ]
 craftEffect: {
   type: ParticleEffect
