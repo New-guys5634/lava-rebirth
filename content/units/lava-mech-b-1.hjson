@@ -54,7 +54,7 @@ sizeTo: 0
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.00001
+  buildingDamageMultiplier: 0.2
 }
 }
 {

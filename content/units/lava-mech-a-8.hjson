@@ -34,7 +34,7 @@ weapons: [
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.000001
+  buildingDamageMultiplier: 0.4
 }
 }
 {
@@ -57,7 +57,7 @@ weapons: [
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.00001
+  buildingDamageMultiplier: 0.4
 }
 }
 {
