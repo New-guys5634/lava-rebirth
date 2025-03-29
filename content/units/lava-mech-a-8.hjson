@@ -21,7 +21,6 @@ weapons: [
     shootX: 5
     mirror: false
     rotate: false
-  controllable: false
     layerOffset: -1
     reload: 2
     recoil: 0
@@ -44,7 +43,6 @@ weapons: [
     shootX: -5
     mirror: false
     rotate: false
-  controllable: false
     layerOffset: -1
     reload: 2
     recoil: 0
