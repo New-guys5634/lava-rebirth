@@ -96,6 +96,19 @@ clay-plating/10
 clay-mold/2
    ]
  }
+{
+    unit: lava-mech-a-9
+    time: 3500
+    requirements: [
+flint/45
+nails/25
+copper-stack/5
+metal/35
+clay/15
+clay-plating/10
+clay-mold/2
+   ]
+ }
 ]
 requirements: [
     copper/100
