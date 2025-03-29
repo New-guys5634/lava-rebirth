@@ -1,5 +1,5 @@
      name: Destructor
-     description: Heavily armoured and slow, deals massive damage at a max 20 range, can't be controlled.
+     description: Heavily armoured and slow, deals massive damage at a max 20 range, can't be controlled, the lasers can't deal damage to buildings only units.
     type: flying
     lowAltitude: true
     fallSpeed: 0.0020
@@ -22,7 +22,6 @@ weapons: [
     shootX: 5
     mirror: false
     rotate: false
-  controllable: false
     layerOffset: -1
     reload: 2
     recoil: 0
@@ -56,9 +55,49 @@ weapons: [
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.2
+  buildingDamageMultiplier: 0.00001
 }
 }
+{
+  name: onUnit
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 6
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: missile
+  inaccuracy: 0
+  reload: 25
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 6
+   homingPower: 0.04
+   homingRange: 100
+   speed: 6
+   lifetime: 40
+     frontColor: FFFFA3FF
+      backColor: FFFFA3FF
+    trailColor: FFFFA3FF
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
 ]
 research: {
   parent: unit-constructor-a-1
