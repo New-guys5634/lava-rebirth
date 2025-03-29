@@ -31,12 +31,10 @@ weapons: [
   rotate: true
   rotationLimit: 20
   LayerOffset: 0.001
-  shootStatus: unmoving
-  shootStatusDuration: 25
   shootCone: 10
   shootSound: missile
   inaccuracy: 3
-  reload: 20
+  reload: 10
   targetInterval: 5
   targetSwitchInterval: 10
   cooldownTime: 5
@@ -76,9 +74,9 @@ y: 0
         lifetime: 20
         length: 0
         region: -b--lava-mech-b-2-rotor
-        sizeFrom: 40
-        sizeTo: 40
-        spin: 30
+        sizeFrom: 15
+        sizeTo: 15
+        spin: 50
         layer: 95
       }
       smokeEffect: none
