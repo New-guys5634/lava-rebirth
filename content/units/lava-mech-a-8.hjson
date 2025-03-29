@@ -28,13 +28,13 @@ weapons: [
     recoil: 0
     shootSound: torch
     bullet: {
-  type: PointLaserBulletType
+  type: ContinuousLaserBulletType
   color: EEA666FF
   maxRange: 200
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.4
+  buildingDamageMultiplier: 0.2
 }
 }
 {
@@ -51,13 +51,13 @@ weapons: [
     recoil: 0
     shootSound: torch
     bullet: {
-  type: PointLaserBulletType
+  type: ContinuousLaserBulletType
   color: EEA666FF
   maxRange: 200
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.001
+  buildingDamageMultiplier: 0.2
 }
 }
 {
