@@ -2,6 +2,7 @@
      description: This is an support and carrier unit, carriers units or blocks to destinations and drops bombs, this unit is still hittable.
     type: payload
     lowAltitude: true
+    fallSpeed: 0.0050
     speed: 2.5
     accel: 0.08
     drag: 0.05

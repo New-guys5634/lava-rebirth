@@ -2,6 +2,7 @@
      description: Heavily armoured and slow, fires large yellow deadly balls dealing HIGH damage.
     type: flying
     lowAltitude: true
+    fallSpeed: 0.0020
     speed: 2
     accel: 0.08
     drag: 0.05

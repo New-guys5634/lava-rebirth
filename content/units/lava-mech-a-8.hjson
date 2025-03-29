@@ -2,6 +2,7 @@
      description: Heavily armoured and slow, deals massive damage at a max 20 range, can't be controlled.
     type: flying
     lowAltitude: true
+    fallSpeed: 0.0020
     speed: 5
     accel: 0.08
     drag: 0.05
@@ -31,7 +32,7 @@ weapons: [
   maxRange: 200
   length: 200
   width: 12
-  damage: 2
+  damage: 6
   buildingDamageMultiplier: 0.2
 }
 }
@@ -53,7 +54,7 @@ weapons: [
   maxRange: 200
   length: 200
   width: 12
-  damage: 2
+  damage: 6
   buildingDamageMultiplier: 0.2
 }
 }
