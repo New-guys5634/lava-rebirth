@@ -15,6 +15,7 @@
     faceTarget: true
 weapons: [
   {
+    type: ContinuousUnit
     name: onUnit
     controllable: false
     x: 0
@@ -54,7 +55,7 @@ sizeTo: 0
   length: 200
   width: 12
   damage: 6
-  buildingDamageMultiplier: 0.2
+  buildingDamageMultiplier: 0.001
 }
 }
 {
