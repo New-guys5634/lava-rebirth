@@ -1,0 +1,5 @@
+description: A circuit board only use is to create units.
+name: Circuits
+research: glass
+color: 96F58DFF 
+hiddenOnPlanets: [serpulo,erekir]
