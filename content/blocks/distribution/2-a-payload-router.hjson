@@ -1,0 +1,17 @@
+name: Clay stack payload router
+description: Moves object forward and acts like a router.
+type: PayloadRouter
+size: 3
+moveTime: 50
+moveForce: 300
+payloadLimit: 3
+category: units
+requirements: [
+clay/10
+copper-stack/4
+]
+research: unit-constructor-a-1
+researchCost: [
+clay/20
+copper-stack/8
+  ]
