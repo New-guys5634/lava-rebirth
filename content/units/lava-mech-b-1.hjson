@@ -1,0 +1,101 @@
+     name: Omitation
+     description: Heavily armoured and armed, deals heavily damage and has a wine up time before firing, has massive health, UNIT TYPE BOSS.
+    type: flying
+    lowAltitude: true
+    speed: 5
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 1000
+    hitSize: 8
+    armor: 4
+    itemCapacity: 50
+    engineOffset: 5
+    faceTarget: true
+weapons: [
+  {
+    name: onUnit
+    x: 0
+    y: 0
+    shootY: 2
+    shootX: 0
+    mirror: false
+    rotate: false
+    layerOffset: -1
+    reload: 2
+    recoil: 0
+    shootSound: torch
+  chargeSound: lasercharge2
+  targetInterval: 3
+  targetSwitchInterval: 2
+  shoot: {
+  firstShotDelay: 145
+  }
+    bullet: {
+chargeEffect: [
+{
+lifetime: 120
+type: waveEffect
+colorFrom: f1f1f1
+colorTo: 010101
+strokeTo: 3
+strokeFrom: 0
+sizeFrom: 20
+sizeTo: 0
+}
+]
+  type: PointLaserBulletType
+  color: EEA666FF
+  maxRange: 200
+  length: 200
+  width: 12
+  damage: 6
+  buildingDamageMultiplier: 0.7
+}
+}
+{
+  name: onUnit
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 6
+  layerOffset: 1.000
+  mirror: true
+  rotate: false
+  baseRotation: -40
+  alternate: false
+  shootCone: 120
+  shootSound: missile
+  inaccuracy: 0
+  reload: 30
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  shoot: {
+  type: ShootSpread
+  shots: 6
+  spread: 4
+  }
+  bullet: {
+   type: BasicBulletType
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 8
+   homingPower: 0.04
+   homingRange: 100
+   speed: 6
+   lifetime: 40
+     frontColor: FFFFA3FF
+      backColor: FFFFA3FF
+    trailColor: FFFFA3FF
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
+]
