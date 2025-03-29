@@ -19,7 +19,7 @@ weapons: [
     y: 0
     shootY: 4
     shootX: 5
-    mirror: false
+    mirror: true
     rotate: false
     layerOffset: -1
     reload: 60
