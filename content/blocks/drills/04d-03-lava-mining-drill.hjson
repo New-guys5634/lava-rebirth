@@ -1,0 +1,19 @@
+type: WallCrafter
+name: Heated lead dust smelter
+description: Mines pecific walls for lead dust.
+size: 2
+category: production
+research: 04d-02-lava-mining-drill
+researchCostMultiplier: 0.1
+requirements: [
+  scrap/50
+  nails/30
+  clay/15
+]
+drillTime: 180
+output: 1-alead-dust
+attribute: 1-alead-dust
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false

@@ -1,0 +1,19 @@
+type: WallCrafter
+name: Heated scrap dust smelter
+description: Mines pecific walls for scrap dust.
+size: 2
+category: production
+research: 04d-03-lava-mining-drill
+researchCostMultiplier: 0.1
+requirements: [
+  scrap/50
+  nails/30
+  clay/25
+]
+drillTime: 180
+output: 1-ascrap-dust
+attribute: 1-ascrap-dust
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false

@@ -1,0 +1,19 @@
+type: WallCrafter
+name: Heated copper dust smelter
+description: Mines pecific walls for copper dust.
+size: 2
+category: production
+research: 04d-01-lava-mining-drill
+researchCostMultiplier: 0.1
+requirements: [
+  scrap/50
+  nails/30
+  clay/5
+]
+drillTime: 180
+output: 1-acopper-dust
+attribute: 1-acopper-dust
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false

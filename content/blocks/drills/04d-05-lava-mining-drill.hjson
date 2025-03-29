@@ -1,0 +1,19 @@
+type: WallCrafter
+name: Heated unusable scrap smelter
+description: Mines pecific walls for unusable scrap.
+size: 2
+category: production
+research: 04d-04-lava-mining-drill
+researchCostMultiplier: 0.1
+requirements: [
+  scrap/25
+  nails/15
+  clay/5
+]
+drillTime: 180
+output: unusable-scrap
+attribute: unusable-scrap
+ambientSound: drill
+ambientSoundVolume: 0.08
+alwaysUnlocked: false
+squareSprite: false
