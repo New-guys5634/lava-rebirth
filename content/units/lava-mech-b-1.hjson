@@ -49,9 +49,9 @@ sizeTo: 0
 ]
   type: ContinuousLaserBulletType
   color: EEA666FF
-  maxRange: 450
-  length: 450
-  width: 6
+  maxRange: 700
+  length: 700
+  width: 4
   damage: 6
   buildingDamageMultiplier: 0.2
 }
