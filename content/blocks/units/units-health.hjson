@@ -1,0 +1,22 @@
+type: RepairTower
+name: Unit healer
+description: Heals injured units, requires power.
+size: 2
+squareSprite: false
+category: units
+requirements: [
+metal/25
+nails/35
+copper/50
+lead/30
+scrap/25
+flint/45
+stone/50
+]
+research: unit-constructor-a-1
+range: 60
+healAmount: 0.4
+consumes: {
+  power: 1
+}
+researchCostMultiplier: 0.5
