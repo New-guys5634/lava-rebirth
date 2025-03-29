@@ -1,0 +1,15 @@
+type: Router
+name: Scrap Distributor
+description: A big scraped disturbutor.
+size: 2
+speed: 4
+health: 125
+itemCapacity: 15
+requirements: [
+scrap/15
+nails/2
+]
+squareSprite: false
+category: distribution
+research: scarped-router
+researchCostMultiplier: 0.5
