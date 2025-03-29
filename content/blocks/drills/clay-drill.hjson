@@ -1,0 +1,29 @@
+type: Drill
+drillTime: 290
+name: Clay drill
+description: Drills ores medium speed but it's a 2x2 and doesn't require pebbles.
+size: 2
+category: production
+hasLiquids: true
+liquidCapacity: 30
+drawMineItem: false
+research: {
+  parent: small-drill
+}
+	consumes: {
+		liquid: {
+			liquid: slag
+			amount: 0.2
+			optional: true
+			booster: true
+		}
+}
+hasPower: false
+tier: 2
+itemCapacity: 40
+researchCostMultiplier: 0.1
+requirements: [
+copper-stack/10
+clay/15
+clay-mold/1
+]
