@@ -1,5 +1,5 @@
 name: Nail factory production 
-description: WIP
+description: Might gain units later.
 type: UnitFactory
 category: units
 size: 3
@@ -82,7 +82,18 @@ scrap/45
 nails/10
 copper/25
 lead/15
-raw-coal/45
+   ]
+ }
+{
+    unit: lava-mech-a-8
+    time: 3500
+    requirements: [
+flint/35
+nails/25
+copper-stack/15
+clay/15
+clay-plating/10
+clay-mold/2
    ]
  }
 ]
