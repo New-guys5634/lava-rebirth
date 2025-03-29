@@ -1,0 +1,45 @@
+     name: Asylant
+     description: Heavily armoured and slow, fires large yellow deadly balls dealing HIGH damage.
+    type: flying
+    lowAltitude: true
+    speed: 2
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 500
+    hitSize: 8
+    armor: 4
+    itemCapacity: 30
+    engineOffset: 5
+    faceTarget: true
+weapons: [
+  {
+    name: onUnit
+    x: 6
+    y: 0
+    shootY: 4
+    shootX: 5
+    mirror: false
+    rotate: false
+    layerOffset: -1
+    reload: 60
+    recoil: 0
+    shootSound: bolt
+    bullet: {
+   type: BasicBulletType
+   width: 20
+   height: 20
+   recoil: 4
+   splashDamage: 80
+   splashDamageRadius: 15
+   speed: 4
+   lifetime: 50
+      frontColor: FFFFA3FF
+      backColor: FFFFA3FF
+}
+}
+]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1
