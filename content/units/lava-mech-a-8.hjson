@@ -19,8 +19,32 @@ weapons: [
     y: 0
     shootY: 4
     shootX: 5
-    mirror: true
+    mirror: false
     rotate: false
+  controllable: false
+    layerOffset: -1
+    reload: 2
+    recoil: 0
+    shootSound: torch
+    bullet: {
+  type: PointLaserBulletType
+  color: EEA666FF
+  maxRange: 200
+  length: 200
+  width: 12
+  damage: 6
+  buildingDamageMultiplier: 0.2
+}
+}
+{
+    name: onUnit
+    x: -6
+    y: 0
+    shootY: 4
+    shootX: -5
+    mirror: false
+    rotate: false
+  controllable: false
     layerOffset: -1
     reload: 2
     recoil: 0
