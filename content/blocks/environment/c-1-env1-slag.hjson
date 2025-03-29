@@ -1,0 +1,7 @@
+type: Floor
+variants: 0
+liquidDrop: slag
+drownTime: 250
+isLiquid: true
+speedMultiplier: 0.1
+cacheLayer: slag
