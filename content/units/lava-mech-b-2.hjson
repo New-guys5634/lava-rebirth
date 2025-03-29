@@ -30,18 +30,17 @@ weapons: [
   mirror: true
   rotate: true
   rotationLimit: 20
-  LayerOffset: 0.001
   shootCone: 10
   shootSound: missile
   inaccuracy: 3
-  reload: 10
+  reload: 5
   targetInterval: 5
   targetSwitchInterval: 10
   cooldownTime: 5
   bullet: {
 despawnEffect: flakExplosion
 damage: 0
-splashDamage: 50
+splashDamage: 25
 splashDamageRadius: 25
 width: 9
 height: 12
@@ -61,6 +60,7 @@ y: 0
     shootSound: none
     alwaysShooting: true
     ignoreRotation: true
+  LayerOffset: -0.001
     recoil: 0
     shootCone: 360
     reload: 15
