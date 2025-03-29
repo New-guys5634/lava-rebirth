@@ -23,18 +23,16 @@ weapons: [
     rotate: false
     layerOffset: -1
     reload: 2
-    recoil: 2
-    inaccuracy: 6
+    recoil: 0
     shootSound: torch
-  controllable: false
     bullet: {
   type: PointLaserBulletType
   color: EEA666FF
   maxRange: 200
   length: 200
   width: 12
-  damage: 4
-  buildingDamageMultiplier: 0.5
+  damage: 6
+  buildingDamageMultiplier: 0.2
 }
 }
 ]
