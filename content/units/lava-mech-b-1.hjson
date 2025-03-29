@@ -15,7 +15,6 @@
     faceTarget: true
 weapons: [
   {
-    type: ContinuousUnit
     name: onUnit
     x: 0
     y: 0
@@ -50,11 +49,11 @@ sizeTo: 0
 ]
   type: ContinuousLaserBulletType
   color: EEA666FF
-  maxRange: 200
-  length: 200
-  width: 12
+  maxRange: 450
+  length: 450
+  width: 6
   damage: 6
-  buildingDamageMultiplier: 0.1
+  buildingDamageMultiplier: 0.2
 }
 }
 {
