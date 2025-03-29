@@ -1,0 +1,89 @@
+template: ErekirUnitType
+name: Infurtio destructor
+description: A huge ufo deals cluster damage and is extremely fast, BOSS unit.
+type: flying
+fallSpeed: 0.0015
+lowAltitude: true
+speed: 6
+rotateSpeed: 8
+accel: 0.2
+drag: 0.3
+flying: true
+health: 1100
+hitSize: 10
+armor: 4
+itemCapacity: 45
+outlineColor: 1f1f1f
+engineOffset: 8
+engineSize: 2
+faceTarget: true
+weapons: [
+{
+  name: onUnit
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 4
+  shootX: 0
+  
+  mirror: true
+  rotate: true
+  rotationLimit: 20
+  LayerOffset: 0.001
+  shootStatus: unmoving
+  shootStatusDuration: 25
+  shootCone: 10
+  shootSound: missile
+  inaccuracy: 3
+  reload: 30
+  targetInterval: 5
+  targetSwitchInterval: 10
+  cooldownTime: 5
+  bullet: {
+despawnEffect: flakExplosion
+damage: 0
+splashDamage: 50
+splashDamageRadius: 25
+width: 9
+height: 12
+spin: 8
+drawFlare: false
+lifetime: 80
+buildingDamageMultiplier: 1.10
+   }
+  }
+{
+x: 0
+y: 0
+    shootY: 0
+    shootX: 0
+    mirror: false
+    rotate: false
+    shootSound: none
+    alwaysShooting: true
+    ignoreRotation: true
+    recoil: 0
+    shootCone: 360
+    reload: 15
+    bullet: {
+      instantDisappear: true
+      damage: 0
+      shootEffect: {
+        followParent: true
+        rotWithParent: true
+        particles: 1
+        lifetime: 20
+        length: 0
+        region: -b--lava-mech-b-2-rotor
+        sizeFrom: 10
+        sizeTo: 10
+        spin: 30
+        layer: 95
+      }
+      smokeEffect: none
+      hitEffect: none
+      despawnEffect: none
+   }
+  }
+]
