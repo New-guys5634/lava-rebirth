@@ -118,6 +118,22 @@ clay-mold/2
    circuits/2
    ]
  }
+{
+    unit: lava-mech-b-1
+    time: 7000
+    requirements: [
+flint/90
+nails/50
+copper-stack/15
+metal/70
+clay-plating/25
+clay-mold/4
+   circuits/5
+steel/15
+scrap-coil/2
+sulfur/50
+   ]
+ }
 ]
 requirements: [
     copper/100
