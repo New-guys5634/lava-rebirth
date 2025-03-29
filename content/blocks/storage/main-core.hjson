@@ -14,8 +14,8 @@ size: 2
 squareSprite: false
 alwaysUnlocked: true
 unitType: AK-47
-health: 1750
-itemCapacity: 1300
+health: 2000
+itemCapacity: 3000
 unitCapModifier: 7
 category: effect
 research: {

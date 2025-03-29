@@ -1,0 +1,21 @@
+type: CoreBlock
+name: Core: clay stack
+description: Once the core is lost the entire base won't function and lose the sector.
+requirements: [
+  copper-stack/200
+  copper/450
+  clay/150
+  clay-mold/5
+  nails/350
+  flint/500
+  stone/500
+]
+size: 3
+squareSprite: false
+unitType: AK-47
+health: 7500
+itemCapacity: 7000
+unitCapModifier: 17
+category: effect
+researchCostMultiplier: 0.1
+research: main-core
