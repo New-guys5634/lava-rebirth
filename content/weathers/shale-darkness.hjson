@@ -2,12 +2,12 @@ type: ParticleWeather
 color: 454A5EFF
 noiseColor: 454A5EFF 
 sizeMax: 90
-sizeMin: 30
+sizeMin: 40
 density: 50000
 useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.5
-baseSpeed: 2.1
+baseSpeed: 2.2
 sound: rain
 soundVol: 0.90
 force: 1.9
@@ -15,5 +15,5 @@ attrs: {
   heat: 10
   water: 0.5
   spores: 0.9
-  solarMultiplayer : 1.3
+  solarMultiplayer: 0.2
 }

@@ -1,20 +1,20 @@
 type: ParticleWeather
-color: 8f0g20
-noiseColor: f3f0gf 
+color: FFB381FF
+noiseColor: E98877FF 
 sizeMax: 70
 sizeMin: 50
 density: 10700
 status: melting
 useWindVector: true
 drawNoise: true
-opacityMultiplier: 0.01
-baseSpeed: 0.5
+opacityMultiplier: 0.7
+baseSpeed: 0.4
 sound: rain
 soundVol: 0.75
-force: 0.4
+force: 0.2
 attrs: {
   heat: 10
   water: 0.5
   spores: 0.9
-  solarMultiplayer : 1.3
+  solarMultiplayer: 0.5
 }
