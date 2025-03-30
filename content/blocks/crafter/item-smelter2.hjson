@@ -95,7 +95,7 @@ craftEffect: {
       useRotation: false 
       sizeFrom: 0
       sizeTo: 6
-      colorFrom: FFE96AFF
+      colorFrom: E17414FF
       colorTo: e0e0e000
       sizeInterp: pow2Out
       interp: pow2Out
@@ -110,7 +110,7 @@ type: DrawDefault
 }
   {
 type: DrawGlowRegion
-color: FFE96AFF
+color: E17414FF
 suffix: -glow
 glowScale: 10
   }
