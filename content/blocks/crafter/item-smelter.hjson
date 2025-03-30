@@ -97,25 +97,6 @@ recipes:
 }
 ]
 craftEffect: {
-  type: ParticleEffect
-  amount: 8
-  effect: {
-    type: ParticleEffect
-    particles: 12
-        useRotation: false
-    length: 8
-    lifetime: 60
-        baseLength: 2.5
-    cone: 90
-    useRotation: false
-    sizeFrom: 2
-    sizeTo: 0.1
-    colorFrom: F25455FF
-    colorTo: F25455FF
-    interp: pow2
-    sizeInterp: pow3In
-  }
-{
     type: RadialEffect
     layer: 100
     rotationSpacing: 45
