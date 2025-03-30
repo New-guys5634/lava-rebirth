@@ -1,7 +1,6 @@
 type: ParticleWeather
 color: 454A5EFF
-noiseColor: 454A5EFF
-particleRegion: -b--circle 
+noiseColor: 454A5EFF 
 sizeMax: 90
 sizeMin: 30
 density: 50000

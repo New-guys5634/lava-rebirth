@@ -1,11 +1,10 @@
 type: ParticleWeather
 color: 8f0g20
-noiseColor: f3f0gf
-particleRegion: -b--circle 
-sizeMax: 5
-sizeMin: 1
+noiseColor: f3f0gf 
+sizeMax: 70
+sizeMin: 50
 density: 10700
-status: tarred
+status: melting
 useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.01
