@@ -15,10 +15,10 @@
     faceTarget: true
 weapons: [
   {
-    name: onUnit
-    x: 6
+    name: lava-mech-a-8-gun
+    x: 0
     y: 0
-    shootY: 4
+    shootY: 0
     shootX: 5
     mirror: false
     rotate: false
@@ -37,10 +37,10 @@ weapons: [
 }
 }
 {
-    name: onUnit
-    x: -6
+    name: lava-mech-a-8-gun
+    x: 0
     y: 0
-    shootY: 4
+    shootY: 0
     shootX: -5
     mirror: false
     rotate: false
