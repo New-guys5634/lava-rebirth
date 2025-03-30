@@ -1,0 +1,5 @@
+type: floor
+variants: 0
+damageTaken: 1
+status: melting
+statusDuration: 900
