@@ -7,7 +7,7 @@ requirements:[
 ]
 name: Cobbled floor
 description: Usefull for bridging and increasing factory speed.
-research: main-core
+alwaysUnlocked: true
 attributes: {
 	heat: 0.04
 }

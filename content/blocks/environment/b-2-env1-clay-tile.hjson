@@ -6,7 +6,7 @@ clay/10
 ]
 name: Clay tile
 description: Usefull for bridging and increasing factory speed.
-research: b-2-env1-cobbled-floor
+alwaysUnlocked: true
 attributes: {
 	heat: 0.12
 }

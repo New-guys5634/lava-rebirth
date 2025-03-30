@@ -6,7 +6,7 @@ copper-stack/2
 ]
 name: Cobbled floor
 description: Usefull for bridging and increasing factory speed.
-research: b-2-env1-metal-floor
+alwaysUnlocked: true
 attributes: {
 	heat: 0.2
 }
