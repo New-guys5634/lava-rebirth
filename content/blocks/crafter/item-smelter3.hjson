@@ -73,8 +73,8 @@ craftEffect: {
       useRotation: false 
       sizeFrom: 0
       sizeTo: 9
-      colorFrom: e0e0e000
-      colorTo: E17414FF
+      colorFrom: E17414FF
+      colorTo: e0e0e000
       sizeInterp: pow2Out
       interp: pow2Out
       layer: 90
