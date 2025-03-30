@@ -1,6 +1,6 @@
 type: multicraft.MultiCrafter
 name: Item smelter 
-description: Uses powders and pebbles to create the main ores.
+description: Uses powders, the heat of the planet and pebbles to create the main ores.
 size: 2
 health: 125
 hasLiquids: true
@@ -110,11 +110,47 @@ craftEffect: {
     useRotation: false
     sizeFrom: 2
     sizeTo: 0.1
-    colorFrom: e2d8ac
-    colorTo: ffffff00
+    colorFrom: F25455FF
+    colorTo: F25455FF
     interp: pow2
     sizeInterp: pow3In
   }
+{
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: F25455FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: F25455FF
+suffix: -glow
+glowScale: 4
+  }
+  ]
 }
 category: crafting
 requirements: [
