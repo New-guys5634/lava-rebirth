@@ -28,7 +28,7 @@ requirements: [
   glass/5
 ]
 category: crafting
-outputItem: unusable-scrap/1
+outputItem: unusable-scrap/5
 research: item-smelter 
 researchCost: [
   lead/80
