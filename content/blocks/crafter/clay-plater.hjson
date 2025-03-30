@@ -76,6 +76,20 @@ craftEffect: {
     sizeInterp: pow3In
   }
 }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: FFAF87FF
+suffix: -glow
+glowScale: 30
+  }
+  ]
+}
 category: crafting
 requirements: [
 copper/20
