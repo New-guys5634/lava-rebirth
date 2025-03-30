@@ -58,24 +58,41 @@ recipes:
 }
 ]
 craftEffect: {
-  type: ParticleEffect
-  amount: 8
-  effect: {
-    type: ParticleEffect
-    particles: 12
-        useRotation: false
-    length: 8
-    lifetime: 60
-        baseLength: 2.5
-    cone: 90
-    useRotation: false
-    sizeFrom: 2
-    sizeTo: 0.1
-    colorFrom: e2d8ac
-    colorTo: ffffff00
-    interp: pow2
-    sizeInterp: pow3In
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 60
+      lifetime: 120
+      speed: 4
+      cone: 20
+      baseRotation: 25
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 9
+      colorFrom: e0e0e000
+      colorTo: E17414FF
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
   }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: E17414FF
+suffix: -glow
+glowScale: 15
+  }
+  ]
 }
 category: crafting
 requirements: [
