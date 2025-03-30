@@ -8,7 +8,7 @@ useWindVector: true
 drawNoise: true
 opacityMultiplier: 0.5
 baseSpeed: 2.2
-sound: rain
+sound: windhowl
 soundVol: 0.90
 force: 1.9
 attrs: {
