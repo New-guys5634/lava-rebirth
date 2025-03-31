@@ -95,23 +95,11 @@ recipes:
       items: [
       -b--sulfur/1
       -b--stone/3
-      ]
-  }
-  craftTime: 900
-}
-  input: {
-       fluids:[
-         -b--molten-iron/0.4
-       ]
-     power: 0.8
-   }
-  output: {
-      items: [
       -b--clay/1
       -b--stone-small/5
       ]
   }
-  craftTime: 1450
+  craftTime: 2150
 }
 ]
 craftEffect: {
