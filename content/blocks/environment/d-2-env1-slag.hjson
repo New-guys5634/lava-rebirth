@@ -1,0 +1,9 @@
+type: Floor
+variants: 0
+liquidDrop: melted-iron
+drownTime: 250
+isLiquid: true
+speedMultiplier: 0.3
+cacheLayer: slag
+status: melting
+statusDuration: 300
