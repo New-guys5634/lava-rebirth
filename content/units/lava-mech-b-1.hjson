@@ -2,7 +2,7 @@
      description: Heavily armoured and armed, deals heavily damage and has a wine up time before firing, has massive health, UNIT TYPE BOSS, the lasers deal less damage to buildings only units.
     type: flying
     lowAltitude: true
-    fallSpeed: 0.0001
+    fallSpeed: 0.0008
     speed: 5
     accel: 0.08
     drag: 0.05
