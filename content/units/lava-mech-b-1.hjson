@@ -54,6 +54,8 @@ sizeTo: 0
   width: 4
   damage: 4
   buildingDamageMultiplier: 0.2
+  pierce: false
+  pierceBuilding: false
 }
 }
 {
