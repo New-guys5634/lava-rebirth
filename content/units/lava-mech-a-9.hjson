@@ -18,7 +18,7 @@ weapons: [
     name: lava-mech-a-8-gun
     x: 0
     y: 0
-    shootY: 0
+    shootY: 3
     shootX: 12
     mirror: true
     rotate: false
@@ -31,7 +31,7 @@ weapons: [
    width: 20
    height: 20
    recoil: 4
-   splashDamage: 80
+   splashDamage: 100
    splashDamageRadius: 15
    speed: 4
    lifetime: 50
@@ -39,6 +39,45 @@ weapons: [
       backColor: FFFFA3FF
 }
 }
+{
+  name: onUnit
+  
+  top: false
+  x: 0
+  y: 0
+  shootY: 0
+  shootX: 6
+  layerOffset: 1.000
+  mirror: false
+  rotate: false
+  alternate: false
+  shootCone: 20
+  shootSound: missile
+  inaccuracy: 0
+  reload: 40
+  shootShake: 1
+  targetInterval: 1
+  targetSwitchInterval: 3
+  cooldownTime: 35 
+  bullet: {
+   type: BasicBulletType
+   width: 6
+   height: 6
+   sprite: missile-large
+   damage: 10
+   homingPower: 0.04
+   homingRange: 100
+   speed: 6
+   lifetime: 40
+     frontColor: FFFFA3FF
+      backColor: FFFFA3FF
+    trailColor: FFFFA3FF
+   trailWidth: 1
+   trailLength: 6
+   trailEffect: missileTrailShort
+   trailInterval: 1
+   }
+  }
 ]
 research: {
   parent: unit-constructor-a-1

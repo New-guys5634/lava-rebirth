@@ -18,7 +18,7 @@ weapons: [
     name: lava-mech-a-8-gun
     x: 0
     y: 0
-    shootY: 0
+    shootY: 4
     shootX: 12
     mirror: true
     rotate: false
