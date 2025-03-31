@@ -1,2 +1,5 @@
 type: floor
 variants: 3
+lightRadius: 60
+albedo: 60
+lightColor: FB8F6BFF
