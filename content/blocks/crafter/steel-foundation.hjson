@@ -98,6 +98,20 @@ craftEffect: {
       layer: 90
     }
   }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: FFAF87FF
+suffix: -glow
+glowScale: 90
+  }
+  ]
+}
 category: crafting
 requirements: [
 clay-mold/5
