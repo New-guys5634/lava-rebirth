@@ -66,8 +66,9 @@ copper/45
 lead/45
 nails/45
 flint/45
-stone-small/125
-   circuits/1
+stone-small/100
+metal/10
+   circuits/2
    ]
  }
 {
