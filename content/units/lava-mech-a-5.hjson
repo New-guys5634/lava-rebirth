@@ -31,8 +31,8 @@ outlineColor: 1f1f1f
   shootSound: shotgun 
   bullet: {
             type: shrapnelBulletType
-            lifetime: 35
-            damage: 50
+            lifetime: 20
+            damage: 70
             serrations: 9
             serrationSpacing: 10
             serrationLenScl: 18
@@ -44,7 +44,7 @@ outlineColor: 1f1f1f
             width: 10
             hitEffect: blastExplosion
             shootEffect: blastExplosion
-            pierce: true
+            pierce: false
             smokeEffect: hitBulletBig
 }
 }
