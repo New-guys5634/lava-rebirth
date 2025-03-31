@@ -19,30 +19,8 @@ weapons: [
     x: 0
     y: 0
     shootY: 0
-    shootX: 5
-    mirror: false
-    rotate: false
-    layerOffset: -1
-    reload: 2
-    recoil: 0
-    shootSound: torch
-    bullet: {
-  type: ContinuousLaserBulletType
-  color: EEA666FF
-  maxRange: 400
-  length: 400
-  width: 4
-  damage: 3
-  buildingDamageMultiplier: 0.2
-}
-}
-{
-    name: lava-mech-a-8-gun
-    x: 0
-    y: 0
-    shootY: 0
-    shootX: -5
-    mirror: false
+    shootX: 9
+    mirror: true
     rotate: false
     layerOffset: -1
     reload: 2
