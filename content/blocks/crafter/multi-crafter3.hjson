@@ -93,6 +93,20 @@ craftEffect: {
       layer: 90
     }
   }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: FFAF87FF
+suffix: -glow
+glowScale: 10
+  }
+  ]
+}
 category: crafting
 requirements: [
 scrap/70
