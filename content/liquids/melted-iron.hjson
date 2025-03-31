@@ -1,7 +1,7 @@
 name: melted iron
 description: iron that has been schorched so hot it melted
-color: ff0a00
-barColor: BF40BF
+color: A04652FF
+barColor: A04652FF
 effect: "melting"
 
 viscosity: 0.7
@@ -16,8 +16,8 @@ particleEffect: {
     lifetime: 60
     sizeFrom: 1
     sizeTo: 0
-    colorFrom: ff0a00
-    colorTo: fa0000
+    colorFrom: A04652FF
+    colorTo: A04652FF
 }
 
 research: {
