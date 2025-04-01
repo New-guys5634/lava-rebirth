@@ -39,6 +39,7 @@ ammoTypes: {
       makeFire: true
        trailInterval: 3
   }
+}
 ]
 requirements: [
 copper/50
