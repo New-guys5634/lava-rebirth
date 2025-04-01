@@ -42,43 +42,25 @@ craftEffect: {
     type: RadialEffect
     layer: 100
     rotationSpacing: 50
-    amount: 6
-    lengthOffset: 5
+    amount: 4
+    lengthOffset: 6
     effect: {
       particles: 4
       length: 60
-      lifetime: 150
+      lifetime: 100
       speed: 6
       cone: 20
       baseRotation: 25
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 12
-      colorFrom: e0e0e000
-      colorTo: 1E1D23FF
+      sizeTo: 7
+      colorFrom: 1E1D23FF
+      colorTo: e0e0e000
       sizeInterp: pow2Out
       interp: pow2Out
       layer: 100
     }
   }
-drawer: {
-  type: DrawMulti
-  drawers: [
-    {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
-    {
-      type: DrawLiquidTile
-      drawLiquid: smoke
-      padding: 0.4
-    }
-  ]
-}
 category: crafting
 requirements: [
 nails/10
