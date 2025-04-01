@@ -4,8 +4,8 @@ description: Transports liquids but has a short duration untill it stops.
 category: liquid
 research: scarped-duct
 requirements: [
-flint/2
-glass/2
+scrap/1
+copper/1
 ]
 health: 50
 leaks: true
