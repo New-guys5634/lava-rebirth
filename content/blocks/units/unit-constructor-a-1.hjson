@@ -151,6 +151,20 @@ scrap-coil/5
 sulfur/75
    ]
  }
+{
+    unit: lava-mech-b-3
+    time: 7000
+    requirements: [
+circuits/2
+research-plans/1
+scrap-coil/5
+smelted-bronze/40
+smelted-iron/25
+smelted-mag/20
+steel/15
+stone/50
+   ]
+ }
 ]
 requirements: [
     copper/100
