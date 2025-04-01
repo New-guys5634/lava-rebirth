@@ -1,0 +1,57 @@
+description: "Muds enemies, yes you heard mud the enemies.
+
+stats: 5dmg/135/3, air/true ground/false naval/true coolant/false
+ammotypes: mud/5dmg/3"
+name: Fire burst
+type: ItemTurret
+reload: 100
+shootCone: 50
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+range: 140
+recoil: 4
+shootSound: flame
+size: 2
+health: 415
+consumes: {
+  power: 0.4
+}
+shoot: {
+    shots: 3
+    shotDelay: 9
+}
+ammoTypes: {
+    mud: {
+        damage: 5
+        speed: 4
+        height: 9
+        width: 7
+        lifetime: 45
+       trailWidth: 2
+       trailLength: 4
+       backColor: FFE4C9FF
+       frontColor: FFE4C9FF
+       trailColor: FFE4C9FF
+       status: st-b-n-1-mudded
+       statusDuration: 120
+      trailEffect: shootSmokeTitan
+      makeFire: true
+       trailInterval: 3
+  }
+]
+requirements: [
+copper/50
+flint/25
+metal/30
+nails/15
+]
+category: turret
+research: turret-a-a-7
+researchCost: [
+copper/100
+flint/45
+metal/60
+nails/30
+]
+
