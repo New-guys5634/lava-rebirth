@@ -155,6 +155,9 @@ drawer: {
       drawLiquid: steam
       padding: 0.5
     }
+    {
+      type: DrawDefault
+    }
   ]
 }
 category: crafting
