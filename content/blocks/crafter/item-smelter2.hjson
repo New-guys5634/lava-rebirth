@@ -89,7 +89,6 @@ recipes:
         -b--smoke/0.01
        ]
   }
-  }
   craftTime: 450
 }
 ]
