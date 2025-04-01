@@ -31,10 +31,11 @@ cloudMesh: {
     type: HexSkyMesh
     planet: lava-planet 
     seed: 76
-    speed: 0.8
+    speed: 0.2
     radius: 0.13
-    divisions: 6
-    color: E36956FF
+    divisions: 5
+    color1: FFFFFFFF
+    color2: F5F5F5FF
     octaves: 3
     persistence: 0.3
     scl: 0.85
