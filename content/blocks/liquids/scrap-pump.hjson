@@ -3,7 +3,7 @@ name: Scraped pump
 description: Pumps liquids.
 size: 1
 category: liquid
-research: main-core
+research: pipe
 requirements: [
 scrap/35
 lead/25

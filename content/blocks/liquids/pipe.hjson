@@ -2,7 +2,7 @@ type: Conduit
 name: Scraped conduit
 description: Transports liquids but has a short duration untill it stops.
 category: liquid
-research: scrap-pump
+research: scarped-duct
 requirements: [
 flint/2
 glass/2
