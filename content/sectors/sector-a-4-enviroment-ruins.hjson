@@ -1,0 +1,15 @@
+localizedName: The environment ruins
+description: "the [red]crux platoon [white]is sending all there units faster than before all at you in this sector, target next the enemies base."
+sector: 67
+captureWave: 20
+planet: lava-planet
+research: {
+  parent: sector-a-3-ravine
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sector-a-3-ravine
+    }
+  ]
+}
+difficulty: 4
