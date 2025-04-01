@@ -1,0 +1,52 @@
+localizedName: Zgrath
+generator: SerpuloPlanetGenerator
+parent: lava-planet
+iconColor: 4DA6FFFF
+orbitRadius: 3
+hasAtmosphere: false
+updateLighting: false
+atmosphereRadIn: 0
+atmosphereRadOut: 0.3
+atmosphereColor: FFCD66FF
+drawOrbit: true
+accessible: true
+alwaysUnlocked: true
+defaultCore: "main-core2"
+clearSectorOnLose: true
+allowSectorInvasion: false
+allowLaunchToNumbered: false
+mesh: {
+  type: NoiseMesh
+  divisions: 3
+  radius: 0.2
+  planet: lava-moon
+  color1: 545873FF
+  color2: E36956FF
+  octaves: 7
+  persistence: 0.3
+  scale: 0.9
+  mag: 4.4
+  coct: 4
+  cper: 1.3
+  cscl: 0.3
+  cthresh: 0.01
+  }
+hiddenItems: [
+    "titanium"
+    "thorium"
+    "silicon"
+    "plastanium"
+    "phase-fabric"
+    "sand"
+    "surge-alloy"
+    "spore-pod"
+    "blast-compound"
+    "pyratite"
+    "metaglass"
+    "beryllium"
+    "oxide"
+    "tungsten"
+    "carbide"
+    "fissile-matter"
+    "dormant-cyst"
+]

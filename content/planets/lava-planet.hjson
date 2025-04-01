@@ -1,8 +1,8 @@
 localizedName: Zrogro 
 generator: SerpuloPlanetGenerator
-parent: erekir
+parent: sun
 iconColor: FFCD66FF
-orbitRadius: 7
+orbitRadius: 14
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
