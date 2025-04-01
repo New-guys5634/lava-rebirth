@@ -42,7 +42,7 @@ craftEffect: {
     type: RadialEffect
     layer: 100
     rotationSpacing: 50
-    amount: 14
+    amount: 6
     lengthOffset: 5
     effect: {
       particles: 4
@@ -54,8 +54,8 @@ craftEffect: {
       useRotation: false 
       sizeFrom: 0
       sizeTo: 12
-      colorFrom: 1E1D23FF
-      colorTo: e0e0e000
+      colorFrom: e0e0e000
+      colorTo: 1E1D23FF
       sizeInterp: pow2Out
       interp: pow2Out
       layer: 100
