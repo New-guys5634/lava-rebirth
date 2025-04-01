@@ -1,0 +1,90 @@
+type: multicraft.MultiCrafter
+name: Smoke converter
+description: Uses smoke and power to get water or steam.
+size: 2
+health: 125
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 40
+recipes:
+[
+{
+  input: {
+       fluids:[
+         -b--smoke/0.2
+       ]
+     power: 0.5
+   }
+  output: {
+            fluids:[
+         -b--steam/0.1
+       ] 
+  }
+  craftTime: 200
+}
+{
+  input: {
+       fluids:[
+         -b--smoke/0.2
+       ]
+     power: 0.5
+   }
+  output: {
+            fluids:[
+         water/0.2
+       ] 
+  }
+  craftTime: 250
+}
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 50
+    amount: 14
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 60
+      lifetime: 150
+      speed: 6
+      cone: 20
+      baseRotation: 25
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: 1E1D23FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 100
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: smoke
+      padding: 0.4
+    }
+  ]
+}
+category: crafting
+requirements: [
+nails/10
+metal/10
+clay/25
+clay-mold/1
+]
+research: item-smelter3
+researchCostMultiplier: 0.1
