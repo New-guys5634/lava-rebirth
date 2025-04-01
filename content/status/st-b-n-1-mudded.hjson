@@ -1,14 +1,14 @@
-name: Massive damage helper
-damageMultiplier: 2.15
+name: mudded
+speedMultiplier: 0.6
 effect : {
     type : MultiEffect
     effects : [
         {
             particles : 2
-            colorFrom : EDF3A9
+            colorFrom : FFE4C9FF
             sizeFrom : 2
             lifetime : 70
-            colorTo : EDF3A9
+            colorTo : FFE4C9FF
             sizeTo : 0
             length : 4
             type : ParticleEffect
