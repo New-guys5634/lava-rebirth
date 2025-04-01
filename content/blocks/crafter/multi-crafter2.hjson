@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Multiple basic assembly
 description: Uses main materials to create powder materials for other materials.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true

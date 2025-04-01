@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Multiple crafter
 description: Uses power and multiple other resources for these resources.
+menu: Detailed
 size: 2
 health: 250
 hasLiquids: true

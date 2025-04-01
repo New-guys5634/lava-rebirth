@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Steam intaker
 description: Uses steam and other resources to make factory and raw resources.
+menu: Detailed
 size: 3
 health: 275
 hasLiquids: true

@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Clay plating module
 description: Uses clay to make various resources from clay.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true

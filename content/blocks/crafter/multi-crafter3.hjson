@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Multi Scrap usage bay
 description: Uses scrap and other materials to create construction items.
+menu: Detailed
 size: 2
 health: 185
 hasLiquids: true

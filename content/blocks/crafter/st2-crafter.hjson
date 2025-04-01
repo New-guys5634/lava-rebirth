@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Bronze insulation
 description: Uses powders, power and smoke to insulate stage2 ores.
+menu: Detailed
 size: 2
 health: 170
 hasLiquids: true

@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Smoke converter
 description: Uses smoke and power to get water or steam.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true

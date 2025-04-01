@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Bronze instage
 description: Uses raw ores, smoke or other liquids and newer resources for hard to get resources.
+menu: Detailed
 size: 2
 health: 200
 hasLiquids: true

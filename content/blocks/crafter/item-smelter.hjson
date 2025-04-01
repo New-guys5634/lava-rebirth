@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Item smelter 
 description: Uses powders, the heat of the planet and pebbles to create the main ores.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true

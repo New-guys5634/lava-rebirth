@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Stone grinder
 description: Uses pebbles and mud to ware down the pebble reliving multiple items.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true

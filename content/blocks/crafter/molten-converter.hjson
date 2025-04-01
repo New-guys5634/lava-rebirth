@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Molten converter
 description: Uses molten iron and power to cool of the molten iron and get variety of resources.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true

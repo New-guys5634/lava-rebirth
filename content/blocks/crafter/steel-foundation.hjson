@@ -1,6 +1,7 @@
 type: multicraft.MultiCrafter
 name: Steel foundation
 description: Uses other resources to get others way more efficiently.
+menu: Detailed
 size: 2
 health: 125
 hasLiquids: true
