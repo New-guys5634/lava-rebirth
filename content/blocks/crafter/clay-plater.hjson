@@ -21,6 +21,9 @@ recipes:
       items: [
         -b--clay-plating/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 150
 }
@@ -37,6 +40,9 @@ recipes:
       items: [
        -b--clay-mold/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 145
 }
@@ -52,6 +58,9 @@ recipes:
       items: [
        -b--clay-copper/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 195
 }

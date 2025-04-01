@@ -21,6 +21,9 @@ recipes:
       items: [
         -b--scrap-coil/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 300
 }
@@ -37,6 +40,9 @@ recipes:
       items: [
         -b--scrap-copper-lead-module/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 365
 }
@@ -52,6 +58,9 @@ recipes:
       items: [
        -b--scraped-molder/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 445
 }
@@ -66,6 +75,9 @@ recipes:
       items: [
        -b--steel/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 500
 }

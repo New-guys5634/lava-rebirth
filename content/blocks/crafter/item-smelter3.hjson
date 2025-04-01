@@ -21,6 +21,9 @@ recipes:
       items: [
       -b--metal/5
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 400
 }
@@ -37,6 +40,9 @@ recipes:
       items: [
       -b--raw-scrap/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 500
 }
@@ -53,6 +59,9 @@ recipes:
       items: [
       coal/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 450
 }

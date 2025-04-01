@@ -20,6 +20,9 @@ recipes:
       items: [
       -b--flint/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 190
 }
@@ -34,6 +37,9 @@ recipes:
       items: [
       -b--1-acopper-dust/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 500
 }
@@ -48,6 +54,9 @@ recipes:
       items: [
        -b--1-ascrap-dust/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 600
 }
@@ -60,6 +69,7 @@ recipes:
   output: {
        fluids:[
          water/0.6
+         -b--smoke/0.01
        ]
   }
   craftTime: 300
@@ -75,6 +85,10 @@ recipes:
       items: [
        -b--glass/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
+  }
   }
   craftTime: 450
 }

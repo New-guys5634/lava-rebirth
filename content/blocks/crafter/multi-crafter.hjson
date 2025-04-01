@@ -20,6 +20,9 @@ recipes:
       items: [
         -b--clay/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 250
 }
@@ -37,6 +40,9 @@ recipes:
       items: [
         -b--research-plans/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 400
 }
@@ -52,6 +58,9 @@ recipes:
       items: [
        graphite/2
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 300
 }
@@ -67,6 +76,9 @@ recipes:
       items: [
        -b--glass/2
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 450
 }
@@ -85,6 +97,9 @@ recipes:
       items: [
        -b--circuits/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 900
 }

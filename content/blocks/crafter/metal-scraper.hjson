@@ -7,9 +7,11 @@ size: 2
 health: 185
 craftTime: 215
 hasItems: true
-hasLiquids: false
+hasLiquids: true
 hasPower: false
 itemCapacity: 10
+outputLiquid: smoke/0.001
+liquidCapacity: 100
 consumes: {
   items: {
     items: [

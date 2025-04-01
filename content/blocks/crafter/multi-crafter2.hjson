@@ -20,6 +20,9 @@ recipes:
       items: [
         -b--1-acopper-dust/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 300
 }
@@ -34,6 +37,9 @@ recipes:
       items: [
         -b--1-alead-dust/4
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 330
 }
@@ -48,6 +54,9 @@ recipes:
       items: [
        -b--1-ascrap-dust/2
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 350
 }
@@ -62,6 +71,9 @@ recipes:
       items: [
        -b--1-ametal-dust/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 500
 }
