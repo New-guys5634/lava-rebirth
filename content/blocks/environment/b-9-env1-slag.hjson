@@ -7,6 +7,7 @@ speedMultiplier: 0.1
 cacheLayer: slag
 status: melting
 statusDuration: 300
+emitLight: true
 lightRadius: 80
 albedo: 60
 lightColor: FB8F6BFF

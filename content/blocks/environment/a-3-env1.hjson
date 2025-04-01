@@ -1,5 +1,6 @@
 type: floor
 variants: 3
+emitLight: true
 lightRadius: 60
 albedo: 60
 lightColor: FB8F6BFF

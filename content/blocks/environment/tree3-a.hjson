@@ -1,4 +1,5 @@
 type: TreeBlock
+emitLight: true
 lightRadius: 125
 albedo: 60
 lightColor: BC5453FF
