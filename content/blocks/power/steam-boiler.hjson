@@ -1,0 +1,79 @@
+type: ConsumeGenerator
+name: Smoke boiler
+description: Burns smoke and sulfur for power.
+size: 3
+category: power
+research: {
+  parent: stone-burner
+}
+squareSprite: true
+requirements: [
+stone/50
+copper/50
+flint/25
+metal/15
+lead/15
+nails/50
+]
+consumes: {
+  liquid: smoke/0.3
+  items: {
+    items: [
+    sulfur/1
+    ]
+  }
+}
+outputLiquid: steam/0.1
+powerProduction: 1.6
+itemDuration: 250
+generateEffect: generatespark
+ambientSound: smelter
+ambientSoundVolume: 0.1
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 50
+    amount: 6
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 60
+      lifetime: 80
+      speed: 6
+      cone: 20
+      baseRotation: 25
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 9
+      colorFrom: A04652FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 100
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: steam
+      padding: 0.2
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+researchCostMultiplier: 0.1
