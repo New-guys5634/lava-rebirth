@@ -1,0 +1,134 @@
+type: multicraft.MultiCrafter
+name: Bronze instage
+description: Uses raw ores, smoke or other liquids and newer resources for hard to get resources.
+size: 2
+health: 200
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 50
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--1-abronze-dust/1
+        -b--stone/1
+        -b--mud/2
+      ]
+       fluids:[
+         -b--smoke/0.1
+       ]
+    }
+  output: {
+      items: [
+       -b--flint/4
+      ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+       items: [
+       -b--smelted-iron/1
+        -b--stone/2
+      ]
+       fluids:[
+         -b--steam/0.1
+       ]
+   }
+  output: {
+      items: [
+       -b--steel/1
+      ]
+  }
+  craftTime: 325
+}
+{
+  input: {
+         items: [
+        -b--1-airon-dust/2
+        -b--stone/2
+      ]
+       fluids:[
+         -b--smoke/0.2
+       ]
+   }
+  output: {
+      items: [
+       -b--nails/4
+      ]
+  }
+  craftTime: 400
+}
+{
+  input: {
+         items: [
+        -b--smelted-bronze/1
+        -b--nails/2
+      ]
+       fluids:[
+         water/0.2
+       ]
+   }
+  output: {
+      items: [
+       -b--scrap-coil/1
+      ]
+  }
+  craftTime: 400
+}
+{
+  input: {
+         items: [
+        -b--smelted-bronze/2
+        copper/2
+      ]
+       fluids:[
+         -b--smoke/0.2
+       ]
+   }
+  output: {
+      items: [
+       -b--metal/4
+      ]
+  }
+  craftTime: 400
+}
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 2
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 10
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+category: crafting
+requirements: [
+smelted-iron/10
+smelted-mag/5
+smelted-bronze/15
+stone/25
+copper/20
+lead/15
+scrap/15
+clay/10
+]
+research: item-smelter3
+researchCostMultiplier: 0.1
