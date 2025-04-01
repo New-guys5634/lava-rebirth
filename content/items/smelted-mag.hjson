@@ -1,0 +1,5 @@
+description: The smelted version of magnesium.
+name: Smelted Magnesium
+research: 1-amag-dust
+color: DBDBDBFF 
+hiddenOnPlanets: [serpulo,erekir]

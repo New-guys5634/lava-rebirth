@@ -1,0 +1,5 @@
+description: The smelted version of iron.
+name: Smelted Iron
+research: 1-airon-dust
+color: D0D0D0FF 
+hiddenOnPlanets: [serpulo,erekir]

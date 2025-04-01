@@ -1,0 +1,5 @@
+description: The dust forms of iron.
+name: Iron dust
+research: 1-ametal-dust 
+color: D0D0D0FF 
+hiddenOnPlanets: [serpulo,erekir]

@@ -1,0 +1,5 @@
+description: The dust forms of magnesium.
+name: Magnesium dust
+research: 1-ametal-dust 
+color: DBDBDBFF 
+hiddenOnPlanets: [serpulo,erekir]

@@ -1,0 +1,5 @@
+description: The smelted version of bronze.
+name: Smelted Bronze
+research: 1-abronze-dust
+color: FEBB78FF 
+hiddenOnPlanets: [serpulo,erekir]
