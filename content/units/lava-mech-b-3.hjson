@@ -62,8 +62,8 @@ outlineColor: 1f1f1f
       interp: pow2Out
       layer: 90
     }
-  }
-]
+  ]
+ }
 }
 }
 ]
