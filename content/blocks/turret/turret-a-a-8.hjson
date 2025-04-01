@@ -40,7 +40,6 @@ ammoTypes: {
        trailInterval: 3
   }
 }
-]
 requirements: [
 copper/50
 flint/25
