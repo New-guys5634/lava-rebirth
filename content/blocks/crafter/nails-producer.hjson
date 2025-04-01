@@ -1,4 +1,4 @@
-description: Forges nails out of scrap and copper dust, produces smoke and will explode when full.
+description: Forges nails out of scrap and copper dust, produces smoke and will stop when full.
 name: Nail forge
 type: AttributeCrafter
 boostScale: 1.9

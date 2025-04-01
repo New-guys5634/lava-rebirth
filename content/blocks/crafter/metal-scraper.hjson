@@ -1,4 +1,4 @@
-description: Forges metal dust out of varties of resources, produces smoke and will explode when full.
+description: Forges metal dust out of varties of resources, produces smoke and will stop when full.
 name: Metal forge
 type: AttributeCrafter
 boostScale: 1.9

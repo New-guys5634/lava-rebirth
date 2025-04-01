@@ -1,4 +1,4 @@
-description: Intakes copper and copper dust for a stack, use tiles to increase the efficienty, produces smoke and will explode when full.
+description: Intakes copper and copper dust for a stack, use tiles to increase the efficienty, produces smoke and will stop when full.
 name: Copper stacker
 type: AttributeCrafter
 boostScale: 1.4
