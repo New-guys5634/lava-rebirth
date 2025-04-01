@@ -12,7 +12,7 @@ recipes:
 {
   input: {
        fluids:[
-         -b--steams/0.2
+         -b--steam/0.2
        ]
          items: [
       -b--1-acopper-dust/5
@@ -33,7 +33,7 @@ recipes:
 {
   input: {
        fluids:[
-         -b--steams/0.2
+         -b--steam/0.2
        ]
          items: [
       -b--1-alead-dust/5
@@ -54,7 +54,7 @@ recipes:
 {
   input: {
        fluids:[
-         -b--steams/0.2
+         -b--steam/0.2
        ]
          items: [
       -b--mud/2
@@ -75,7 +75,7 @@ recipes:
 {
   input: {
        fluids:[
-         -b--steams/0.2
+         -b--steam/0.2
          water/0.5
        ]
          items: [
@@ -96,7 +96,7 @@ recipes:
 {
   input: {
        fluids:[
-         -b--steams/0.2
+         -b--steam/0.2
        ]
          items: [
       -b--mud/2
