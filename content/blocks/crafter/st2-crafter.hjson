@@ -1,0 +1,162 @@
+type: multicraft.MultiCrafter
+name: Bronze insulation
+description: Uses powders, power and smoke to insulate stage2 ores.
+size: 2
+health: 170
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 50
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--1-abronze-dust/1
+        -b--stone/1
+      ]
+       fluids:[
+         -b--smoke/0.1
+       ]
+    }
+  output: {
+      items: [
+       -b--smelted-bronze/1
+      ]
+  }
+  craftTime: 225
+}
+{
+  input: {
+       items: [
+       -b--1-amag-dust/1
+        -b--stone/1
+      ]
+       fluids:[
+         -b--smoke/0.1
+       ]
+   }
+  output: {
+      items: [
+       -b--smelted-mag/2
+      ]
+  }
+  craftTime: 250
+}
+{
+  input: {
+         items: [
+        -b--1-airon-dust/1
+        -b--stone/1
+      ]
+       fluids:[
+         -b--smoke/0.1
+       ]
+   }
+  output: {
+      items: [
+       -b--smelted-iron/2
+      ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--1-abronze-dust/1
+        -b--stone-small/5
+      ]
+       fluids:[
+         -b--smoke/0.2
+       ]
+   }
+  output: {
+      items: [
+       -b--smelted-bronze/1
+      ]
+  }
+  craftTime: 400
+}
+{
+  input: {
+         items: [
+        -b--1-amag-dust/1
+        -b--stone-small/5
+      ]
+       fluids:[
+         -b--smoke/0.1
+       ]
+   }
+  output: {
+      items: [
+       -b--smelted-mag/1
+      ]
+  }
+  craftTime: 400
+}
+{
+  input: {
+         items: [
+        -b--1-airon-dust/1
+        -b--stone-small/5
+      ]
+       fluids:[
+         -b--smoke/0.1
+       ]
+   }
+  output: {
+      items: [
+       -b--smelted-iron/1
+      ]
+  }
+  craftTime: 400
+}
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: E17414FF
+suffix: -glow
+glowScale: 4
+  }
+  ]
+}
+category: crafting
+requirements: [
+1-abronze-dust/25
+1-amag-dust/35
+1-airon-dust/45
+stone/15
+copper/10
+clay/5
+]
+research: item-smelter3
+researchCostMultiplier: 0.1
