@@ -13,7 +13,7 @@ outlineColor: 1f1f1f
  weapons: [
  {
   type: Weapon
-  name: lava-mech-b-2-gun
+  name: lava-mech-b-3-gun
   top: false
   x: 0
   y: 0
