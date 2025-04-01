@@ -1,5 +1,6 @@
 description: The dust forms of bronze.
 name: Bronze dust
 research: 1-ametal-dust 
+flammability: 0.4
 color: FEBB78FF 
 hiddenOnPlanets: [serpulo,erekir]
