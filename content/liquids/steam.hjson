@@ -1,0 +1,24 @@
+name: Steam
+description: Created in factories and acts like a coolant in turrets.
+color: C8C8C8FF
+barColor: C8C8C8FF
+
+viscosity: 1
+temperature: 3
+heatCapacity: 2
+
+coolant: true
+
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: C8C8C8FF
+    colorTo: C8C8C8FF
+}
+
+research: {
+    parent: "smoke"
+}
