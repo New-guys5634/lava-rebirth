@@ -1,4 +1,4 @@
-description: Forges nails out of scrap and lead.
+description: Forges nails out of scrap and copper dust, produces smoke and will explode when full.
 name: Nail forge
 type: AttributeCrafter
 boostScale: 1.9
@@ -11,7 +11,8 @@ hasLiquids: true
 hasPower: false
 itemCapacity: 20
 outputLiquid: smoke/0.001
-liquidCapacity: 100
+liquidCapacity: 5
+explodeOnFull: true
 consumes: {
   items: {
     items: [

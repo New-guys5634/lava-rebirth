@@ -1,4 +1,4 @@
-description: Forges metal dust out of varties of resources.
+description: Forges metal dust out of varties of resources, produces smoke and will explode when full.
 name: Metal forge
 type: AttributeCrafter
 boostScale: 1.9
@@ -11,7 +11,8 @@ hasLiquids: true
 hasPower: false
 itemCapacity: 10
 outputLiquid: smoke/0.001
-liquidCapacity: 100
+liquidCapacity: 5
+explodeOnFull: true
 consumes: {
   items: {
     items: [
