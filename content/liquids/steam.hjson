@@ -3,9 +3,9 @@ description: Created in factories and acts like a coolant in turrets.
 color: C8C8C8FF
 barColor: C8C8C8FF
 
-viscosity: 1
-temperature: 3
-heatCapacity: 2
+boilPoint: 0.9
+heatCapacity: 0.9
+gas: false
 
 coolant: true
 
