@@ -58,6 +58,9 @@ outlineColor: 1f1f1f
           trailColor: B2B9C1FF
           sprite: -b--rock
    type: BasicBulletType
+   buildingDamageMultiplier: 0.001
+   healPercent: 3
+   collidesTeam: true
     speed: 4
     lifetime: 25
     splashDamage: 20
