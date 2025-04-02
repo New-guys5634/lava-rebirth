@@ -1,0 +1,15 @@
+name: Bronze wall
+description: Deffends structures from incoming attacks.
+type: Wall
+health: 1200
+armor: 1
+requirements: [
+smelted-bronze/4
+]
+category: defense
+research: {
+    parent: wall-a-4
+    requirements: [
+smelted-bronze/4/20
+    ]
+}

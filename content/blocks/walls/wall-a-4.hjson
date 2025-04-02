@@ -1,0 +1,15 @@
+name: Metal wall
+description: Deffends structures from incoming attacks.
+type: Wall
+health: 700
+armor: 1
+requirements: [
+metal/5
+]
+category: defense
+research: {
+    parent: wall-a-2
+    requirements: [
+metal/20
+    ]
+}

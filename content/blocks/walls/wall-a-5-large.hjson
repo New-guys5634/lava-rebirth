@@ -1,0 +1,16 @@
+name: Large bronze wall
+description: Deffends structures from incoming attacks.
+type: Wall
+health: 3000
+armor: 1
+size: 2
+requirements: [
+smelted-bronze/16
+]
+category: defense
+research: {
+    parent: wall-a-4
+    requirements: [
+smelted-bronze/40
+    ]
+}
