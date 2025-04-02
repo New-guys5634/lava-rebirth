@@ -31,7 +31,7 @@ mineWalls: true
 mineTier: 1
 mineSpeed: 7
 buildSpeed: 1.1
-itemCapacity: 5
+itemCapacity: 50
 outlineColor: 1f1f1f
  weapons: [
  {
