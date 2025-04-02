@@ -1,0 +1,169 @@
+type: multicraft.MultiCrafter
+name: Copper boiler
+description: Uses slag and dusts to melt it down, creates also creates smoke.
+menu: Detailed
+size: 2
+health: 100
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 50
+itemCapacity: 20
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--1-abronze-dust/1
+      ]
+       fluids:[
+         slag/0.2
+       ]
+    }
+  output: {
+       fluids:[
+       -b--smoke/0.01
+       -b--boiled-bronze/0.2
+       ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--1-acopper-dust/1
+      ]
+       fluids:[
+         slag/0.2
+       ]
+    }
+  output: {
+       fluids:[
+       -b--smoke/0.01
+       -b--boiled-copper/0.2
+       ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--1-alead-dust/1
+      ]
+       fluids:[
+         slag/0.2
+       ]
+    }
+  output: {
+       fluids:[
+       -b--smoke/0.01
+       -b--boiled-lead/0.2
+       ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--1-airon-dust/1
+      ]
+       fluids:[
+         slag/0.2
+       ]
+    }
+  output: {
+       fluids:[
+       -b--smoke/0.01
+       -b--boiled-iron/0.2
+       ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--1-amag-dust/1
+      ]
+       fluids:[
+         slag/0.2
+       ]
+    }
+  output: {
+       fluids:[
+       -b--smoke/0.01
+       -b--boiled-mag/0.2
+       ]
+  }
+  craftTime: 300
+}
+{
+  input: {
+         items: [
+        -b--1-ascrap-dust/1
+      ]
+       fluids:[
+         slag/0.2
+       ]
+    }
+  output: {
+       fluids:[
+       -b--smoke/0.01
+       -b--boiled-scrap/0.2
+       ]
+  }
+  craftTime: 300
+}
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 40
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 40
+      lifetime: 125
+      speed: 4
+      cone: 10
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 10
+      colorFrom: FFCD66FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+category: crafting
+requirements: [
+copper/50
+lead/15
+scrap/5
+nails/15
+metal/5
+]
+research: item-smelter
+researchCostMultiplier: 0.1
