@@ -21,6 +21,9 @@ recipes:
       items: [
         copper/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 125
 }
@@ -35,6 +38,9 @@ recipes:
       items: [
        lead/1 
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 145
 }
@@ -49,6 +55,9 @@ recipes:
       items: [
        scrap/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 150
 }
@@ -63,6 +72,9 @@ recipes:
       items: [
        -b--unusable-scrap2/1
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 50
 }
@@ -77,6 +89,9 @@ recipes:
       items: [
        -b--1-ascrap-dust
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 250
 }
@@ -93,6 +108,9 @@ recipes:
       items: [
        -b--mud/2
       ]
+       fluids:[
+        -b--smoke/0.01
+       ]
   }
   craftTime: 185
 }
