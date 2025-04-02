@@ -65,6 +65,8 @@ outlineColor: 1f1f1f
     lifetime: 25
     splashDamage: 20
     splashDamageRadius: 20
+   homingPower: 0.04
+   homingRange: 100
     width: 8
     height: 8
     fragVelocityMin: 0.8
@@ -122,6 +124,8 @@ outlineColor: 1f1f1f
           speed: 3
           lifetime: 20
           damage: 10
+   homingPower: 0.04
+   homingRange: 100
           splashDamage: 5
           splashDamageRadius: 10
           width: 10
