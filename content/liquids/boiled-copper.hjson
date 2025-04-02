@@ -4,7 +4,7 @@ color: EAC2A9FF
 barColor: EAC2A9FF
 effect: "melting"
 
-viscosity: 4
+viscosity: 0.5
 temperature: 8
 heatCapacity: 3
 

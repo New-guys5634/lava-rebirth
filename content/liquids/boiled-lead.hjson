@@ -4,7 +4,7 @@ color: AB99D3FF
 barColor: AB99D3FF
 effect: "melting"
 
-viscosity: 4
+viscosity: 0.5
 temperature: 8
 heatCapacity: 3
 

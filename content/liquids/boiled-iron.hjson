@@ -4,7 +4,7 @@ color: D0D0D0FF
 barColor: D0D0D0FF
 effect: "melting"
 
-viscosity: 4
+viscosity: 0.5
 temperature: 8
 heatCapacity: 3
 
