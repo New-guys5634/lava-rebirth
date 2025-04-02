@@ -64,7 +64,6 @@ outlineColor: 1f1f1f
     splashDamageRadius: 20
     width: 8
     height: 8
-    sprite: large-orb
     fragVelocityMin: 0.8
     fragLifeMin: 0.8
     fragRandomSpread: 0
@@ -80,8 +79,8 @@ outlineColor: 1f1f1f
       lifetime: 25
       splashDamage: 25
       splashDamageRadius: 15
-      width: 20
-      height: 20
+      width: 10
+      height: 10
       fragVelocityMin: 0.8
       fragLifeMin: 0.8
       fragRandomSpread: 0
@@ -97,8 +96,8 @@ outlineColor: 1f1f1f
         lifetime: 25
         splashDamage: 15
         splashDamageRadius: 20
-        width: 20
-        height: 20
+        width: 10
+        height: 10
         fragBullets: 3
         fragVelocityMin: 0.8
         fragLifeMin: 0.8
@@ -113,8 +112,8 @@ outlineColor: 1f1f1f
           damage: 10
           splashDamage: 5
           splashDamageRadius: 10
-          width: 20
-          height: 15
+          width: 10
+          height: 10
         }
       }
     }
