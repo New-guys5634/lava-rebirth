@@ -1,0 +1,6 @@
+name: Rock
+description: Contains a lot of things and can be grinded down for the resources using slag 
+color: 1E1D23FF
+research: stone
+flammability: 0.2
+hiddenOnPlanets: [serpulo,erekir]
