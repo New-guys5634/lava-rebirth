@@ -1,0 +1,14 @@
+type: StorageBlock
+size: 2
+health: 500
+name: Metal store box
+description: Stores 1000 items, has valuable HP and can act like extra storage to the core.
+itemCapacity: 100
+category: effect
+research: main-core
+requirements: [
+metal/10
+nails/10
+stone/5
+]
+researchCostMultiplier: 0.1
