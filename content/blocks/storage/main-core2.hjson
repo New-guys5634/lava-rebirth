@@ -12,7 +12,7 @@ requirements: [
 ]
 size: 3
 squareSprite: false
-unitType: AK-47
+unitType: AK-472
 health: 7500
 itemCapacity: 7000
 unitCapModifier: 17
