@@ -2,7 +2,7 @@ description: "Muds enemies, yes you heard mud the enemies.
 
 stats: 5dmg/135/3, air/true ground/false naval/true coolant/false
 ammotypes: mud/5dmg/3"
-name: Mudded burst
+name: Fire burst
 type: ItemTurret
 reload: 100
 shootCone: 50
@@ -14,6 +14,7 @@ recoil: 4
 shootSound: flame
 size: 2
 health: 415
+outlineColor: 000000FF
 consumes: {
   power: 0.4
 }

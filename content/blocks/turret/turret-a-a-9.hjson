@@ -14,6 +14,7 @@ recoil: 3
 shootSound: blaster
 size: 2
 health: 300
+outlineColor: 000000FF
 drawer: {
   type: DrawTurret
   parts: [
@@ -23,8 +24,8 @@ drawer: {
       mirror: true
       under: false
       progress: recoil
-      moveY: -2
-      moveRot: 20
+      moveY: 2
+      moveRot: -20
       growY: 0.2
     }
   ]

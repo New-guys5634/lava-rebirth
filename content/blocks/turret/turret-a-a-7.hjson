@@ -14,6 +14,7 @@ recoil: 4
 shootSound: flame
 size: 2
 health: 350
+outlineColor: 000000FF
 consumes: {
   power: 0.6
 }
@@ -23,7 +24,7 @@ shoot: {
 }
 ammoTypes: {
     raw-coal: {
-        damage: 35
+        damage: 20
         speed: 4
         height: 9
         width: 7
@@ -39,7 +40,7 @@ ammoTypes: {
       makeFire: true
        trailInterval: 3
   }
-}
+]
 requirements: [
 copper/50
 flint/45
