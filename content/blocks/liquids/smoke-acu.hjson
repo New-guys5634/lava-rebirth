@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Smoke accumulator
+description: Uses power to pull in smoke from the polluted environment.
+size: 2
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 20
+outputLiquid: smoke/0.4
+consumes: {
+power: 0.5
+}
+category: liquid
+research: scrap-pump
+requirements: [
+scrap/50
+glass/25
+nails/15
+metal/5
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: smoke
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+researchCostMultiplier: 0.1
