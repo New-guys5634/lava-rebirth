@@ -84,7 +84,7 @@ recipes:
    }
   output: {
       items: [
-       -b--glass/4
+       -b--glass/1
       ]
        fluids:[
         -b--smoke/0.01
