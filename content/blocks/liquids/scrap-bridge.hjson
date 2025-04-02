@@ -1,0 +1,14 @@
+name: Scrap bridge
+description: Allows pipes to go over buildings.
+type: LiquidBridge
+health: 100
+liquidCapacity: 10
+category: liquid
+hasPower: false
+range: 4
+requirements: [
+scrap/10
+glass/5
+]
+research: pipe
+researchCostMultiplier: 0.1

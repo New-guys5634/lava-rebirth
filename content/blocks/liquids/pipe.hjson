@@ -10,6 +10,7 @@ copper/1
 health: 50
 leaks: true
 junctionReplacement: pipe-junction
+bridgeReplacement: scrap-bridge
 underBullets: true
 researchCostMultiplier: 1
 liquidPressure: 0.7
