@@ -1,0 +1,25 @@
+name: Boiled iron
+description: Boiled iron, can be cooled into ingots but take FOREVER.
+color: AB99D3FF
+barColor: AB99D3FF
+effect: "melting"
+
+viscosity: 4
+temperature: 8
+heatCapacity: 3
+
+coolant: false
+
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: AB99D3FF
+    colorTo: AB99D3FF
+}
+
+research: {
+    parent: "1-alead-dust"
+}

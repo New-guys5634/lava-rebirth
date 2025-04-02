@@ -1,0 +1,25 @@
+name: Boiled bronze
+description: Boiled bronze, can be cooled into ingots but take FOREVER.
+color: FEBB78FF
+barColor: FEBB78FF
+effect: "melting"
+
+viscosity: 4
+temperature: 8
+heatCapacity: 3
+
+coolant: false
+
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: FEBB78FF
+    colorTo: FEBB78FF
+}
+
+research: {
+    parent: "1-abronze-dust"
+}

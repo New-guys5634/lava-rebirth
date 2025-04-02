@@ -1,0 +1,25 @@
+name: Boiled copper
+description: Boiled copper, can be cooled into ingots but take FOREVER.
+color: EAC2A9FF
+barColor: EAC2A9FF
+effect: "melting"
+
+viscosity: 4
+temperature: 8
+heatCapacity: 3
+
+coolant: false
+
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: EAC2A9FF
+    colorTo: EAC2A9FF
+}
+
+research: {
+    parent: "1-acopper-dust"
+}

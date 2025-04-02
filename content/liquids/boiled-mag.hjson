@@ -1,0 +1,25 @@
+name: Boiled magnesium
+description: Boiled magnesium, can be cooled into ingots but take FOREVER.
+color: DBDBDBFF
+barColor: DBDBDBFF
+effect: "melting"
+
+viscosity: 4
+temperature: 8
+heatCapacity: 3
+
+coolant: false
+
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: DBDBDBFF
+    colorTo: DBDBDBFF
+}
+
+research: {
+    parent: "1-amag-dust"
+}
