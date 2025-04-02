@@ -1,0 +1,65 @@
+description: "Fires glass shards dealing mid damage.
+
+stats: 40dmg/100/1, air/true ground/true naval/true coolant/false
+ammotypes: glass/40dmg/1"
+name: Shard cutter
+type: ItemTurret
+reload: 100
+shootCone: 50
+rotateSpeed: 3
+targetGround: true
+targetAir: true
+range: 140
+recoil: 3
+shootSound: blaster
+size: 2
+health: 300
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: -2
+      moveRot: 20
+      growY: 0.2
+    }
+  ]
+}
+consumes: {
+  power: 0.5
+}
+ammoTypes: {
+    glass: {
+        damage: 40
+        speed: 4
+        height: 9
+        width: 7
+        lifetime: 45
+       trailWidth: 2
+       trailLength: 4
+       backColor: FFFFFFFF
+       frontColor: FFFFFFFF
+       trailColor: FFFFFFFF
+  }
+}
+requirements: [
+glass/50
+flint/35
+metal/5
+nails/15
+scrap/50
+]
+category: turret
+research: turret-a-a-5
+researchCost: [
+glass/100
+flint/90
+metal/40
+nails/35
+scrap/100
+]
+
