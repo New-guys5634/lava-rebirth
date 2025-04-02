@@ -1,0 +1,94 @@
+name: Slag grinder
+description: Intakes slag and rocks to grind resources.
+type: Separator
+health: 300
+size: 2
+craftTime: 150
+hasItems: true
+hasLiquids: true
+consumes: {
+liquid: slag/0.3
+  items: {
+    items: [
+     rock/1
+    ]
+  }
+}
+requirements: [
+smelted-bronze/25
+smelted-iron/20
+smelted-mag/15
+steel/5
+]
+category: crafting
+results: [
+1-acopper-dust/1
+1-alead-dust/1
+1-ascrap-dust/2
+1-abronze-dust/0.5
+1-amag-dust/0.4
+1-airon-dust/0.2
+clay/0.05
+flint/0.4
+hot-sand/1
+mud/1
+raw-scrap/0.4
+raw-coal/0.7
+stone/1
+stone-small/1
+sulfur/1
+unusable-scrap/4
+unusable-scrap2/1
+]
+research: st2-crafter
+researchcost: [
+smelted-bronze/50
+smelted-iron/50
+smelted-mag/30
+steel/8
+research-plans/1
+] 
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 50
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 60
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 25
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 9
+      colorFrom: A04652FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 100
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
