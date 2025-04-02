@@ -57,7 +57,7 @@ outlineColor: 1f1f1f
           backColor: EAC2A9FF
           trailColor: B2B9C1FF
           sprite: -b--rock
-    type: ArtilleryBulletType
+   type: BasicBulletType
     speed: 4
     lifetime: 25
     splashDamage: 20
@@ -74,7 +74,10 @@ outlineColor: 1f1f1f
           backColor: EAC2A9FF
           trailColor: B2B9C1FF
           sprite: -b--rock
-      type: ArtilleryBulletType
+   type: BasicBulletType
+   buildingDamageMultiplier: 0.001
+   healPercent: 3
+   collidesTeam: true
       speed: 5
       lifetime: 25
       splashDamage: 25
@@ -91,7 +94,10 @@ outlineColor: 1f1f1f
           backColor: EAC2A9FF
           trailColor: B2B9C1FF
           sprite: -b--rock
-        type: ArtilleryBulletType
+   type: BasicBulletType
+   buildingDamageMultiplier: 0.001
+   healPercent: 3
+   collidesTeam: true
         speed: 4
         lifetime: 25
         splashDamage: 15
@@ -107,6 +113,9 @@ outlineColor: 1f1f1f
           trailColor: B2B9C1FF
           sprite: -b--rock
           type: BasicBulletType
+   buildingDamageMultiplier: 0.001
+   healPercent: 3
+   collidesTeam: true
           speed: 3
           lifetime: 20
           damage: 10
