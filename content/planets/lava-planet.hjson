@@ -31,8 +31,8 @@ cloudMesh: [
    {
     type: HexSkyMesh
     planet: lava-planet 
-    seed: 76
-    speed: 0.2
+    seed: 74
+    speed: 0.3
     radius: 0.2
     divisions: 5
     color: D2B292FF
@@ -44,8 +44,8 @@ cloudMesh: [
 {
     type: HexSkyMesh
     planet: lava-planet 
-    seed: 76
-    speed: 0.6
+    seed: 74
+    speed: 0.7
     radius: 0.1
     divisions: 4
     color: 1E1D23FF
