@@ -58,6 +58,8 @@ engines: [
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  chargeSound: lasercharge2
+shootSound: blaster
     shoot: {
   firstShotDelay: 30
   }
