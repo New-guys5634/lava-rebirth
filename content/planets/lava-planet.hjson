@@ -33,7 +33,7 @@ cloudMesh: [
     planet: lava-planet 
     seed: 74
     speed: 0.3
-    radius: 0.1
+    radius: 0.11
     divisions: 4
     color: D2B292FF
     octaves: 3
