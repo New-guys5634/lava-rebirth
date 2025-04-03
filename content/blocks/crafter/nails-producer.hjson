@@ -1,11 +1,11 @@
-description: Forges nails out of scrap and copper dust, produces smoke and will stop when full.
+description: Forges nails out of scrap, smoke and copper dust, produces smoke and will stop when full.
 name: Nail forge
 type: AttributeCrafter
 boostScale: 1.9
 maxBoost: 3.1
 size: 2
 health: 435
-craftTime: 190
+craftTime: 250
 hasItems: true
 hasLiquids: true
 hasPower: false
@@ -14,10 +14,11 @@ outputLiquid: smoke/0.001
 liquidCapacity: 5
 explodeOnFull: true
 consumes: {
+ liquid: smoke/0.05
   items: {
     items: [
       scrap/1
-      1-acopper-dust/4
+      1-acopper-dust/2
     ]
   }
 }
@@ -27,7 +28,7 @@ scrap/15
 lead/20
 ]
 category: crafting
-outputItem: nails/1
+outputItem: nails/2
 research: item-smelter 
 researchCost: [
   lead/35
