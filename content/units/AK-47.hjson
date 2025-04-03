@@ -54,22 +54,29 @@ engines: [
   rotate: false
   shootCone: 10
   inaccuracy: 3
-  reload: 50
+  reload: 60
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
-  
+    shoot: {
+  firstShotDelay: 30
+  }
   bullet: {
    type: BasicBulletType
    width: 6
    height: 8
-   
-   damage: 25
+       chargeEffect: lightningCharge
+   damage: 45
    buildingDamageMultiplier: 0.001
-   healPercent: 3
+   healPercent: 6
    collidesTeam: true
    speed: 4
    lifetime: 40
+   trailWidth: 4
+   trailLength: 8
+     frontColor: 85c278
+      backColor: 9be98b
+    trailColor: 9be98b
 }
 }
 ]
