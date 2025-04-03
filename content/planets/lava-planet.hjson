@@ -27,12 +27,13 @@ allowWaveSimulation: true
 clearSectorOnLose: true
 allowWaves: true
 prebuildBase: false
-cloudMesh: {
+cloudMesh: [
+   {
     type: HexSkyMesh
     planet: lava-planet 
     seed: 76
     speed: 0.2
-    radius: 0.13
+    radius: 0.2
     divisions: 5
     color: D2B292FF
     octaves: 3
@@ -40,6 +41,20 @@ cloudMesh: {
     scl: 0.85
     thresh: 0.4
 }
+{
+    type: HexSkyMesh
+    planet: lava-planet 
+    seed: 74
+    speed: 0.4
+    radius: 0.1
+    divisions: 4
+    color: 1E1D23FF
+    octaves: 2
+    persistence: 0.5
+    scl: 0.85
+    thresh: 0.4
+}
+]
 launchCandidates: []
 hiddenItems: [
     "titanium"
