@@ -1,0 +1,17 @@
+localizedName: The raid edge
+description: "On the edge the cruxes forces are weak so the [green]lost empire platoon [white]decided to do send force's to you, DEFEAT this air raid.
+
+Gimmick: [red]BOSS attack,[green]lost empire raid,[white]blocks and units have less hp due to the temperatures"
+sector: 62
+captureWave: 6
+planet: lava-planet
+research: {
+  parent: sector-a-4-enviroment-ruins
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sector-a-4-enviroment-ruins
+    }
+  ]
+}
+difficulty: 5
