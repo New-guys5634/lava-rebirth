@@ -81,8 +81,8 @@ recipes:
        ]
   }
   craftTime: 300
+}
 ]
-
 craftEffect: {
     type: RadialEffect
     layer: 100
