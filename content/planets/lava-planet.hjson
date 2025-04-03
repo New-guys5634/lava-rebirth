@@ -44,12 +44,12 @@ cloudMesh: [
 {
     type: HexSkyMesh
     planet: lava-planet 
-    seed: 74
-    speed: 0.4
+    seed: 76
+    speed: 0.6
     radius: 0.1
     divisions: 4
     color: 1E1D23FF
-    octaves: 2
+    octaves: 6
     persistence: 0.5
     scl: 0.85
     thresh: 0.4
