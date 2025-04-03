@@ -10,6 +10,29 @@ requirements: [
   nails/30
   clay/15
 ]
+drillEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 70
+      lifetime: 75
+      speed: 2
+      cone: 20
+      baseRotation: 20
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: 1E1D23FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
 drillTime: 180
 output: 1-alead-dust
 attribute: 1-alead-dust

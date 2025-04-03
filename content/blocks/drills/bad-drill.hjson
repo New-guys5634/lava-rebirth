@@ -20,15 +20,28 @@ consumes: {
   }
 }
 drillEffect: {
-  type: WaveEffect
-  sizeFrom: 0.1
-  sizeTo: 5.6
-  strokeFrom: 0.8
-  strokeTo: 0.1
-  colorFrom: 8f8d87
-  colorTo: 6b6a66
-  lifetime: 20
-}
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 5
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 70
+      lifetime: 150
+      speed: 2
+      cone: 20
+      baseRotation: 20
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: 1E1D23FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
 requirements: [
   copper/30
   flint/25
