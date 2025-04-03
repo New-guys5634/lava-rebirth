@@ -1,0 +1,44 @@
+name: Smoke turbine
+description: Uses smoke to slowly move the turbine and provides mediocre amount of power.
+type: ConsumeGenerator
+size: 2
+health: 180
+hasItems: false
+hasLiquids: true
+hasPower: true
+powerProduction: 0.9
+requirements: [
+scrap/50
+nails/35
+metal/5
+copper/70
+glass/25
+flint/25
+stone/15
+]
+category: power
+research: air-power
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 1
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
