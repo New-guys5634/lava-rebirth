@@ -45,6 +45,7 @@ recipes:
        ]
   }
   craftTime: 300
+}
 {
   input: {
          items: [
@@ -62,6 +63,7 @@ recipes:
        ]
   }
   craftTime: 300
+}
 {
   input: {
          items: [
