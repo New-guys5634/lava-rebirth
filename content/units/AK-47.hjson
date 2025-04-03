@@ -79,6 +79,8 @@ shootSound: blaster
      frontColor: 85c278
       backColor: 9be98b
     trailColor: 9be98b
+status: sapped
+statusDuration: 80
 }
 }
 ]
