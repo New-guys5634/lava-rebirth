@@ -1,9 +1,9 @@
 name: Smoke
 description: Created in factories and can be turned into steam, A waste product.
-color: 1E1D23FF
-barColor: 1E1D23FF
+color: 60615BFF
+barColor: 60615BFF
 
-viscosity: 1
+viscosity: 3
 temperature: 3
 heatCapacity: 2
 
@@ -16,8 +16,8 @@ particleEffect: {
     lifetime: 60
     sizeFrom: 1
     sizeTo: 0
-    colorFrom: 1E1D23FF
-    colorTo: 1E1D23FF
+    colorFrom: 60615BFF
+    colorTo: 60615BFF
 }
 
 research: {
