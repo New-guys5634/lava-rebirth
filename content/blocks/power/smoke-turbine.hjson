@@ -7,6 +7,9 @@ hasItems: false
 hasLiquids: true
 hasPower: true
 powerProduction: 0.9
+consumes: {
+liquid: smoke/0.2
+}
 requirements: [
 scrap/50
 nails/35
