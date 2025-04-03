@@ -1,0 +1,54 @@
+//credits to rebellion for code!
+name: Atmosphere insulation 
+description: Uses the hot atmosphere and smoke and is capable of cooling it down for high amounts of smoke and a little amount of water.
+type: GenericCrafter
+category: liquid
+health: 150
+size: 2
+requirements: [
+smelted-bronze/40
+copper/80
+steel/15
+nails/10
+metal/5
+]
+
+craftTime: 200
+consumes: {
+	power: 0.4
+}
+outputLiquids: [
+    smoke/1.8
+    water/0.8
+]
+liquidOutputDirections: [1, 2]
+rotate: true
+invertFlip: true
+ambientSound: electricHum
+research: {
+parent: st2-crafter2
+requirements: [
+smelted-bronze/80
+copper/120
+steel/50
+nails/30
+metal/20
+]
+}
+
+squareSprite: false
+
+drawer: [
+{
+	type: drawRegion
+}
+{
+	type: drawLiquidOutputs
+}
+{
+  type: DrawCrucibleFlame
+}
+{
+   type: DrawDefault
+}
+]
