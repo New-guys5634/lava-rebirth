@@ -104,3 +104,9 @@ sizeTo: 0
    }
   }
 ]
+abilities: [
+{
+   type: SpawnDeathAbility
+   unit: lava-mech-b-1-ruin
+  }
+]

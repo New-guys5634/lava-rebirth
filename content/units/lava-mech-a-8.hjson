@@ -82,3 +82,9 @@ research: {
   parent: unit-constructor-a-1
 }
 researchCostMultiplier: 0.1
+abilities: [
+{
+   type: SpawnDeathAbility
+   unit: lava-mech-a-8-ruin
+  }
+]
