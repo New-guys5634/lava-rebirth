@@ -7,7 +7,7 @@ hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereD2B292FFColor: FFCD66FF
+atmosphereColor: FFCD66FF
 drawOrbit: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
