@@ -1,0 +1,44 @@
+name: Water rotater
+description: Intakes water for power.
+type: ConsumeGenerator
+size: 2
+health: 110
+hasItems: true
+hasLiquids: true
+hasPower: true
+consumes: {
+  liquid: water/0.2
+}
+powerProduction: 0.4
+requirements: [
+scrap/40
+nails/15
+flint/45
+stone-small/25
+]
+category: power
+research: air-power
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 9
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
