@@ -2,7 +2,7 @@ localizedName: Zrogro
 generator: SerpuloPlanetGenerator
 parent: sun
 iconColor: FFCD66FF
-orbitRadius: 14
+orbitRadius: 12
 hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
@@ -21,7 +21,7 @@ startSector: 0
 sectorSize: 3
 tidalLock: true
 clearSectorOnLose: true
-allowSectorInvasion: false
+allowSectorInvasion: true
 allowLaunchToNumbered: false
 allowWaveSimulation: true
 clearSectorOnLose: true
@@ -34,7 +34,7 @@ cloudMesh: [
     seed: 74
     speed: 0.3
     radius: 0.11
-    divisions: 9
+    divisions: 4
     color: D2B292FF
     octaves: 8
     persistence: 0.3
@@ -47,7 +47,7 @@ cloudMesh: [
     seed: 74
     speed: 0.7
     radius: 0.1
-    divisions: 6
+    divisions: 4
     color: 1E1D23FF
     octaves: 7
     persistence: 0.5
