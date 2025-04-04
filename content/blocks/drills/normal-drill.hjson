@@ -18,7 +18,7 @@ category: production
 results: [
   stone/1
   copper/0.1
-  1-acrap-dust/0.7
+  1-ascrap-dust/0.7
 ]
 research: bad-drill
 researchcost: [
