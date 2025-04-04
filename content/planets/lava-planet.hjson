@@ -11,7 +11,7 @@ atmosphereColor: FFCD66FF
 drawOrbit: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
-allowLaunc3e9d6bhLoadout: false
+allowLaunchLoadout: false
 allowSectorInvasion: false
 accessible: true
 alwaysUnlocked: true
