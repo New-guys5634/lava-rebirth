@@ -1,4 +1,4 @@
-name: Stone and copper mining bay
+name: Stone mining bay
 description: Drills into the ground and releases stone and copper.
 type: Separator
 health: 120
@@ -17,10 +17,11 @@ requirements: [
 category: production
 results: [
   stone/1
-  copper/1
+  copper/0.1
+  1-acrap-dust/0.7
 ]
 research: bad-drill
-researchCost: [
+researchcost: [
     copper/100
     stone-small/90
     nails/250
