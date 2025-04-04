@@ -10,7 +10,7 @@ rotateSpeed: 3
 targetGround: true
 targetAir: false
 range: 345
-recoil: 3
+recoil: 1
 shootSound: blaster
 size: 2
 health: 600
@@ -24,7 +24,7 @@ drawer: {
       mirror: true
       under: false
       progress: recoil
-      moveY: 4
+      moveY: 1
       moveRot: -20
       growY: 0.1
     }
