@@ -1,0 +1,5 @@
+description: Gravel can be grinded or gambled for flint.
+name: Gravel
+research: mud
+color: 615B5BFF 
+hiddenOnPlanets: [serpulo,erekir]
