@@ -9,11 +9,11 @@ shootCone: 50
 rotateSpeed: 3
 targetGround: true
 targetAir: false
-range: 290
+range: 345
 recoil: 3
 shootSound: blaster
 size: 2
-health: 300
+health: 600
 outlineColor: 000000FF
 drawer: {
   type: DrawTurret
