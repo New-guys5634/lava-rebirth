@@ -1,0 +1,19 @@
+type: LiquidRouter
+name: Metal liquid container
+description: Stores a medium amount of liquids.
+size: 2
+category: liquid
+requirements: [
+metal/40
+glass/15
+nails/15
+]
+
+liquidCapacity: 2000
+liquidPadding: 2
+research: smoke-acu
+researchcost: [
+metal/95
+glass/60
+nails/30
+]
