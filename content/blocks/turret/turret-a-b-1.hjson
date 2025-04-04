@@ -9,7 +9,7 @@ shootCone: 50
 rotateSpeed: 3
 targetGround: true
 targetAir: false
-range: 140
+range: 290
 recoil: 3
 shootSound: blaster
 size: 2
