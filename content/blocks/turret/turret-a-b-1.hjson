@@ -41,8 +41,6 @@ ammoTypes: {
           sprite: -b--rock
    type: BasicBulletType
    buildingDamageMultiplier: 0.8
-   healPercent: 3
-   collidesTeam: true
     speed: 4
     lifetime: 40
     splashDamage: 20
@@ -66,8 +64,6 @@ ammoTypes: {
           sprite: -b--rock
    type: BasicBulletType
    buildingDamageMultiplier: 0.6
-   healPercent: 3
-   collidesTeam: true
       speed: 5
       lifetime: 25
       splashDamage: 25
@@ -89,8 +85,6 @@ ammoTypes: {
           sprite: -b--rock
    type: BasicBulletType
    buildingDamageMultiplier: 0.4
-   healPercent: 3
-   collidesTeam: true
         speed: 4
         lifetime: 25
         splashDamage: 15
@@ -110,8 +104,6 @@ ammoTypes: {
           sprite: -b--rock
           type: BasicBulletType
    buildingDamageMultiplier: 0.2
-   healPercent: 3
-   collidesTeam: true
           speed: 3
           lifetime: 20
           damage: 10
