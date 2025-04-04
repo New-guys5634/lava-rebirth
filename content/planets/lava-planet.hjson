@@ -7,7 +7,7 @@ hasAtmosphere: true
 updateLighting: true
 atmosphereRadIn: 0
 atmosphereRadOut: 0.3
-atmosphereColor: FFCD66FF
+atmosphereD2B292FFColor: FFCD66FF
 drawOrbit: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
@@ -35,7 +35,7 @@ cloudMesh: [
     speed: 0.3
     radius: 0.11
     divisions: 5
-    color: D2B292FF
+    color: D2B292BC
     octaves: 9
     persistence: 0.3
     scl: 0.85
@@ -48,7 +48,7 @@ cloudMesh: [
     speed: 0.7
     radius: 0.1
     divisions: 4
-    color: 1E1D23FF
+    color: 1E1D23F9
     octaves: 8
     persistence: 0.5
     scl: 0.85
