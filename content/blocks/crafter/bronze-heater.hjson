@@ -1,0 +1,87 @@
+type: multicraft.MultiCrafter
+name: Bronze insulation system
+description: Uses clay molds, slag and smelted iron then cools it for heated tin, cools it again for tin.
+menu: Detailed
+size: 2
+health: 300
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 30
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--sulfur/2
+        -b--smelted-iron/1
+        -b--clay-mold/1
+      ]
+       fluids:[
+        slag/0.1
+       ]
+    }
+  output: {
+      items: [
+        -b--clay-mold/1
+        -b--heated-tin/1
+      ]
+       fluids:[
+        -b--smoke/0.02
+       ]
+  }
+  craftTime: 500
+}
+{
+  input: {
+         items: [
+        -b--heated-tin/1
+      ]
+       fluids:[
+        water/0.1
+       ]
+    }
+  output: {
+      items: [
+        -b--smelted-tin/1
+      ]
+       fluids:[
+        -b--smoke/0.02
+       ]
+  }
+  craftTime: 700
+}
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 300
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+category: crafting
+requirements: [
+smelted-bronze/40
+smelted-mag/50
+smelted-iron/45
+steel/15
+metal/40
+]
+research: clay-plater
+researchCostMultiplier: 0.1
