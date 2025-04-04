@@ -1,11 +1,11 @@
-description: Uses gravel and smoke to meld and create flint.
-name: Flint machinary
+description: Uses smoke and mud to filter out gravel.
+name: Gravel burner
 type: AttributeCrafter
-boostScale: 1.2
-maxBoost: 3
+boostScale: 1.5
+maxBoost: 2.8
 size: 2
-health: 300
-craftTime: 325
+health: 200
+craftTime: 200
 hasItems: true
 hasLiquids: true
 hasPower: false
@@ -13,27 +13,29 @@ itemCapacity: 20
 liquidCapacity: 5
 explodeOnFull: true
 consumes: {
- liquid: smoke/0.1
+ liquid: smoke/0.04
   items: {
     items: [
-    gravel/2
+   mud/1
     ]
   }
 }
 requirements: [
-copper/40
-scrap/20
-nails/10
+copper/50
+scrap/40
 lead/40
+flint/5
+nails/5
 ]
 category: crafting
-outputItem: flint/1
+outputItem: gravel/1
 research: nails-producer
 researchCost: [
-copper/90
-scrap/50
-nails/35
-lead/50
+copper/70
+scrap/60
+lead/80
+flint/20
+nails/10
 ]
 drawer: {
   type: DrawMulti
@@ -50,10 +52,7 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawRegion
-      suffix: -spinner
-      spinSprite: true
-      rotateSpeed: 4
+      type: DrawCrucibleFlame
     }
   ]
 }
@@ -65,14 +64,14 @@ craftEffect: {
     lengthOffset: 5
     effect: {
       particles: 4
-      length: 80
-      lifetime: 200
-      speed: 5
+      length: 50
+      lifetime: 190
+      speed: 6
       cone: 20
       baseRotation: 15
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 9
+      sizeTo: 8
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
