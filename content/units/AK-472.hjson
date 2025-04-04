@@ -62,11 +62,14 @@ outlineColor: 1f1f1f
    healPercent: 3
    collidesTeam: true
     speed: 4
-    lifetime: 25
+    lifetime: 40
     splashDamage: 20
     splashDamageRadius: 20
-   homingPower: 0.04
+   homingPower: 0.08
    homingRange: 100
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
     width: 8
     height: 8
     fragVelocityMin: 0.8
@@ -87,6 +90,9 @@ outlineColor: 1f1f1f
       lifetime: 25
       splashDamage: 25
       splashDamageRadius: 15
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
       width: 10
       height: 10
       fragVelocityMin: 0.8
@@ -107,6 +113,9 @@ outlineColor: 1f1f1f
         lifetime: 25
         splashDamage: 15
         splashDamageRadius: 20
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
         width: 10
         height: 10
         fragBullets: 3
