@@ -1,0 +1,5 @@
+description: The merged version of multiple resources used only in units.
+name: Tin alloy
+research: smelted-iron
+color: 838383FF 
+hiddenOnPlanets: [serpulo,erekir]

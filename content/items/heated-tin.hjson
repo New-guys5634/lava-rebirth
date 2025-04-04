@@ -1,0 +1,6 @@
+description: The heated version of tin, put it through the factory and will cool down.
+name: Heated tin
+research: smelted-iron
+color: 838383FF 
+temperature: 4
+hiddenOnPlanets: [serpulo,erekir]
