@@ -1,0 +1,143 @@
+description: "Fires rocks Wich bounces that breaks into pebbles dealing 80+ damage if all hit and the projectiles peirce. Inspired by the rusted warfare mod 
+AEA.
+stats: 80+dmg/180/1, air/false ground/true naval/true coolant/false
+ammotypes: rock/80+dmg"
+name: Rock bouncer
+type: ItemTurret
+reload: 180
+shootCone: 50
+rotateSpeed: 3
+targetGround: true
+targetAir: false
+range: 140
+recoil: 3
+shootSound: blaster
+size: 2
+health: 300
+outlineColor: 000000FF
+drawer: {
+  type: DrawTurret
+  parts: [
+    {
+      type: RegionPart
+      suffix: -side
+      mirror: true
+      under: false
+      progress: recoil
+      moveY: 4
+      moveRot: -20
+      growY: 0.1
+    }
+  ]
+}
+consumes: {
+  power: 0.5
+}
+ammoTypes: {
+    rock: {
+          frontColor: B2B9C1FF
+          backColor: EAC2A9FF
+          trailColor: B2B9C1FF
+          sprite: -b--rock
+   type: BasicBulletType
+   buildingDamageMultiplier: 0.8
+   healPercent: 3
+   collidesTeam: true
+    speed: 4
+    lifetime: 40
+    splashDamage: 20
+    splashDamageRadius: 20
+   homingPower: 0.08
+   homingRange: 100
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+    width: 8
+    height: 8
+    fragVelocityMin: 0.8
+    fragLifeMin: 0.8
+    fragRandomSpread: 0
+    fragAngle: 0
+    fragBullets: 1
+    fragBullet: {
+          frontColor: B2B9C1FF
+          backColor: EAC2A9FF
+          trailColor: B2B9C1FF
+          sprite: -b--rock
+   type: BasicBulletType
+   buildingDamageMultiplier: 0.6
+   healPercent: 3
+   collidesTeam: true
+      speed: 5
+      lifetime: 25
+      splashDamage: 25
+      splashDamageRadius: 15
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+      width: 10
+      height: 10
+      fragVelocityMin: 0.8
+      fragLifeMin: 0.8
+      fragRandomSpread: 0
+      fragAngle: 0
+      fragBullets: 1
+      fragBullet: {
+          frontColor: B2B9C1FF
+          backColor: EAC2A9FF
+          trailColor: B2B9C1FF
+          sprite: -b--rock
+   type: BasicBulletType
+   buildingDamageMultiplier: 0.4
+   healPercent: 3
+   collidesTeam: true
+        speed: 4
+        lifetime: 25
+        splashDamage: 15
+        splashDamageRadius: 20
+      pierce: true
+      pierceBuilding: true
+      pierceCap: 2
+        width: 10
+        height: 10
+        fragBullets: 3
+        fragVelocityMin: 0.8
+        fragLifeMin: 0.8
+        fragBullet: {
+          frontColor: B2B9C1FF
+          backColor: EAC2A9FF
+          trailColor: B2B9C1FF
+          sprite: -b--rock
+          type: BasicBulletType
+   buildingDamageMultiplier: 0.2
+   healPercent: 3
+   collidesTeam: true
+          speed: 3
+          lifetime: 20
+          damage: 10
+   homingPower: 0.04
+   homingRange: 100
+          splashDamage: 5
+          splashDamageRadius: 10
+          width: 10
+          height: 10
+        }
+      }
+    }
+  }
+}
+requirements: [
+smelted-bronze/60
+smelted-mag/45
+nails/45
+steel/15
+]
+category: turret
+research: turret-a-a-9
+researchCost: [
+smelted-bronze/80
+smelted-mag/90
+nails/90
+steel/40
+]
+
