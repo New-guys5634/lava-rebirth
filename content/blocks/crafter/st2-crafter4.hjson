@@ -43,14 +43,6 @@ drawer: [
 	type: drawLiquidOutputs
 }
 {
-      type: DrawRegion
-      suffix: -bottom
-    }
-    {
-      type: DrawRegion
-      suffix: -top
-    }
-    {
       type: DrawDefault
 }
 ]
