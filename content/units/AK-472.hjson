@@ -2,7 +2,7 @@ name: Core clay protector
 description: The protecter of the clay stack core.
 type: legs
 mechLegColor: 1f1f1f
-health: 400
+health: 650
 armor: 5
 hitSize: 7
 speed: .9

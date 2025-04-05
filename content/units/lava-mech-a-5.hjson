@@ -2,7 +2,7 @@ name: Combined fixed mech
 description: Fires fuse type projectile dealing high damage.
 type: mech
 mechLegColor: 1f1f1f
-health: 850
+health: 900
 armor: 1
 hitSize: 7
 speed: .6
@@ -32,7 +32,7 @@ outlineColor: 1f1f1f
   bullet: {
             type: shrapnelBulletType
             lifetime: 20
-            damage: 70
+            damage: 80
             serrations: 9
             serrationSpacing: 10
             serrationLenScl: 18

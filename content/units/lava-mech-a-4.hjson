@@ -7,7 +7,7 @@
     accel: 0.08
     drag: 0.05
     flying: true
-    health: 300
+    health: 400
     hitSize: 9
     armor: 1
     itemCapacity: 20
@@ -35,7 +35,7 @@ bullet: {
 type: BombBulletType
 despawnEffect: flakExplosion
 damage: 0
-splashDamage: 25
+splashDamage: 40
 splashDamageRadius: 30
 width: 9
 height: 12

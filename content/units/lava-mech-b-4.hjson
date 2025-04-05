@@ -33,7 +33,7 @@ outlineColor: 1f1f1f
    type: BasicBulletType
    width: 7
    height: 6   
-   damage: 20
+   damage: 25
    speed: 6
    lifetime: 30
    trailWidth: 4
@@ -49,7 +49,7 @@ outlineColor: 1f1f1f
   shootY: 3
   shootX: 0
   
-  mirror: true
+  mirror: false
   rotate: false
   shootCone: 10
   inaccuracy: 3
@@ -62,7 +62,7 @@ outlineColor: 1f1f1f
    type: BasicBulletType
    width: 7
    height: 6   
-   damage: 50
+   damage: 70
    speed: 6
    lifetime: 30
    trailWidth: 4

@@ -7,7 +7,7 @@
     accel: 0.08
     drag: 0.05
     flying: true
-    health: 500
+    health: 700
     hitSize: 8
     armor: 4
     itemCapacity: 30
@@ -31,7 +31,7 @@ weapons: [
    width: 20
    height: 20
    recoil: 4
-   splashDamage: 100
+   splashDamage: 140
    splashDamageRadius: 15
    speed: 4
    lifetime: 50

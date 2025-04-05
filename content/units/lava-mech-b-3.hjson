@@ -47,11 +47,11 @@ outlineColor: 1f1f1f
               particles: 12
               lifetime: 25
               length: 90
-              lightColor: FEBB78FF
+              lightColor: FCFCFCFF
               sizeFrom: 10
               sizeTo: 3
-              colorFrom: FEBB78FF
-              colorTo: e0e0e000
+              colorFrom: FCFCFCFF
+              colorTo: FDFDFD67
             }
             {
               type: ParticleEffect
@@ -62,8 +62,8 @@ outlineColor: 1f1f1f
               lifetime: 120
               sizeFrom: 7
               sizeTo: 1
-              colorFrom: FEBB78FF
-              colorTo: e0e0e000
+              colorFrom: FCFCFCFF
+              colorTo: FDFDFD67
 }
 ]
 }

@@ -7,7 +7,7 @@
     accel: 0.08
     drag: 0.05
     flying: true
-    health: 200
+    health: 325
     hitSize: 9
     armor: 1
     itemCapacity: 20
@@ -29,7 +29,7 @@ weapons: [
     bullet: {
       speed: 6
       lifetime: 35
-      damage: 8
+      damage: 12
       pierce: true
       pierceBuilding: true
       pierceCap: 3

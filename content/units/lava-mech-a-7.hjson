@@ -7,7 +7,7 @@
     accel: 0.08
     drag: 0.05
     flying: true
-    health: 150
+    health: 400
     hitSize: 9
     armor: 5
     itemCapacity: 20
@@ -29,7 +29,7 @@ weapons: [
     bullet: {
       speed: 4
       lifetime: 50
-      damage: 15
+      damage: 30
       width: 6
       height: 10
 }

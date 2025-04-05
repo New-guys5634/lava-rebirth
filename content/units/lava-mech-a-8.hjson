@@ -7,7 +7,7 @@
     accel: 0.08
     drag: 0.05
     flying: true
-    health: 500
+    health: 800
     hitSize: 8
     armor: 4
     itemCapacity: 30
@@ -32,7 +32,7 @@ weapons: [
   maxRange: 400
   length: 400
   width: 4
-  damage: 3
+  damage: 5
   buildingDamageMultiplier: 0.2
   pierce: false
   pierceBuilding: false
