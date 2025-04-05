@@ -1,0 +1,25 @@
+name: Boiled sulfur
+description: Boiled sulfur, very hot can be used to heat up things.
+color: FFAF87FF
+barColor: FFAF87FF
+effect: "melting"
+
+viscosity: 0.5
+temperature: 8
+heatCapacity: 3
+
+coolant: false
+
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: FFAF87FF
+    colorTo: FFAF87FF
+}
+
+research: {
+    parent: "sulfur"
+}
