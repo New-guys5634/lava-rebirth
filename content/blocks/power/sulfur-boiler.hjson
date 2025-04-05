@@ -1,0 +1,73 @@
+name: Sulfur boiler 
+description: Intakes sulfur and boiled it to spin it's turbine to provide power, side product is boiled sulfur.
+type: ConsumeGenerator
+size: 2
+health: 190
+hasItems: true
+hasLiquids: true
+hasPower: true
+consumes: {
+  items: {
+    items: [
+    sulfur/2
+    ]
+  }
+}
+outputLiquid: boiled-sulfur/0.15
+powerProduction: 1.6
+requirements: [
+scrap/40
+metal/10
+nails/10
+copper/40
+glass/40
+flint/25
+scrap-coil/2
+stone/25
+]
+category: power
+research: slag-transfusion
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 10
+        useRotation: false
+    length: 8
+    lifetime: 60
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 4
+    sizeTo: 0.1
+    colorFrom: FFAF87FF
+    colorTo: ffffff00
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 2
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
