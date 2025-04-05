@@ -1,0 +1,91 @@
+type: multicraft.MultiCrafter
+name: Test
+description: Has an Ohno not in campaign and does cost nothing, a test thing 
+menu: Detailed
+size: 2
+health: 300
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 30
+recipes:
+[
+{
+    /*
+      ========================================
+      Section: metal
+      ========================================
+    */
+  input: {
+         items: [
+        -b--sulfur/3
+        graphite/2
+        -b--1-ascrap-dust/5
+        -b--clay-mold/1
+      ]
+       fluids:[
+        slag/0.1
+       ]
+    }
+  output: {
+      items: [
+        -b--smelted-iron/1
+      ]
+       fluids:[
+        -b--smoke/0.04
+       ]
+  }
+  craftTime: 400
+}
+{
+    /*
+      ========================================
+      Section: Raw
+      ========================================
+    */
+  input: {
+         items: [
+        -b--stone/2
+      ]
+       fluids:[
+        water/0.5
+       ]
+    }
+  output: {
+      items: [
+        -b--mud/5
+        -b--gravel/1
+      ]
+       fluids:[
+        -b--smoke/0.01
+       ]
+  }
+  craftTime: 300
+}
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 300
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
+category: crafting
+requirements: [
+]
