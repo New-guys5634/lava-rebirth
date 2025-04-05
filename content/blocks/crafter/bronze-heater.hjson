@@ -23,7 +23,6 @@ recipes:
     }
   output: {
       items: [
-        -b--clay-mold/1
         -b--heated-tin/1
       ]
        fluids:[
