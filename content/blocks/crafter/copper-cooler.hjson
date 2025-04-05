@@ -1,6 +1,6 @@
 type: multicraft.MultiCrafter
 name: Copper cooling machine
-description: Uses water and the molten liquid to cool ingots.
+description: Uses water and the molten liquid to cool ingots, don't put full amounts of clay mold or it won't work.
 menu: Detailed
 size: 2
 health: 150
@@ -16,6 +16,9 @@ recipes:
       -b--boiled-copper/0.1
        water/0.08
        ]
+   items: [
+   -b--clay-mold/1
+   ]
     }
   output: {
        fluids:[
@@ -23,6 +26,7 @@ recipes:
       ]
    items: [
    copper/2
+   -b--clay-mold/1
    ]
   }
   craftTime: 700
@@ -33,6 +37,9 @@ recipes:
       -b--boiled-lead/0.1
        water/0.08
        ]
+   items: [
+   -b--clay-mold/1
+   ]
     }
   output: {
        fluids:[
@@ -40,6 +47,7 @@ recipes:
       ]
    items: [
    lead/2
+   -b--clay-mold/1
    ]
   }
   craftTime: 700
@@ -50,6 +58,9 @@ recipes:
       -b--boiled-scrap/0.1
        water/0.08
        ]
+   items: [
+   -b--clay-mold/1
+   ]
     }
   output: {
        fluids:[
@@ -57,6 +68,7 @@ recipes:
       ]
    items: [
    scrap/2
+   -b--clay-mold/1
    ]
   }
   craftTime: 700
@@ -67,6 +79,9 @@ recipes:
       -b--boiled-iron/0.1
        water/0.08
        ]
+   items: [
+   -b--clay-mold/1
+   ]
     }
   output: {
        fluids:[
@@ -74,6 +89,7 @@ recipes:
       ]
    items: [
    -b--smelted-iron/2
+   -b--clay-mold/1
    ]
   }
   craftTime: 700
@@ -84,6 +100,9 @@ recipes:
       -b--boiled-mag/0.1
        water/0.08
        ]
+   items: [
+   -b--clay-mold/1
+   ]
     }
   output: {
        fluids:[
@@ -91,6 +110,7 @@ recipes:
       ]
    items: [
    -b--smelted-mag/2
+   -b--clay-mold/1
    ]
   }
   craftTime: 700
@@ -101,6 +121,9 @@ recipes:
       -b--boiled-bronze/0.1
        water/0.08
        ]
+   items: [
+   -b--clay-mold/1
+   ]
     }
   output: {
        fluids:[
@@ -108,6 +131,7 @@ recipes:
       ]
    items: [
    -b--smelted-bronze/2
+   -b--clay-mold/1
    ]
   }
   craftTime: 700
