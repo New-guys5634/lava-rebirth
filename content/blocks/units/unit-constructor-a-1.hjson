@@ -165,6 +165,22 @@ steel/15
 stone/50
    ]
  }
+{
+    unit: lava-mech-b-4
+    time: 8000
+    requirements: [
+circuits/4
+research-plans/1
+scrap-coil/10
+smelted-bronze/50
+smelted-iron/50
+smelted-mag/50
+smelted-tin/10
+steel/20
+stone/60
+glass/50
+   ]
+ }
 ]
 requirements: [
     copper/100
