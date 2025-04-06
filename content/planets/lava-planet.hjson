@@ -18,7 +18,7 @@ alwaysUnlocked: true
 defaultCore: "main-core"
 sectorSeed: 0
 startSector: 0
-sectorSize: 3
+sectorSize: 4
 tidalLock: true
 clearSectorOnLose: true
 allowSectorInvasion: true
