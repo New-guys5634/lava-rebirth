@@ -1,4 +1,4 @@
-description: Forges nails out of scrap, smoke and copper dust, produces smoke and will stop when full.
+description: Forges nails out of scrap, smoke and copper dust, produces energized heat.
 name: Nail forge
 type: AttributeCrafter
 boostScale: 1.9
@@ -10,8 +10,8 @@ hasItems: true
 hasLiquids: true
 hasPower: false
 itemCapacity: 20
-outputLiquid: smoke/0.001
-liquidCapacity: 5
+outputLiquid: eng-heat/0.02
+liquidCapacity: 20
 explodeOnFull: true
 consumes: {
  liquid: smoke/0.05

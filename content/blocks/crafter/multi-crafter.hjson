@@ -22,7 +22,7 @@ recipes:
         -b--clay/1
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.01
        ]
   }
   craftTime: 250
@@ -42,7 +42,7 @@ recipes:
         -b--research-plans/1
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.01
        ]
   }
   craftTime: 400
@@ -60,7 +60,7 @@ recipes:
        graphite/2
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.01
        ]
   }
   craftTime: 300
@@ -72,13 +72,16 @@ recipes:
         -b--stone/2
         -b--hot-sand/4
       ]
+       fluids:[
+        -b--eng-heat/0.04
+       ]
   }
   output: {
       items: [
        -b--glass/2
       ]
        fluids:[
-        -b--eng-heat/0.04
+        -b--smoke/0.01
        ]
   }
   craftTime: 450
@@ -99,7 +102,7 @@ recipes:
        -b--circuits/1
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.01
        ]
   }
   craftTime: 900

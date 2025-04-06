@@ -23,7 +23,7 @@ recipes:
     copper/5
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.05
        ]
   }
   craftTime: 700
@@ -42,7 +42,7 @@ recipes:
       -b--sulfur/2
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.05
        ]
   }
   craftTime: 500
@@ -62,7 +62,7 @@ recipes:
       lead/10
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.05
        ]
   }
   craftTime: 700
@@ -82,7 +82,7 @@ recipes:
       scrap/10
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.05
        ]
   }
   craftTime: 550
