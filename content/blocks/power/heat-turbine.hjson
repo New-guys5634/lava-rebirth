@@ -1,0 +1,46 @@
+name: Energized heat turbine
+description: Uses energized heat to spin the turbine, has a lot of liquid capacity so it will expload when full, outputs smoke.
+type: ConsumeGenerator
+size: 2
+health: 180
+hasItems: false
+hasLiquids: true
+hasPower: true
+powerProduction: 0.9
+liquidCapacity: 80
+explodeOnFull: true
+outputLiquid: smoke/0.002
+consumes: {
+liquid: eng-heat/0.01
+}
+requirements: [
+smelted-mag/15
+nails/15
+copper/15
+]
+category: power
+research: smoke-turbine
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 3
+    }
+  ]
+}
+researchCostMultiplier: 0.1
+
