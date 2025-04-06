@@ -43,17 +43,20 @@ shoot: {
    lifetime: 30
    trailWidth: 4
    trailLength: 8
+frontColor: FCFCFCFF
+backColor: FDFDFD67
+   trailColor: FCFCFCFF
         hitEffect: {
           type: multiEffect
           effects: [
             {
               type: ParticleEffect
-              particles: 12
-              lifetime: 25
+              particles: 6
+              lifetime: 200
               length: 90
               lightColor: FCFCFCFF
-              sizeFrom: 10
-              sizeTo: 3
+              sizeFrom: 1
+              sizeTo: 6
               colorFrom: FCFCFCFF
               colorTo: FDFDFD67
             }

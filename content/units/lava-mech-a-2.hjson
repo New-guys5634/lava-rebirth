@@ -39,8 +39,36 @@ weapons: [
     fragBullet: {
      type: LaserBulletType
      length: 25
-     colors: [fag020 faga02 ffffff]
+     colors: [FDFDFD67 FCFCFCFF FDFDFD67]
      damage: 45
+        hitEffect: {
+          type: multiEffect
+          effects: [
+            {
+              type: ParticleEffect
+              particles: 6
+              lifetime: 260
+              length: 90
+              lightColor: FCFCFCFF
+              sizeFrom: 1
+              sizeTo: 6
+              colorFrom: FCFCFCFF
+              colorTo: FDFDFD67
+            }
+            {
+              type: ParticleEffect
+              lightOpacity: 0
+              particles: 15
+              length: 45
+              baseLength: 10
+              lifetime: 270
+              sizeFrom: 7
+              sizeTo: 1
+              colorFrom: FCFCFCFF
+              colorTo: FDFDFD67
+}
+]
+}
    }
  }
  }
