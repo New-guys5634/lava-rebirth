@@ -24,6 +24,7 @@ accel: 0.70
  	legLength: 5
     allowLegStep: false
  	hovering: false
+  omniMovement: true
 commands: [move, mine, repair, rebuild, assist]
 mineItems: []
 mineFloor: true
