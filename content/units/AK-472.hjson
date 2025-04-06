@@ -182,4 +182,9 @@ outlineColor: 1f1f1f
   }
 }
 ]
-   
+abilities: [
+{
+   type: SpawnDeathAbility
+   unit: AK-472-ruin
+  }
+]

@@ -121,4 +121,9 @@ statusDuration: 80
 }
 }
 ]
-   
+abilities: [
+{
+   type: SpawnDeathAbility
+   unit: AK-47-ruin
+  }
+]
