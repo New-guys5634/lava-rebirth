@@ -12,7 +12,7 @@ rotateSpeed: 7
 accel: 0.15
 mechSideSway: 0.25
 
-itemCapacity: 10
+itemCapacity: 25
 outlineColor: 1f1f1f
 
 weapons: [
@@ -83,3 +83,21 @@ abilities: [
    unit: lava-mech-a-2-ruin
   }
 ]
+canBoost: true
+boostMultiplier: 1.8
+engineSize: 1
+engines: [
+{
+    engineColor: agf00b
+    engineLayer: 100
+    rotation: -45
+    radius: 3
+    x: 0
+    y: -4
+    }
+]
+mineFloor: true
+mineWalls: true
+mineTier: 1
+mineSpeed: 5
+buildSpeed: 0.60
