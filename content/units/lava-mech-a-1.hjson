@@ -24,23 +24,23 @@ outlineColor: 1f1f1f
   rotate: false
   shootCone: 10
   inaccuracy: 12
-  reload: 20
+  reload: 40
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   shootSound: missile  
 shoot: {
-    shots: 3
+    shots: 2
     shotDelay: 10
 }
   bullet: {
    type: BasicBulletType
-   width: 7
-   height: 6   
+   width: 4
+   height: 8
    damage: 20
    speed: 6
    lifetime: 35
-   trailWidth: 4
+   trailWidth: 1
    trailLength: 8
 frontColor: FCFCFCFF
 backColor: FDFDFD67
