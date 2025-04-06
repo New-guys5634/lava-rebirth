@@ -1,0 +1,25 @@
+name: Energized heat
+description: Dangerous, a waste product can't be used.
+color: F88461FF
+barColor: F88461FF
+effect: "melting"
+
+viscosity: 0.5
+temperature: 12
+heatCapacity: 8
+
+coolant: false
+gas: true
+particleEffect: {
+    particles: 2
+    length: 0
+    lifetime: 60
+    sizeFrom: 1
+    sizeTo: 0
+    colorFrom: F88461FF
+    colorTo: F88461FF
+}
+
+research: {
+    parent: "sulfur"
+}
