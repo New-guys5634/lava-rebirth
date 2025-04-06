@@ -1,9 +1,9 @@
 type: multicraft.MultiCrafter
-name: Multiple basic assembly
-description: Uses main materials to create powder materials for other materials.
+name: Sulfur crafter
+description: Uses boiled sulfur to heat up raw materials for factory type items.
 menu: Detailed
 size: 2
-health: 125
+health: 250
 hasLiquids: true
 squareSprite: false
 liquidCapacity: 80
@@ -13,103 +13,101 @@ recipes:
 {
   input: {
          items: [
-        copper/1
-        -b--stone/2
+        -b--stone-small/5
+        -b--1-acopper-dust/2
       ]
-   }
+    }
   output: {
       items: [
-        -b--1-acopper-dust/4
+        copper/4
+        -b--gravel/2
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.04
        ]
   }
-  craftTime: 300
-}
-{
-  input: {
-       items: [
-       lead/1
-        -b--stone/2
-      ]
-   }
-  output: {
-      items: [
-        -b--1-alead-dust/4
-      ]
-       fluids:[
-        -b--smoke/0.01
-       ]
-  }
-  craftTime: 330
+  craftTime: 250
 }
 {
   input: {
          items: [
-        scrap/1
         -b--stone/2
+        -b--hot-sand/2
+        -b--1-ascrap-dust/1
       ]
-   }
+    }
   output: {
       items: [
-       -b--1-ascrap-dust/2
+      -b--metal/1
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.04
        ]
   }
-  craftTime: 350
+  craftTime: 315
 }
 {
   input: {
          items: [
-        -b--metal/1
-        -b--stone/2
-      ]
-  }
-  output: {
-      items: [
-       -b--1-ametal-dust/5
+        -b--mud/2
+        -b--hot-sand/1
+        -b--1-ascrap-dust/1
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.02
        ]
+    }
+  output: {
+      items: [
+      -b--glass/2
+      ]
   }
-  craftTime: 500
+  craftTime: 150
 }
 ]
 craftEffect: {
     type: RadialEffect
-    layer: 90
+    layer: 100
     rotationSpacing: 45
     amount: 4
     lengthOffset: 5
     effect: {
       particles: 2
       length: 50
-      lifetime: 190
-      speed: 2
+      lifetime: 100
+      speed: 1
       cone: 20
       baseRotation: 15
       useRotation: false 
       sizeFrom: 0
       sizeTo: 8
-      colorFrom: e0e0e066
+      colorFrom: E17414FF
       colorTo: e0e0e000
       sizeInterp: pow2Out
       interp: pow2Out
       layer: 90
     }
   }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: E17414FF
+suffix: -glow
+glowScale: 4
+  }
+  ]
+}
 category: crafting
 requirements: [
-scrap/70
-copper/100
-lead/40
-nails/45
-stone/45
-metal/45
+smelted-tin/1
+glass/15
+copper/15
+scrap/5
 ]
 research: multi-crafter
-researchCostMultiplier: 0.5
+researchCostMultiplier: 0.1

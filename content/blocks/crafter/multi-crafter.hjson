@@ -78,7 +78,7 @@ recipes:
        -b--glass/2
       ]
        fluids:[
-        -b--smoke/0.01
+        -b--eng-heat/0.04
        ]
   }
   craftTime: 450

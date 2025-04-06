@@ -79,16 +79,16 @@ recipes:
   input: {
          items: [
         -b--hot-sand/5
-        -b--flint/2
+        -b--flint/4
       ]
+       fluids:[
+        -b--eng-heat/0.02
+       ]
    }
   output: {
       items: [
        -b--glass/1
       ]
-       fluids:[
-        -b--smoke/0.01
-       ]
   }
   craftTime: 450
 }
