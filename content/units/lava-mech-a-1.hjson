@@ -3,7 +3,7 @@ description: Melten fires a rocket that deals high area damage.
 type: mech
 mechLegColor: 1f1f1f
 health: 500
-armor: 1
+armor: 2
 hitSize: 7
 speed: .6
 rotateSpeed: 1.8
@@ -23,8 +23,8 @@ outlineColor: 1f1f1f
   mirror: true
   rotate: false
   shootCone: 10
-  inaccuracy: 3
-  reload: 140
+  inaccuracy: 12
+  reload: 20
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
@@ -37,10 +37,9 @@ shoot: {
    type: BasicBulletType
    width: 7
    height: 6   
-   splashDamage: 60
-   splashDamageRadius: 10
-   speed: 5
-   lifetime: 30
+   damage: 20
+   speed: 6
+   lifetime: 35
    trailWidth: 4
    trailLength: 8
 frontColor: FCFCFCFF
@@ -80,36 +79,8 @@ backColor: FDFDFD67
               strokeTo: 0
               lenFrom: 0
               lenTo: 0
-            }
-          ]
-        }
-        hitEffect: {
-          type: multiEffect
-          effects: [
-            {
-              type: ParticleEffect
-              particles: 6
-              lifetime: 200
-              length: 90
-              lightColor: FCFCFCFF
-              sizeFrom: 6
-              sizeTo: 1
-              colorFrom: FCFCFCFF
-              colorTo: FDFDFD67
-            }
-            {
-              type: ParticleEffect
-              lightOpacity: 0
-              particles: 32
-              length: 45
-              baseLength: 10
-              lifetime: 120
-              sizeFrom: 7
-              sizeTo: 1
-              colorFrom: FCFCFCFF
-              colorTo: FDFDFD67
-}
-]
+      }
+   ]
 }
 }
 }
