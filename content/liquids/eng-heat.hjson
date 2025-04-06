@@ -7,7 +7,7 @@ effect: "melting"
 viscosity: 0.5
 temperature: 12
 heatCapacity: 8
-
+explosiveness: 1
 coolant: false
 gas: true
 particleEffect: {
