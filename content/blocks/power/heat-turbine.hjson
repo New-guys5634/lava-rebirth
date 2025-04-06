@@ -6,7 +6,7 @@ health: 180
 hasItems: false
 hasLiquids: true
 hasPower: true
-powerProduction: 0.9
+powerProduction: 1.6
 liquidCapacity: 80
 explodeOnFull: true
 outputLiquid: smoke/0.002
