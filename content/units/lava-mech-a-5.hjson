@@ -17,22 +17,26 @@ outlineColor: 1f1f1f
   top: false
   x: 0
   y: 0
-  shootY: 2
+  shootY: 4
   shootX: 7
   
   mirror: true
   rotate: false
   shootCone: 10
   inaccuracy: 3
-  reload: 45
+  reload: 70
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
   shootSound: shotgun 
+shoot: {
+    shots: 2
+    shotDelay: 10
+}
   bullet: {
             type: shrapnelBulletType
             lifetime: 20
-            damage: 80
+            damage: 50
             serrations: 9
             serrationSpacing: 10
             serrationLenScl: 18
