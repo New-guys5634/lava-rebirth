@@ -1,0 +1,12 @@
+type: ParticleWeather
+color: E98877FF
+noiseColor: FFB381FF 
+sizeMax: 90
+sizeMin: 40
+density: 50000
+useWindVector: true
+drawNoise: true
+opacityMultiplier: 0.4
+baseSpeed: 1.6
+sound: windhowl
+soundVol: 0.7
