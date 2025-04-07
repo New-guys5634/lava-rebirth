@@ -28,6 +28,7 @@ outlineColor: 1f1f1f
   targetInterval: 1
   targetSwitchInterval: 3
   cooldownTime: 35 
+  layerOffset: -0.001
   shootSound: shotgun 
 shoot: {
     shots: 2
