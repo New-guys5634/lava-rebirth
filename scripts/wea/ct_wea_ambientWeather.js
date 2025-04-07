@@ -7,7 +7,7 @@
 
 
   // Part: wea-amb
-    const wealv_back = extend(Weather, lv-back", {
+    const wea_lv_back = extend(Weather, lv-back", {
       update(state) {
         this.super$update(state);
         wea_ambientWeather.update(this, state);
