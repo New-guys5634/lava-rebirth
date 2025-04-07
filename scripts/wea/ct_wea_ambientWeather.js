@@ -2,7 +2,7 @@
 
 
   // Part: Import
-    const wea_ambientWeather = require("-b-/wea/wea_ambientWeather");
+    const wea_ambientWeather = require("b/wea/wea_ambientWeather");
   // End
 
 
@@ -24,5 +24,5 @@
 
 
 Events.run(ClientLoadEvent, () => {
-  Log.info("-B-:ct_wea_ambientWeather.js loaded.");
+  Log.info("B:ct_wea_ambientWeather.js loaded.");
 });
