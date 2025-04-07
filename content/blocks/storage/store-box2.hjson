@@ -1,0 +1,12 @@
+type: StorageBlock
+size: 2
+health: 50
+name: Drop box
+description: Contains 50 items pretty useless but can help in some sort of way.
+itemCapacity: 50
+category: effect
+research: main-core
+requirements: [
+scrap/50
+]
+researchCostMultiplier: 0.1
