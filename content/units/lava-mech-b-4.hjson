@@ -22,6 +22,10 @@ reload: 360
 range: 25
 effect: healing
 }
+{
+   type: SpawnDeathAbility
+   unit: lava-mech-b-4-ruin
+  }
 ]
  weapons: [
  {
@@ -161,12 +165,6 @@ research: {
   parent: unit-constructor-a-1
 }
 researchCostMultiplier: 0.1
-abilities: [
-{
-   type: SpawnDeathAbility
-   unit: lava-mech-b-4-ruin
-  }
-]
 canBoost: true
 boostMultiplier: 1.8
 engineSize: 1

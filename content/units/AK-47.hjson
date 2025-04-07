@@ -46,6 +46,10 @@ reload: 500
 range: 25
 effect: healing
 }
+{
+   type: SpawnDeathAbility
+   unit: AK-47-ruin
+  }
 ]
 engines: [
   {
@@ -134,10 +138,4 @@ statusDuration: 80
         }
 }
 }
-]
-abilities: [
-{
-   type: SpawnDeathAbility
-   unit: AK-47-ruin
-  }
 ]

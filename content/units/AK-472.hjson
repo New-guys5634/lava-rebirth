@@ -46,6 +46,10 @@ reload: 435
 range: 25
 effect: healing
 }
+{
+   type: SpawnDeathAbility
+   unit: AK-472-ruin
+  }
 ]
  weapons: [
  {
@@ -195,10 +199,4 @@ effect: healing
     }
   }
 }
-]
-abilities: [
-{
-   type: SpawnDeathAbility
-   unit: AK-472-ruin
-  }
 ]
