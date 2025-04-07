@@ -1,0 +1,55 @@
+name: Ruin repair
+description: Reconstructs failed or broken units for the quarter the price.
+type: Reconstructor
+size: 3
+health: 2450
+category: units
+
+consumes: {
+  power: 3
+  liquid: water/0.3
+    items: {
+      items: [
+metal/15
+nails/15
+scrap/15
+glass/35
+copper-stack/15
+smelted-mag/10
+      ]
+    }
+}
+upgrades: [
+  [lava-mech-a-1-ruin, lava-mech-a-1]
+  [lava-mech-a-2-ruin, lava-mech-a-2]
+  [lava-mech-a-5-ruin, lava-mech-a-5]
+  [lava-mech-b-3-ruin, lava-mech-b-3]
+  [lava-mech-b-4-ruin, lava-mech-b-4]
+]
+constructTime: 1250
+
+requirements: [
+copper-stack/25
+clay/50
+nails/50
+metal/50
+scrap/25
+glass/50
+research-plans/2
+circuits/1
+smelted-mag/20
+]
+research: {
+    parent: unit-constructor-a-1
+} 
+researchCost: [
+copper-stack/90
+clay/80
+nails/125
+metal/125
+scrap/100
+glass/90
+research-plans/5
+circuits/5
+smelted-mag/40
+]
