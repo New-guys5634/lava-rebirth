@@ -1,4 +1,4 @@
-type: flying
+type: mech
 name: 5-ruin
 rotateMoveFirst: true
 outlineColor: 010101
@@ -7,7 +7,7 @@ targetable: false
 targetAir: false
 isEnemy: false
 flying: false
-hitSize: 12
+hitSize: 5
 drawCell: false
 crushDamage: 0
 itemCapacity: 0
