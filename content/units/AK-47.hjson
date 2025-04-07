@@ -34,6 +34,19 @@ mineSpeed: 6
 buildSpeed: 0.75
 itemCapacity: 40
 outlineColor: 1f1f1f
+abilities: [
+{
+type: RegenAbility
+amount: 1
+}
+{
+type: StatusFieldAbility
+duration: 10
+reload: 500
+range: 25
+effect: healing
+}
+]
 engines: [
   {
     x: 0

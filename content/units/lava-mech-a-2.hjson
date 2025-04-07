@@ -14,7 +14,19 @@ mechSideSway: 0.25
 
 itemCapacity: 25
 outlineColor: 1f1f1f
-
+abilities: [
+{
+type: RegenAbility
+amount: 1
+}
+{
+type: StatusFieldAbility
+duration: 10
+reload: 360
+range: 25
+effect: healing
+}
+]
 weapons: [
  {
   name: boom

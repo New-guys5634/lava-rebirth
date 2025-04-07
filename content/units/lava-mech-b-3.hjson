@@ -10,6 +10,19 @@ rotateSpeed: 1.8
 accel: 0.70
 itemCapacity: 70
 outlineColor: 1f1f1f
+abilities: [
+{
+type: RegenAbility
+amount: 1
+}
+{
+type: StatusFieldAbility
+duration: 10
+reload: 360
+range: 25
+effect: healing
+}
+]
  weapons: [
  {
   type: Weapon
