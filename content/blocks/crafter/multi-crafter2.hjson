@@ -78,6 +78,22 @@ recipes:
   }
   craftTime: 500
 }
+{
+  input: {
+         items: [
+       -b--mud/4
+      ]
+   }
+  output: {
+      items: [
+       -b--stone-small/4
+      ]
+       fluids:[
+        -b--smoke/0.01
+       ]
+  }
+  craftTime: 220
+}
 ]
 craftEffect: {
     type: RadialEffect
@@ -107,9 +123,7 @@ requirements: [
 scrap/70
 copper/100
 lead/40
-nails/45
-stone/45
-metal/45
+graphite/50
 ]
 research: multi-crafter
 researchCostMultiplier: 0.5

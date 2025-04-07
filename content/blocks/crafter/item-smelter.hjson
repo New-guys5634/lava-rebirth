@@ -98,21 +98,18 @@ recipes:
 {
   input: {
          items: [
-        -b--unusable-scrap2/2
-        -b--stone-small/4
-        -b--hot-sand/2
-        -b--flint/1
+        -b--1-ascrap-dust/2
       ]
    }
   output: {
       items: [
-       -b--mud/2
+       -b--stone-small/5
       ]
        fluids:[
         -b--smoke/0.01
        ]
   }
-  craftTime: 185
+  craftTime: 220
 }
 ]
 craftEffect: {
