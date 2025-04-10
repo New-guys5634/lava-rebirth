@@ -41,7 +41,7 @@ recipes:
         -b--1-alead-dust/50
       ]
        fluids:[
-        -b--smoke0.01
+        -b--smoke/0.01
        ]
   }
   craftTime: 3000
