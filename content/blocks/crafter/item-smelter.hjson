@@ -151,9 +151,9 @@ glowScale: 4
 }
 category: crafting
 requirements: [
-1-acopper-dust/50
-1-alead-dust/60
-1-ascrap-dust/30
+copper/10
+lead/10
+scrap/15
 stone-small/25
 ]
 research: mud-burner
