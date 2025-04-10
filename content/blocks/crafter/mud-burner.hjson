@@ -26,7 +26,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 1000
+  craftTime: 3000
 }
 {
   input: {
@@ -44,7 +44,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 1000
+  craftTime: 3000
 }
 {
   input: {
@@ -62,7 +62,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 1000
+  craftTime: 3000
 }
 {
   input: {
@@ -80,7 +80,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 1000
+  craftTime: 5000
 }
 {
   input: {
@@ -98,7 +98,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 1000
+  craftTime: 5000
 }
 {
   input: {
@@ -116,7 +116,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 1000
+  craftTime: 5000
 }
 ]
 craftEffect: {
@@ -126,7 +126,7 @@ craftEffect: {
     amount: 4
     lengthOffset: 5
     effect: {
-      particles: 35
+      particles: 4
       length: 50
       lifetime: 100
       speed: 1
@@ -134,12 +134,12 @@ craftEffect: {
       baseRotation: 15
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 12
+      sizeTo: 6
       colorFrom: E17414FF
       colorTo: e0e0e000
       sizeInterp: pow2Out
       interp: pow2Out
-      layer: 130
+      layer: 60
     }
   }
 drawer: {
