@@ -1,5 +1,5 @@
 name: Raw sulfur
 description: The raw sulfur only compatible with mud furnace.
 color: F88461FF
-research: rock
+research: 1-acopper-dust
 hiddenOnPlanets: [serpulo,erekir]
