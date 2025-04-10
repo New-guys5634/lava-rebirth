@@ -1,0 +1,148 @@
+type: multicraft.MultiCrafter
+name: Mud furnace
+description: Uses raw sulfur and rocks to get stacks dusts.
+menu: Detailed
+size: 2
+health: 125
+hasLiquids: true
+squareSprite: false
+liquidCapacity: 80
+itemCapacity: 100
+recipes:
+[
+{
+  input: {
+         items: [
+        -b--rock-mud/40
+        -b--stone-small/40
+        -b--raw-sulfur/20
+      ]
+    }
+  output: {
+      items: [
+        -b--1-acopper-dust/50
+      ]
+       fluids:[
+        -b--smoke0.01
+       ]
+  }
+  craftTime: 125
+}
+{
+  input: {
+         items: [
+        -b--rock-mud/40
+        -b--stone-small/40
+        -b--raw-sulfur/20
+      ]
+    }
+  output: {
+      items: [
+        -b--1-alead-dust/50
+      ]
+       fluids:[
+        -b--smoke0.01
+       ]
+  }
+  craftTime: 125
+}
+{
+  input: {
+         items: [
+        -b--rock-mud/40
+        -b--stone-small/40
+        -b--raw-sulfur/20
+      ]
+    }
+  output: {
+      items: [
+        -b--1-ascrap-dust/50
+      ]
+       fluids:[
+        -b--smoke0.01
+       ]
+  }
+  craftTime: 125
+}
+{
+  input: {
+         items: [
+        -b--1-acopper-dust/40
+        -b--stone-small/40
+        -b--raw-sulfur/20
+      ]
+    }
+  output: {
+      items: [
+        copper/20
+      ]
+       fluids:[
+        -b--smoke0.01
+       ]
+  }
+  craftTime: 125
+}
+{
+  input: {
+         items: [
+        -b--1-alead-dust/40
+        -b--stone-small/40
+        -b--raw-sulfur/20
+      ]
+    }
+  output: {
+      items: [
+        lead/20
+      ]
+       fluids:[
+        -b--smoke0.01
+       ]
+  }
+  craftTime: 125
+}
+{
+  input: {
+         items: [
+        -b--1-ascrap-dust/40
+        -b--stone-small/40
+        -b--raw-sulfur/20
+      ]
+    }
+  output: {
+      items: [
+        scrap/20
+      ]
+       fluids:[
+        -b--smoke0.01
+       ]
+  }
+  craftTime: 125
+}
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+{
+type: DrawCells
+color: E17414FF
+particleColorFrom: e0e0e000
+particleColorTo: e0e0e000
+}
+{
+type: DrawParticles
+particleLife: 130
+particleRad: 6
+particleSize: 1
+color: e0e0e000
+alpha: 0.4
+particles: 120
+}
+  ]
+}
+category: crafting
+requirements: [
+rock-mud/100
+stone-small/85
+]
+research: main-core
+researchCostMultiplier: 0.1

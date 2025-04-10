@@ -156,5 +156,5 @@ requirements: [
 1-ascrap-dust/30
 stone-small/25
 ]
-research: main-core
+research: mud-burner
 researchCostMultiplier: 0.1
