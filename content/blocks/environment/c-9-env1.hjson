@@ -5,6 +5,5 @@ parent: a-3-env1
 effect: ventSteam
 effectColor: FB8F6BFF
 attributes: {
-   steam: 2
-   water: 0.01
+   heat: 0.1
 }
