@@ -26,7 +26,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 125
+  craftTime: 1000
 }
 {
   input: {
@@ -44,7 +44,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 125
+  craftTime: 1000
 }
 {
   input: {
@@ -62,7 +62,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 125
+  craftTime: 1000
 }
 {
   input: {
@@ -80,7 +80,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 125
+  craftTime: 1000
 }
 {
   input: {
@@ -98,7 +98,7 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 125
+  craftTime: 1000
 }
 {
   input: {
@@ -116,28 +116,50 @@ recipes:
         -b--smoke0.01
        ]
   }
-  craftTime: 125
+  craftTime: 1000
 }
 ]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 35
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 12
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 130
+    }
+  }
 drawer: {
   type: DrawMulti
   drawers: [
-{
-type: DrawCells
-color: E17414FF
-particleColorFrom: e0e0e000
-particleColorTo: e0e0e000
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
 }
-{
-type: DrawParticles
-particleLife: 130
-particleRad: 6
-particleSize: 1
-color: e0e0e000
-alpha: 0.4
-particles: 120
-}
-  ]
+]
 }
 category: crafting
 requirements: [
