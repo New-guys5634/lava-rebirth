@@ -1,0 +1,43 @@
+type: AttributeCrafter
+attribute: heat
+name: Steam rig
+description: Uses geothermal craters for steam.
+size: 3
+hasLiquids: true
+squareSprite: false
+outputLiquid: steam/0.2
+displayEfficiencyScale: 1
+baseEfficiency: 0
+squareSprite: false
+minEfficiency: 1
+researchCostMultiplier: 0.1
+category: crafting
+research: multi-crafter
+requirements: [
+nails/15
+metal/25
+copper/25
+glass/45
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawFrames
+      frames: 16
+      sine: true
+      interval: 4
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      spinSprite: true
+      rotateSpeed: 2
+    }
+  ]
+}
+ambientSound: hum
+ambientSoundVolume: 0.2
