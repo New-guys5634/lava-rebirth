@@ -23,7 +23,7 @@ recipes:
         -b--1-acopper-dust/50
       ]
        fluids:[
-        -b--smoke0.01
+        -b--smoke/0.01
        ]
   }
   craftTime: 3000
@@ -59,7 +59,7 @@ recipes:
         -b--1-ascrap-dust/50
       ]
        fluids:[
-        -b--smoke0.01
+        -b--smoke/0.01
        ]
   }
   craftTime: 3000
@@ -77,7 +77,7 @@ recipes:
         copper/20
       ]
        fluids:[
-        -b--smoke0.01
+        -b--smoke/0.01
        ]
   }
   craftTime: 5000
@@ -95,7 +95,7 @@ recipes:
         lead/20
       ]
        fluids:[
-        -b--smoke0.01
+        -b--smoke/0.01
        ]
   }
   craftTime: 5000
@@ -113,7 +113,7 @@ recipes:
         scrap/20
       ]
        fluids:[
-        -b--smoke0.01
+        -b--smoke/0.01
        ]
   }
   craftTime: 5000
