@@ -1,0 +1,5 @@
+name: Browned mud
+description: The rock mud can make weak blocks.
+color: B98461FF
+research: rock
+hiddenOnPlanets: [serpulo,erekir]
