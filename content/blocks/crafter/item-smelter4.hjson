@@ -12,7 +12,7 @@ consumes: {
 liquid: smoke/0.2
   items: {
     items: [
-raw-metal/5
+raw-scrap/5
     ]
   }
 }

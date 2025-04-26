@@ -28,9 +28,8 @@ results: [
 ]
 research: main-core
 researchCost: [
-item-a-1/140
-item-a-2/90
-sand/70
+rock-mud/125
+raw-sulfur/55
 ]
 craftEffect: {
     type: RadialEffect

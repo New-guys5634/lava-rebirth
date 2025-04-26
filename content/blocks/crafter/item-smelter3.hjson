@@ -30,7 +30,7 @@ glass/25
 ]
 category: crafting
 outputItems: [
-raw-metal/5
+raw-scrap/5
 ]
 research: item-smelter2
 researchCost: [
