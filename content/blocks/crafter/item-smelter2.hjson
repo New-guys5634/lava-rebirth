@@ -1,0 +1,73 @@
+description: Takes in materials for more advanced materials.
+name: Item crafter
+type: GenericCrafter
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: trye
+hasPower: false
+itemCapacity: 20
+consumes: {
+liquid: smoke/0.1
+  items: {
+    items: [
+raw-sulfur/5
+mud/5
+    ]
+  }
+}
+outputLiquid: smoke/0.001
+liquidCapacity: 5
+requirements: [
+copper/45
+lead/45
+scrap/45
+nails/15
+]
+category: crafting
+outputItems: [
+clay/2
+glass/5
+]
+research: item-smelter
+researchCost: [
+copper/85
+lead/85
+scrap/75
+nails/50
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 40
+}
+]
+}

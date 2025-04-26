@@ -1,0 +1,82 @@
+description: Forges nails out of scrap, smoke and copper dust, produces energized heat.
+name: Nail forge
+type: AttributeCrafter
+boostScale: 1.9
+maxBoost: 3.1
+size: 2
+health: 435
+craftTime: 250
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+outputLiquid: eng-heat/0.02
+liquidCapacity: 20
+explodeOnFull: true
+consumes: {
+ liquid: smoke/0.05
+  items: {
+    items: [
+      scrap/1
+      1-acopper-dust/2
+    ]
+  }
+}
+requirements: [
+copper/25
+scrap/15
+lead/20
+]
+category: crafting
+outputItem: nails/2
+research: item-smelter 
+researchCost: [
+  lead/35
+  scrap/36
+  copper/80
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -spinner
+      spinSprite: true
+      rotateSpeed: 4
+    }
+  ]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 2
+      length: 50
+      lifetime: 180
+      speed: 2
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }

@@ -1,0 +1,71 @@
+description: Takes in varties of materials for factory items.
+name: Factory item crafter
+type: GenericCrafter
+size: 2
+health: 425
+craftTime: 325
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 20
+consumes: {
+power: 0.6
+  items: {
+    items: [
+nails/15
+copper/15
+lead/15
+scrap/15
+steel/5
+    ]
+  }
+}
+requirements: [
+clay/50
+copper/45
+nails/25
+flint/75
+steel/15
+metal/25
+]
+outputLiquid: eng-heat/0.001
+liquidCapacity: 5
+category: crafting
+outputItems: [
+scrap-coil/1
+scrap-copper-lead-module/1
+scraped-molder/1
+]
+research: mud-burner
+researchCost: [
+clay/95
+copper/65
+nails/95
+flint/145
+steel/25
+metal/50
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+

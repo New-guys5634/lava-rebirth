@@ -1,0 +1,73 @@
+description: Takes in mud and energized heat for clay.
+name: Clay plater
+type: GenericCrafter
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+consumes: {
+liquid: eng-heat/0.1
+  items: {
+    items: [
+mud/5
+    ]
+  }
+}
+requirements: [
+copper/50
+steel/5
+metal/15
+mud/150
+nails/15
+]
+outputLiquid: smoke/0.001
+liquidCapacity: 5
+category: crafting
+outputItems: [
+clay/15
+]
+research: mud-burner
+researchCost: [
+copper/125
+steel/35
+metal/45
+mud/350
+nails/45
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 40
+}
+]
+}

@@ -1,0 +1,73 @@
+description: Takes in mud and item dusts to make alloys.
+name: Item smelter
+type: GenericCrafter
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+raw-sulfur/25
+1-acopper-dust/15
+1-ascrap-dust/15
+1-alead-dust/15
+    ]
+  }
+}
+requirements: [
+1-acopper-dust/10
+raw-sulfur/25
+rock-mud/25
+]
+outputLiquid: smoke/0.001
+liquidCapacity: 5
+category: crafting
+outputItems: [
+lead/15
+scrap/15
+copper/15
+]
+research: mud-burner
+researchCost: [
+1-acopper-dust/35
+raw-sulfur/45
+rock-mud/50
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 40
+}
+]
+}

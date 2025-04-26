@@ -1,0 +1,76 @@
+description: Separates item dusts from mud and raw sulfur.
+name: Mud furnace
+type: Separator
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: false
+hasPower: false
+itemCapacity: 20
+consumes: {
+  items: {
+    items: [
+rock-mud/2
+raw-sulfur/1
+    ]
+  }
+}
+requirements: [
+rock-mud/50
+raw-sulfur/25
+]
+category: crafting
+results: [
+1-acopper-dust/1
+1-alead-dust/1
+1-ascrap-dust/1
+]
+research: main-core
+researchCost: [
+item-a-1/140
+item-a-2/90
+sand/70
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+}
+]
+}

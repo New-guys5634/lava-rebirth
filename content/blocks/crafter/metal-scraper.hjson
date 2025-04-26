@@ -1,0 +1,60 @@
+description: Forges metal dust out of varties of resources, produces smoke and will stop when full.
+name: Metal forge
+type: AttributeCrafter
+boostScale: 1.9
+maxBoost: 3.4
+size: 2
+health: 185
+craftTime: 215
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 10
+outputLiquid: smoke/0.001
+liquidCapacity: 5
+explodeOnFull: true
+consumes: {
+  items: {
+    items: [
+      raw-scrap/1
+      mud/2
+      hot-sand/2
+      flint/3
+    ]
+  }
+}
+requirements: [
+  scrap/50
+  nails/25
+  lead/25
+  flint/25
+]
+category: crafting
+outputItem: 1-ametal-dust/1
+research: nails-producer
+researchCost: [
+  scrap/140
+  nails/70
+  lead/50
+  flint/50
+]
+craftEffect: {
+  type: ParticleEffect
+  amount: 8
+  effect: {
+    type: ParticleEffect
+    particles: 25
+        useRotation: false
+    length: 15
+    lifetime: 100
+        baseLength: 2.5
+    cone: 90
+    useRotation: false
+    sizeFrom: 3
+    sizeTo: 0.1
+    colorFrom: FB8F6BFF
+    colorTo: F25455FF
+    interp: pow2
+    sizeInterp: pow3In
+  }
+}

@@ -1,0 +1,61 @@
+description: Takes in varties of materials for blue prints and circuits.
+name: Blue prints and circuits crafter
+type: GenericCrafter
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: false
+hasPower: true
+itemCapacity: 20
+consumes: {
+power: 0.8
+  items: {
+    items: [
+rock-mud/50
+clay/5
+copper/50
+    ]
+  }
+}
+requirements: [
+clay/50
+copper/45
+nails/25
+flint/45
+]
+outputLiquid: smoke/0.001
+liquidCapacity: 5
+category: crafting
+outputItem: research-plans/2
+research: mud-burner
+researchCost: [
+clay/95
+copper/85
+nails/75
+flint/75
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+

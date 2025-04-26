@@ -1,0 +1,77 @@
+description: Takes in dust and few other resources for raw metal.
+name: Raw Metal purifier
+type: GenericCrafter
+size: 2
+health: 325
+craftTime: 325
+hasItems: true
+hasLiquids: trye
+hasPower: false
+itemCapacity: 20
+consumes: {
+liquid: smoke/0.2
+  items: {
+    items: [
+raw-sulfur/15
+1-ametal-dust/5
+mud/15
+    ]
+  }
+}
+outputLiquid: smoke/0.001
+liquidCapacity: 5
+requirements: [
+copper/45
+lead/45
+scrap/45
+nails/35
+flint/45
+glass/25
+]
+category: crafting
+outputItems: [
+raw-metal/5
+]
+research: item-smelter2
+researchCost: [
+copper/65
+lead/55
+scrap/65
+nails/50
+flint/75
+glass/45
+]
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 1
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 6
+      colorFrom: E17414FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 60
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 40
+}
+]
+}

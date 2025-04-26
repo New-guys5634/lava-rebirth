@@ -1,0 +1,81 @@
+description: Uses smoke and mud to filter out gravel.
+name: Gravel burner
+type: AttributeCrafter
+boostScale: 1.5
+maxBoost: 2.8
+size: 2
+health: 200
+craftTime: 200
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+liquidCapacity: 5
+explodeOnFull: true
+consumes: {
+ liquid: smoke/0.04
+  items: {
+    items: [
+   mud/1
+    ]
+  }
+}
+requirements: [
+copper/50
+scrap/40
+lead/40
+flint/5
+nails/5
+]
+category: crafting
+outputItem: gravel/1
+research: nails-producer
+researchCost: [
+copper/70
+scrap/60
+lead/80
+flint/20
+nails/10
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+  ]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 190
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
