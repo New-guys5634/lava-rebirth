@@ -7,7 +7,7 @@ craftTime: 250
 hasItems: true
 hasLiquids: false
 hasPower: false
-itemCapacity: 20
+itemCapacity: 50
 consumes: {
   items: {
     items: [
@@ -60,14 +60,3 @@ craftEffect: {
       layer: 60
     }
   }
-drawer: {
-  type: DrawMulti
-  drawers: [
-  {
-type: DrawGlowRegion
-color: 8E665CFFf
-suffix: -glow
-glowScale: 40
-}
-]
-}
