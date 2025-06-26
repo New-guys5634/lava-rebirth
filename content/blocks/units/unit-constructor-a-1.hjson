@@ -19,7 +19,6 @@ plans: [
     scrap/30
     flint/40
     stone-small/50
-   circuits/1
     ]
   }
 {
@@ -32,7 +31,6 @@ plans: [
     metal/15
     sulfur/25
     flint/45
-   circuits/1
     ]
   }
 {
