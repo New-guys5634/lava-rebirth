@@ -3,7 +3,7 @@ name: Item smelter
 type: GenericCrafter
 size: 2
 health: 310
-craftTime: 250
+craftTime: 320
 hasItems: true
 hasLiquids: false
 hasPower: false
@@ -11,10 +11,10 @@ itemCapacity: 50
 consumes: {
   items: {
     items: [
-raw-sulfur/25
-1-acopper-dust/15
-1-ascrap-dust/15
-1-alead-dust/15
+raw-sulfur/10
+1-acopper-dust/10
+1-ascrap-dust/10
+1-alead-dust/10
     ]
   }
 }
@@ -27,9 +27,9 @@ outputLiquid: smoke/0.001
 liquidCapacity: 5
 category: crafting
 outputItems: [
-lead/15
-scrap/15
-copper/15
+lead/30
+scrap/30
+copper/30
 ]
 research: mud-burner
 researchCost: [
