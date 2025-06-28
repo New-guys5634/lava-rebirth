@@ -35,8 +35,8 @@ researchCost: [
 copper/70
 scrap/60
 lead/80
-flint/20
-nails/10
+raw-sulfur/50
+rock-mud/90
 ]
 drawer: {
   type: DrawMulti
