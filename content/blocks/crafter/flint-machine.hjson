@@ -17,13 +17,15 @@ consumes: {
   items: {
     items: [
     gravel/2
+    raw-sulfur/10
     ]
   }
 }
 requirements: [
 copper/40
 scrap/20
-nails/10
+raw-sulfur/40
+rock-mud/50
 lead/40
 ]
 category: crafting
