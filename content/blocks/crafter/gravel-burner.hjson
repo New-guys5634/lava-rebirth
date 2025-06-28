@@ -16,7 +16,8 @@ consumes: {
  liquid: smoke/0.04
   items: {
     items: [
-   mud/1
+   raw-sulfur/5
+   rock-mud/5
     ]
   }
 }
@@ -24,8 +25,8 @@ requirements: [
 copper/50
 scrap/40
 lead/40
-flint/5
-nails/5
+raw-sulfur/50
+rock-mud/90
 ]
 category: crafting
 outputItem: gravel/1
