@@ -1,5 +1,5 @@
 description: The dust forms of copper
 name: Copper dust
-research: rock
+research: raw-sulfur
 color: EAC2A9FF 
 hiddenOnPlanets: [serpulo,erekir]

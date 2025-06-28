@@ -1,5 +1,5 @@
 name: Browned mud
 description: The rock mud can make weak blocks.
 color: B98461FF
-research: 1-acopper-dust
+research: main-core
 hiddenOnPlanets: [serpulo,erekir]
