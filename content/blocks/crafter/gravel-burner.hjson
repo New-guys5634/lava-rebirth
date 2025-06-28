@@ -30,7 +30,7 @@ rock-mud/90
 ]
 category: crafting
 outputItem: gravel/1
-research: nails-producer
+research: item-smelter
 researchCost: [
 copper/70
 scrap/60
