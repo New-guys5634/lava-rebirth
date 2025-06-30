@@ -17,7 +17,7 @@ stone-small/1
     ]
   }
 }
-outputLiquid: smoker/0.1
+outputLiquid: smoke/0.1
 requirements: [
 rock-mud/80
 stone-small/25
