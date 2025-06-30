@@ -1,42 +1,31 @@
-description: Uses gravel and smoke to meld and create flint.
-name: Flint machinary
-type: AttributeCrafter
-boostScale: 1.2
-maxBoost: 3
+description: Intakes mud and basically shakes it into water.
+name: Mud water
+type: GenericCrafter
 size: 2
-health: 300
-craftTime: 325
+health: 310
+craftTime: 250
 hasItems: true
 hasLiquids: true
 hasPower: false
 itemCapacity: 20
-liquidCapacity: 5
-explodeOnFull: true
+liquidCapacity: 20
 consumes: {
- liquid: smoke/0.1
   items: {
     items: [
-    gravel/2
-    raw-sulfur/10
+rock-waste/2
     ]
   }
 }
+outputLiquid: water/0.1
 requirements: [
-copper/40
-scrap/20
-raw-sulfur/40
 rock-mud/50
-lead/40
+raw-sulfur/25
 ]
 category: crafting
-outputItem: flint/1
-research: gravel-burner
+research: mud-burner
 researchCost: [
-copper/90
-scrap/50
-raw-sulfur/60
-rock-mud/70
-lead/50
+rock-mud/180
+raw-sulfur/80
 ]
 drawer: {
   type: DrawMulti
@@ -50,32 +39,29 @@ drawer: {
       suffix: -top
     }
     {
-      type: DrawDefault
+      type: DrawCrucibleFlame
     }
     {
-      type: DrawRegion
-      suffix: -spinner
-      spinSprite: true
-      rotateSpeed: 18
-    }
-  ]
+      type: DrawDefault
+}
+]
 }
 craftEffect: {
     type: RadialEffect
     layer: 90
     rotationSpacing: 45
-    amount: 4
+    amount: 6
     lengthOffset: 5
     effect: {
       particles: 4
-      length: 80
-      lifetime: 200
-      speed: 5
+      length: 50
+      lifetime: 100
+      speed: 6
       cone: 20
       baseRotation: 15
       useRotation: false 
       sizeFrom: 0
-      sizeTo: 9
+      sizeTo: 8
       colorFrom: e0e0e066
       colorTo: e0e0e000
       sizeInterp: pow2Out
