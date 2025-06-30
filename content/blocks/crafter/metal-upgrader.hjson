@@ -1,0 +1,86 @@
+name: Metal constructor
+description: Intakes slag, metal and dusts to make high level metals.
+type: GenericCrafter
+health: 300
+size: 2
+craftTime: 300
+hasItems: true
+hasLiquids: true
+consumes: {
+liquid: slag/0.2
+  items: {
+    items: [
+     1-amag-dust/2
+     1-airon-dust/2
+     1-abronze-dust/2
+    ]
+  }
+}
+requirements: [
+metal/10
+1-amag-dust/20
+1-airon-dust/20
+1-abronze-dust/20
+nails/30
+flint/30
+]
+category: crafting
+outputItems: [
+smelted-mag/1
+smelted-bronze/1
+smelted-iron/1
+]
+research: item-smelter2
+researchcost: [
+metal/20
+1-amag-dust/80
+1-airon-dust/80
+1-abronze-dust/80
+nails/60
+flint/50
+research-plans/1
+] 
+craftEffect: {
+    type: RadialEffect
+    layer: 100
+    rotationSpacing: 50
+    amount: 4
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 60
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 25
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 9
+      colorFrom: A04652FF
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 100
+    }
+  }
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: slag
+      padding: 0.5
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}

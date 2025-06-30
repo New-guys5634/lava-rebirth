@@ -27,7 +27,10 @@ flint/45
 outputLiquid: smoke/0.001
 liquidCapacity: 5
 category: crafting
-outputItem: research-plans/2
+outputItems: [
+research-plans/1
+circuits/1
+]
 research: mud-burner
 researchCost: [
 clay/95
