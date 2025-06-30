@@ -4,7 +4,7 @@ description: allows certain inputs than others.
 category: distribution
 research: scarped-duct
 requirements: [
-mud/15
+gravel/15
 scrap/1
 ]
 researchCostMultiplier: 0.5
