@@ -17,9 +17,9 @@ amount: 1
 }
 {
 type: StatusFieldAbility
-duration: 10
-reload: 360
-range: 25
+duration: 4
+reload: 800
+range: 15
 effect: healing
 }
 {
@@ -60,6 +60,9 @@ shoot: {
    lifetime: 35
    trailWidth: 1
    trailLength: 8
+   peirce: true
+   pierceBuilding: false
+   pierceCap: 2
 frontColor: FCFCFCFF
 backColor: FDFDFD67
    trailColor: FCFCFCFF
