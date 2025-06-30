@@ -1,0 +1,5 @@
+name: Muddy waste
+description: Literally useless unless you turned it into pebbles somehow.
+color: B98461FF
+research: rock-mud
+hiddenOnPlanets: [serpulo,erekir]
