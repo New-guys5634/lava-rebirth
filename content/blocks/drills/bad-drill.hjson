@@ -44,14 +44,14 @@ drillEffect: {
   }
 requirements: [
   copper/30
-  flint/25
+  flint/10
   stone-small/25
-  nails/25
+  nails/2
 ]
 researchCost: [
-  copper/80
-  flint/50
-  stone-small/50
-  nails/25
+  copper/25
+  flint/10
+  stone-small/40
+  nails/2
 ]
 research: main-core
