@@ -31,29 +31,6 @@ researchCost: [
 rock-mud/125
 raw-sulfur/55
 ]
-craftEffect: {
-    type: RadialEffect
-    layer: 100
-    rotationSpacing: 45
-    amount: 4
-    lengthOffset: 5
-    effect: {
-      particles: 4
-      length: 50
-      lifetime: 100
-      speed: 1
-      cone: 20
-      baseRotation: 15
-      useRotation: false 
-      sizeFrom: 0
-      sizeTo: 6
-      colorFrom: E17414FF
-      colorTo: e0e0e000
-      sizeInterp: pow2Out
-      interp: pow2Out
-      layer: 60
-    }
-  }
 drawer: {
   type: DrawMulti
   drawers: [
@@ -73,3 +50,26 @@ drawer: {
 }
 ]
 }
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 6
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
