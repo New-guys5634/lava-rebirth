@@ -3,7 +3,7 @@ name: Item smelter
 type: GenericCrafter
 size: 2
 health: 310
-craftTime: 320
+craftTime: 800
 hasItems: true
 hasLiquids: false
 hasPower: false
@@ -23,7 +23,7 @@ requirements: [
 raw-sulfur/25
 rock-mud/25
 ]
-outputLiquid: smoke/0.001
+outputLiquid: smoke/0.008
 liquidCapacity: 5
 category: crafting
 outputItems: [
