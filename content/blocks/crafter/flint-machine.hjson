@@ -13,7 +13,7 @@ itemCapacity: 20
 liquidCapacity: 5
 explodeOnFull: true
 consumes: {
- liquid: smoke/0.1
+ liquid: smoke/0.001
   items: {
     items: [
     gravel/2
