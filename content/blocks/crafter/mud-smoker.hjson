@@ -1,0 +1,74 @@
+description: Intakes water and uses heat from the atmosphere and makes smoke.
+name: Mud smoker
+type: GenericCrafter
+size: 2
+health: 310
+craftTime: 250
+hasItems: true
+hasLiquids: true
+hasPower: false
+itemCapacity: 20
+liquidCapacity: 20
+consumes: {
+liquid: water/0.1
+  items: {
+    items: [
+stone-small/1
+    ]
+  }
+}
+outputLiquid: smoker/0.1
+requirements: [
+rock-mud/80
+stone-small/25
+raw-sulfur/50
+]
+category: crafting
+research: mud-water
+researchCost: [
+rock-mud/80
+stone-small/25
+raw-sulfur/50
+]
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+    {
+      type: DrawCrucibleFlame
+    }
+    {
+      type: DrawDefault
+}
+]
+}
+craftEffect: {
+    type: RadialEffect
+    layer: 90
+    rotationSpacing: 45
+    amount: 6
+    lengthOffset: 5
+    effect: {
+      particles: 4
+      length: 50
+      lifetime: 100
+      speed: 6
+      cone: 20
+      baseRotation: 15
+      useRotation: false 
+      sizeFrom: 0
+      sizeTo: 8
+      colorFrom: e0e0e066
+      colorTo: e0e0e000
+      sizeInterp: pow2Out
+      interp: pow2Out
+      layer: 90
+    }
+  }
