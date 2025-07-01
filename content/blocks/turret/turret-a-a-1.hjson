@@ -100,9 +100,10 @@ ammoTypes: {
         }
 requirements: [
 copper/25
-lead/15
-nails/40
-flint/25
+lead/25
+gravel/15
+nails/2
+flint/5
 stone-small/50
 ]
 
@@ -110,4 +111,4 @@ research: {
 parent: main-core 
 }
 category: turret
-researchCostMultiplier: 0.2
+researchCostMultiplier: 0.1
