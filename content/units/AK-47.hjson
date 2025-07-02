@@ -86,7 +86,7 @@ shootSound: blaster
    width: 6
    height: 8
        chargeEffect: lightningCharge
-   damage: 45
+   damage: 95
    buildingDamageMultiplier: 0.001
    healPercent: 6
    collidesTeam: true
