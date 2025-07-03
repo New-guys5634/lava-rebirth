@@ -1,0 +1,5 @@
+name: Browned mud frame
+description: The frame, used for mud type buildings.
+color: B98461FF
+research: rock-mud
+hiddenOnPlanets: [serpulo,erekir]

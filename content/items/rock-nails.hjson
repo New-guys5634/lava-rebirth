@@ -1,0 +1,5 @@
+name: Browned mud nails
+description: The nails, used for mud type buildings.
+color: B98461FF
+research: rock-mud
+hiddenOnPlanets: [serpulo,erekir]
