@@ -1,38 +1,38 @@
-description: Intakes water and uses heat from the atmosphere and makes smoke.
-name: Mud smoker
+description: Intakes mud and other resources for frames and nails.
+name: Mud industry
 type: GenericCrafter
 size: 2
 health: 310
-craftTime: 250
+craftTime: 325
 hasItems: true
-hasLiquids: true
+hasLiquids: false
 hasPower: false
 itemCapacity: 20
-liquidCapacity: 20
 consumes: {
-liquid: water/0.1
   items: {
     items: [
-stone-small/1
+stone-small/5
+rock-mud/5
+rock-waste/2
     ]
   }
 }
 outputLiquid: smoke/0.1
+outputItems: [
+rock-frame/2
+rock-nails/2
+]
 requirements: [
-rock-mud/80
-stone-small/25
-raw-sulfur/50
-rock-frame/10
-rock-nails/20
+rock-mud/100
+stone-small/60
+raw-sulfur/80
 ]
 category: crafting
-research: mud-water
+research: mud-burner
 researchCost: [
-rock-mud/80
-stone-small/25
-raw-sulfur/50
-rock-frame/10
-rock-nails/20
+rock-mud/100
+stone-small/60
+raw-sulfur/80
 ]
 drawer: {
   type: DrawMulti

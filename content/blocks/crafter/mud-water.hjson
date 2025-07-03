@@ -20,12 +20,16 @@ outputLiquid: water/0.1
 requirements: [
 rock-mud/50
 raw-sulfur/25
+rock-frame/10
+rock-nails/20
 ]
 category: crafting
 research: mud-burner
 researchCost: [
 rock-mud/180
 raw-sulfur/80
+rock-frame/10
+rock-nails/20
 ]
 drawer: {
   type: DrawMulti
