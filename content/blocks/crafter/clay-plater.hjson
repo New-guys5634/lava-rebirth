@@ -60,3 +60,17 @@ craftEffect: {
       layer: 60
     }
   }
+drawer: {
+  type: DrawMulti
+  drawers: [
+  {
+type: DrawDefault
+}
+  {
+type: DrawGlowRegion
+color: 8E665CFFf
+suffix: -glow
+glowScale: 25
+  }
+  ]
+}
