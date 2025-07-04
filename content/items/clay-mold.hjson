@@ -1,5 +1,6 @@
 description: Used as a mold for further advance technology.
 name: Clay mold
+details: Meld reference.
 research: clay-plating
 color: B2B9C1FF 
 hiddenOnPlanets: [serpulo,erekir]
