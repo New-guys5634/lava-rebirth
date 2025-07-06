@@ -26,13 +26,12 @@ rotate: true
 invertFlip: true
 ambientSound: electricHum
 research: {
-parent: st2-crafter3
+parent: metal-liquid-container
 requirements: [
-smelted-bronze/80
 copper/120
-steel/50
+flint/25
 nails/30
-metal/20
+metal/5
 ]
 }
 
