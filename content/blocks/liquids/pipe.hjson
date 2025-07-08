@@ -4,11 +4,12 @@ description: Transports liquids but has a short duration untill it stops.
 category: liquid
 research: scarped-duct
 requirements: [
-scrap/1
-copper/1
+rock-mud/2
+stone-small/4
 ]
 health: 50
 leaks: true
+alwaysUnlocked: true
 junctionReplacement: pipe-junction
 bridgeReplacement: scrap-bridge
 underBullets: true
