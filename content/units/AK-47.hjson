@@ -42,7 +42,7 @@ amount: 1
 {
 type: StatusFieldAbility
 duration: 10
-reload: 500
+reload: 725
 range: 25
 effect: healing
 }
