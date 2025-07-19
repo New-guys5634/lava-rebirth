@@ -9,6 +9,9 @@ atmosphereRadIn: 0
 atmosphereRadOut: 0.3
 atmosphereColor: FFCD66FF
 drawOrbit: true
+fog: true
+campaignRules.fog: true
+campaignRuleDefaults.fog: true
 allowLaunchSchematics: false
 allowLaunchToNumbered: false
 allowLaunchLoadout: false
