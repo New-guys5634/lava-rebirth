@@ -1,6 +1,6 @@
 type: RainWeather
 yspeed: 2
-xspeed: 
+xspeed: 1
 liquid: smoke
 color: 60615BFF
 density: 720
