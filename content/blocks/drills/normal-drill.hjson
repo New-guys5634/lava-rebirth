@@ -17,11 +17,11 @@ requirements: [
 category: production
 results: [
   stone/1
-  copper/0.5
-  1-ascrap-dust/1
+  copper/0.1
+  1-ascrap-dust/0.7
 ]
 research: bad-drill
-researchcost: [
+researchCost: [
     copper/100
     stone-small/90
     nails/250
