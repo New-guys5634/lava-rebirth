@@ -8,5 +8,6 @@ category: effect
 research: main-core
 requirements: [
 scrap/50
+nails/5
 ]
 researchCostMultiplier: 0.1
