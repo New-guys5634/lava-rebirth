@@ -1,9 +1,0 @@
-type: StaticWall
-variants: 0
-attributes: {
-  hot-sand: 0.2
-  1-acopper-dust: 0.4
-  1-alead-dust: 0.1
-  1-ascrap-dust: 0.3
-  unusable-scrap: 0.3
-}
