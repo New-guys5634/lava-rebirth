@@ -24,7 +24,7 @@ shoot: {
 }
 ammoTypes: {
     mud: {
-        damage: 5
+        damage: 20
         speed: 4
         height: 9
         width: 7

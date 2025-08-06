@@ -24,7 +24,7 @@ shoot: {
 }
 ammoTypes: {
     raw-coal: {
-        damage: 20
+        damage: 30
         speed: 4
         height: 9
         width: 7

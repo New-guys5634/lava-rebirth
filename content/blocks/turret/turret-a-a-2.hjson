@@ -26,7 +26,7 @@ coolant: {
 }
 ammoTypes: {
     flint: {
-        damage: 30
+        damage: 40
         speed: 6
         height: 6
         width: 6
@@ -34,7 +34,7 @@ ammoTypes: {
         reloadMultiplier: 0.8
     }
 nails: {
-        damage: 38
+        damage: 50
         speed: 6
         height: 6
         width: 6

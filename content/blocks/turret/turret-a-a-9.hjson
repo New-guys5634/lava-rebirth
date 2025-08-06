@@ -35,7 +35,7 @@ consumes: {
 }
 ammoTypes: {
     glass: {
-        damage: 40
+        damage: 80
         speed: 4
         height: 9
         width: 7

@@ -17,7 +17,7 @@ targetAir: true
 outlineColor: 000000FF
 ammoTypes: {
     lead: {
-        damage: 20
+        damage: 30
         speed: 6
         height: 6
         width: 6
