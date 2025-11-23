@@ -2,7 +2,7 @@ name: Core protecter mech
 description: The protecter of the main core.
 type: legs
 mechLegColor: 1f1f1f
-health: 420
+health: 280
 armor: 5
 hitSize: 7
 speed: 1.2
@@ -86,7 +86,7 @@ shootSound: blaster
    width: 6
    height: 8
        chargeEffect: lightningCharge
-   damage: 95
+   damage: 75
    buildingDamageMultiplier: 0.001
    healPercent: 6
    collidesTeam: true
