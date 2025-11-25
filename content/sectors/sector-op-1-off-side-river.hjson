@@ -1,0 +1,16 @@
+localizedName: Off side river
+description: "An optional sector near the first mission site, not much to use or take advantage.
+It's advice to skip this sector.."
+sector: 273
+captureWave: 10
+planet: lava-planet
+research: {
+  parent: sector-a-1-The-first-mission
+  objectives: [
+    {
+      type: SectorComplete
+      preset: sector-a-1-The-first-mission
+    }
+  ]
+}
+difficulty: 2
