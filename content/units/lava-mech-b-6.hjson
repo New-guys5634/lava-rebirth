@@ -1,0 +1,70 @@
+     name: Heavy Destructor
+     description: Ultra Heavily armoured and fast, fires large yellow deadly balls dealing HIGH damage.
+    type: flying
+    lowAltitude: true
+    fallSpeed: 0.0020
+    speed: 2
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 700
+    hitSize: 8
+    armor: 4
+    itemCapacity: 30
+    engineOffset: 5
+    faceTarget: true
+weapons: [
+  {
+    name: lava-mech-a-8-gun
+    x: 0
+    y: 0
+    shootY: 4
+    shootX: 15
+    mirror: true
+    rotate: false
+    layerOffset: -1
+    reload: 2
+    recoil: 0
+    shootSound: torch
+    bullet: {
+  type: ContinuousLaserBulletType
+  color: EEA666FF
+  maxRange: 400
+  length: 400
+  width: 4
+  damage: 5
+  buildingDamageMultiplier: 0.2
+  pierce: false
+  pierceBuilding: false
+}
+}
+  {
+    name: lava-mech-a-8-gun
+    x: 0
+    y: -2
+    shootY: 4
+    shootX: 14
+    mirror: true
+    rotate: false
+    layerOffset: -1
+    reload: 2
+    recoil: 0
+    shootSound: torch
+    bullet: {
+  type: ContinuousLaserBulletType
+  color: EEA666FF
+  maxRange: 400
+  length: 400
+  width: 4
+  damage: 5
+  buildingDamageMultiplier: 0.2
+  pierce: false
+  pierceBuilding: false
+}
+}
+]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1
+

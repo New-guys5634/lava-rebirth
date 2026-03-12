@@ -1,0 +1,62 @@
+     name: Barrel assylant
+     description: Has heavy armour and explodes on contact.
+    type: flying
+    lowAltitude: true
+    fallSpeed: 0.0020
+    speed: 2
+    accel: 0.08
+    drag: 0.05
+    flying: true
+    health: 700
+    hitSize: 8
+    armor: 4
+    itemCapacity: 30
+    engineOffset: 5
+    faceTarget: true
+weapons: [
+  {
+  name: boom
+  reload: 0
+  shootCone: 180
+  ejectEffect: none
+  shootSound: explosion
+  bullet: {
+    type: BombBulletType
+    hitEffect: pulverize
+    lifetime: 0
+    speed: 0
+    splashDamageRadius: 140
+    instantDisappear: true
+    splashDamage: 500
+    killShooter: true
+    hittable: false
+    collidesAir: true
+    fragBullets: 2
+    hitSound: explosion
+hitEffect: {
+                type: ExplosionEffect
+                lifetime: 180
+                waveStroke: 4
+                waveRadBase: 6
+                waveLife: 60
+                waveRad: 100
+                waveColor: 47CE8810
+                smokeColor: 3F8C6610
+                sparkColor: 47CE8810
+                sparks: 90
+                smokes: 110
+                sparkRad: 200
+                smokeSize: 8
+                smokeSizeBase: 6
+                smokeRad: 230
+                sparkStroke: 5
+                sparkLen: 8
+            }
+ }
+ }
+]
+research: {
+  parent: unit-constructor-a-1
+}
+researchCostMultiplier: 0.1
+
