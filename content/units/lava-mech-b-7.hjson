@@ -66,6 +66,7 @@ frontColor: FCFCFCFF
 backColor: FDFDFD67
    trailColor: FCFCFCFF
 }
+}
 ]
 research: {
   parent: unit-constructor-a-1
