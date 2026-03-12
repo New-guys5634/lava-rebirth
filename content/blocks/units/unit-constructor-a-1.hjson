@@ -179,6 +179,48 @@ stone/60
 glass/50
    ]
  }
+{
+    unit: lava-mech-b-8
+    time: 8000
+    requirements: [
+circuits/4
+research-plans/1
+scrap-coil/5
+smelted-bronze/50
+smelted-iron/50
+smelted-mag/50
+smelted-tin/10
+steel/40
+stone/60
+glass/80
+   ]
+ }
+{
+    unit: lava-mech-b-7
+    time: 900
+    requirements: [
+    copper/85
+    lead/55
+    nails/30
+    scrap/65
+    flint/80
+    stone-small/120
+    ]
+  }
+{
+    unit: lava-mech-b-6
+    time: 8000
+    requirements: [
+flint/65
+nails/45
+copper-stack/15
+clay/20
+clay-plating/10
+clay-mold/5
+   circuits/3
+glass/45
+   ]
+ }
 ]
 requirements: [
     copper/100
